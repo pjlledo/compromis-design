@@ -62,6 +62,11 @@
             <span class="template-item-name">Vídeo</span>
           </nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/" class="template-item template-item--xs">
+            <span class="template-item-name">Campanyes</span>
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </div>
@@ -82,10 +87,7 @@ export default {
 
   .template-selector {
     display: grid;
-    grid-template-rows: 1fr auto;
-    padding-top: $navbar-height + 2rem;
     position: relative;
-    height: 100vh;
     max-width: 70rem;
     margin: 0 auto;
 
@@ -97,6 +99,7 @@ export default {
         font-weight: bold;
         letter-spacing: -1px;
         line-height: 1;
+        margin-top: 5rem;
       }
     }
 
@@ -106,6 +109,7 @@ export default {
       margin: 0 auto;
       list-style: none;
       padding: 0;
+      justify-content: center;
     }
 
     .template-item {
@@ -161,7 +165,7 @@ export default {
         left: 50%;
         margin-top: -4rem;
         margin-left: -5rem;
-        color: $gray-500;
+        color: $gray-400;
         width: 10rem;
         height: 6rem;
 
@@ -282,6 +286,14 @@ export default {
         &-name {
           font-size: 1rem;
           padding: .75rem;
+        }
+
+        &-icon {
+          transform: scale(.75);
+        }
+
+        &--xs {
+          height: 5rem;
         }
       }
     }
