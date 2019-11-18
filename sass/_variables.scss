@@ -1,0 +1,94 @@
+// Typography
+$font-family-sans-serif: 'Compromis', Helvetica, arial, sans-serif;
+
+// Colors
+$primary: #ff6600;
+$gray-darkest: #353949;
+$gray-lightest: #f8faff;
+
+$body-bg: $gray-lightest;
+$body-color: $gray-darkest;
+
+//Bootstrap Colors
+$yellow: #FFD10F;
+$orange: #F79226;
+$red: #EF404D;
+$purple: #A14A9C;
+$blue: #55A4DB;
+$green: #7FC347;
+
+$light: $gray-lightest;
+$dark: $gray-darkest;
+$success: $green;
+$warning: $yellow;
+$danger: $red;
+
+$gray-100: mix($gray-darkest, $gray-lightest, 5%);
+$gray-200: mix($gray-darkest, $gray-lightest, 10%);
+$gray-300: mix($gray-darkest, $gray-lightest, 20%);
+$gray-400: mix($gray-darkest, $gray-lightest, 30%);
+$gray-500: mix($gray-darkest, $gray-lightest, 40%);
+$gray-600: mix($gray-darkest, $gray-lightest, 50%);
+$gray-700: mix($gray-darkest, $gray-lightest, 70%);
+$gray-800: mix($gray-darkest, $gray-lightest, 90%);
+$gray-900: $gray-darkest;
+
+//Gradients
+$gradient-start: #d23517;
+$gradient-end: #f39128;
+$gradient: linear-gradient(var(--gradient-orientation, 45deg), $gradient-start, $gradient-end);
+$gradient-feminista: linear-gradient(var(--gradient-orientation, 45deg), #7D3A81, #C54687);
+$gradient-lgtb: linear-gradient(180deg,
+  $red 0%,
+  $red 16.6%,
+  $orange 16.6%,
+  $orange 33.2%,
+  $yellow 33.2%,
+  $yellow 49.8%,
+  $green 49.8%,
+  $green 66.4%,
+  $blue 66.4%,
+  $blue 83%,
+  $purple 83%,
+  $purple 100%);
+$rotation: -5deg;
+
+//border-radius
+$border-radius: .5rem;
+$card-radius: 1rem;
+$border-radius-lg: 1.5rem;
+$border-radius-xl: 5rem;
+
+// Shadows
+$default-shadow: 0 .8rem 1.7rem -.3rem rgba($gray-900, .15),
+    0 .5rem 1rem -.5rem rgba($gray-900, .2),
+    0 -.4rem 1rem -.4rem rgba($gray-900, .015);
+$raised-shadow: 0 1.25rem 2.1rem -.3rem rgba($gray-900, .15),
+    0 .9rem 1.4rem -.5rem rgba($gray-900, .2),
+    0 -.75rem 1.4rem -.4rem rgba($gray-900, .015);
+
+// Navbar
+$navbar-height: 3.375rem;
+
+// Scrollbars
+@mixin scrollbar {
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $gray-400;
+        border-radius: 4rem;
+        transition: .25s ease-in-out;
+        border: .25rem $white solid;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: $gray-600;
+    }
+}
+
+// Boostrap variables and functions
+@import 'bootstrap/scss/_functions';
+@import 'bootstrap/scss/_variables';
+@import 'bootstrap/scss/_mixins';
