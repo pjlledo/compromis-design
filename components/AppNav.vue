@@ -9,10 +9,6 @@
     <div v-if="navLabel" class="nav-label app-label">
       {{ navLabel }}
     </div>
-    <b-navbar-toggle target="nav-collapse" />
-    <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav class="ml-auto" />
-    </b-collapse>
   </b-navbar>
 </template>
 
@@ -52,12 +48,16 @@ export default {
     top: 0;
     left: 0;
     right: 0;
-    background-color: $white;
-    padding: .5rem 2rem;
+    background-color: $white !important;
+    padding: .75rem 2rem;
     transition: .25s ease-in-out;
 
     .logo {
       height: 28px;
+
+      &-link {
+        color: $white;
+      }
     }
 
     .nav-label {
@@ -83,7 +83,7 @@ export default {
 
     &--dark {
       background-color: $gray-900;
-      .app-label, .nav-label, .logo-link {
+      .app-label, .nav-label {
         color: $white;
       }
      .navbar-toggler-icon::before, .navbar-toggler-icon::after {

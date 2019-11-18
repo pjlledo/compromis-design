@@ -6,9 +6,6 @@ $primary: #ff6600;
 $gray-darkest: #353949;
 $gray-lightest: #f8faff;
 
-$body-bg: $gray-lightest;
-$body-color: $gray-darkest;
-
 //Bootstrap Colors
 $yellow: #FFD10F;
 $orange: #F79226;
@@ -32,6 +29,9 @@ $gray-600: mix($gray-darkest, $gray-lightest, 50%);
 $gray-700: mix($gray-darkest, $gray-lightest, 70%);
 $gray-800: mix($gray-darkest, $gray-lightest, 90%);
 $gray-900: $gray-darkest;
+
+$body-bg: $gray-100;
+$body-color: $gray-darkest;
 
 //Gradients
 $gradient-start: #d23517;

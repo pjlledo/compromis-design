@@ -42,7 +42,16 @@ export default {
   */
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    ['nuxt-fontawesome', {
+      component: 'fa',
+      imports: [
+        {
+          set: '@fortawesome/free-brands-svg-icons',
+          icons: ['faFacebookSquare', 'faTwitter', 'faInstagram', 'faWhatsapp', 'faYoutube', 'faTelegram']
+        }
+      ]
+    }]
   ],
   /*
   ** Build configuration
