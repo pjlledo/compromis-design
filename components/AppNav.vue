@@ -82,7 +82,8 @@ export default {
     }
 
     &--dark {
-      background-color: $gray-900;
+      background-color: $gray-900 !important;
+
       .app-label, .nav-label {
         color: $white;
       }
@@ -130,7 +131,7 @@ export default {
     }
   }
 
-  @include media-breakpoint-down(xs) {
+  @include media-breakpoint-down(md) {
     .navbar {
       z-index: 100;
       padding: .75rem 1rem;

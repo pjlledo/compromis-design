@@ -6,7 +6,7 @@
       </h2>
       <ul>
         <li>
-          <nuxt-link to="/" class="template-item">
+          <nuxt-link to="/logo" class="template-item">
             <span class="template-item-icon template-item-icon--logo">
               <careta />
             </span>

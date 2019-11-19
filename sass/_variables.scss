@@ -66,6 +66,12 @@ $default-shadow: 0 .8rem 1.7rem -.3rem rgba($gray-900, .15),
 $raised-shadow: 0 1.25rem 2.1rem -.3rem rgba($gray-900, .15),
     0 .9rem 1.4rem -.5rem rgba($gray-900, .2),
     0 -.75rem 1.4rem -.4rem rgba($gray-900, .015);
+$inset-shadow: inset -2rem 0 3.1rem -1rem rgba($gray-600, .05),
+    inset -1.25rem 0 2rem -.5rem rgba($gray-600, .2),
+    inset -.75rem 0 1.5rem -.4rem rgba($gray-600, .015);
+$inset-shadow-xs: inset -2rem 0 1rem -1rem rgba($gray-400, .05),
+    inset -1.25rem 0 .75rem -.5rem rgba($gray-400, .2),
+    inset -.75rem 0 .25rem -.4rem rgba($gray-400, .015);
 
 // Navbar
 $navbar-height: 3.375rem;
@@ -87,6 +93,13 @@ $navbar-height: 3.375rem;
         background-color: $gray-600;
     }
 }
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 1100px,
+  xl: 1440px
+);
 
 // Boostrap variables and functions
 @import 'bootstrap/scss/_functions';
