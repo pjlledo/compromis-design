@@ -2,7 +2,7 @@
   border: 0;
 
   &-lg {
-    border-radius: .75rem;
+    border-radius: $border-radius;
     font-weight: bold;
     box-shadow: $default-shadow;
     border: 0;

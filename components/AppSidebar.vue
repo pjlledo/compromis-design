@@ -5,6 +5,10 @@
         <nuxt-link to="/logo" class="template-item">
           <careta logo-style="mono" class="icon-careta" /> <span>Logo</span>
         </nuxt-link>
+        <ul v-if="$route.name === 'logo'" class="submenu">
+          <li><a href="#marca">Marca</a></li>
+          <li><a href="#composicio">Composició del text</a></li>
+        </ul>
       </li>
       <li>
         <nuxt-link to="/tipografia" class="template-item">
@@ -84,7 +88,7 @@ export default {
         margin-right: .75rem;
       }
 
-      &.nuxt-link-exact-active {
+      &.nuxt-link-active {
         position: relative;
         color: $primary;
 
@@ -106,6 +110,21 @@ export default {
 
         .svg-inline--fa, .icon-careta {
          transform: rotate(-10deg);
+        }
+      }
+    }
+
+    .submenu {
+      padding-left: 2.25rem;
+      margin-bottom: 1.5rem;
+
+      a {
+        font-size: 1rem;
+        padding: 0;
+        font-weight: normal;
+
+        &:hover {
+          text-decoration: underline;
         }
       }
     }
