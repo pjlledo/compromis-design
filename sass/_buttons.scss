@@ -1,4 +1,6 @@
 .btn {
+  border: 0;
+
   &-lg {
     border-radius: .75rem;
     font-weight: bold;
@@ -13,7 +15,7 @@
     }
 
     &:focus {
-      box-shadow: $default-shadow-orange !important;
+      @include focus-shadow($primary);
     }
 
     &:active, &:active:focus {
@@ -29,10 +31,21 @@
   &-outline-primary {
     position: relative;
     box-shadow: none;
+    transition: .25s ease-in-out;
 
     &:hover {
+      color: $white;
       transform: none;
       box-shadow: none;
+      background-color: transparent !important;
+
+      &::after {
+        background: $gradient;
+      }
+
+      &::before {
+        background: $gradient;
+      }
     }
 
     &::before {
@@ -45,6 +58,7 @@
       background: $gradient;
       z-index: -1;
       border-radius: .75rem;
+      transition: .25s ease-in-out;
     }
 
     &::after {
@@ -56,38 +70,169 @@
       left: 2px;
       background: $white;
       border-radius: .6rem;
+      transition: .25s ease-in-out;
     }
 
     & > span {
       position: relative;
       z-index: 1;
-      background: $gradient;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+    }
+
+    &.btn .secondary-text {
+      opacity: 1;
     }
   }
 
   &-light {
+    background: $white;
 
-  }
+    &:hover {
+      background: $gray-100;
+    }
+
+    &:focus {
+      @include focus-shadow($gray-300);
+      background: $gray-100;
+    }
+
+    &:active, &:active:focus {
+      background-color: $gray-100 !important;
+      transform: translateY(.15rem);
+      box-shadow: $default-shadow;
+    }
+}
 
   &-outline-light {
+    background: $white;
+    border: $gray-200 solid 2px;
+    border-radius: $border-radius;
+    box-shadow: none;
+    transition: .25s ease-in-out;
+    color: $gray-200;
 
+    &:hover {
+      color: $white;
+      border-color: $gray-200;
+      background: $gray-200;
+      transform: none;
+      box-shadow: none;
+    }
+
+    &:focus {
+      @include focus-shadow($gray-600);
+      background: $gray-200;
+      color: $white !important;
+    }
+
+    &:active, &:active:focus {
+      background-color: $gray-200 !important;
+      border-color: $gray-200 !important;
+      transform: translateY(.15rem);
+      box-shadow: $default-shadow;
+      color: $white !important;
+    }
+  }
+
+  &-outline-secondary  {
+    background: $white;
+    border: $gray-600 solid 2px;
+    border-radius: $border-radius;
+    box-shadow: none;
+    transition: .25s ease-in-out;
+    color: $gray-600;
+
+    &:hover {
+      color: $white;
+      border-color: $gray-600;
+      background: $gray-600;
+      transform: none;
+      box-shadow: none;
+    }
+
+    &:focus {
+      @include focus-shadow($gray-600);
+      background: $gray-600;
+      color: $white !important;
+    }
+
+    &:active, &:active:focus {
+      background-color: $gray-600 !important;
+      border-color: $gray-600 !important;
+      transform: translateY(.15rem);
+      box-shadow: $default-shadow;
+      color: $white !important;
+    }
   }
 
   &-dark {
+    &:focus {
+      @include focus-shadow($gray-darkest);
+    }
 
+    &:active, &:active:focus {
+      transform: translateY(.15rem);
+      box-shadow: $default-shadow;
+    }
   }
 
   &-outline-dark {
+    background: $white;
+    border: $gray-darkest solid 2px;
+    border-radius: $border-radius;
+    box-shadow: none;
+    transition: .25s ease-in-out;
+    color: $gray-darkest;
 
+    &:hover {
+      color: $white;
+      border-color: $gray-darkest;
+      background: $gray-darkest;
+      transform: none;
+      box-shadow: none;
+    }
+
+    &:focus {
+      @include focus-shadow($gray-darkest);
+      background: $gray-darkest;
+      color: $white !important;
+    }
+
+    &:active, &:active:focus {
+      background-color: $gray-darkest !important;
+      border-color: $gray-darkest !important;
+      transform: translateY(.15rem);
+      box-shadow: $default-shadow;
+      color: $white !important;
+    }
+  }
+
+  &-secondary {
+    background: $gray-100;
+
+    &:hover {
+      background: $gray-200;
+      color: $gray-darkest;
+    }
+
+    &:focus {
+      @include focus-shadow($gray-400);
+      background: $gray-200 !important;
+      color: $gray-darkest !important;
+    }
+
+    &:active, &:active:focus {
+      transform: translateY(.15rem);
+      box-shadow: $default-shadow;
+      background: $gray-200 !important;
+      color: $gray-darkest !important;
+    }
   }
 
   svg {
     margin-right: .25rem;
   }
 
-  .format {
+  .secondary-text {
     opacity: .75;
     font-size: .85rem;
     letter-spacing: .5px;
