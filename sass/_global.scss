@@ -11,6 +11,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 2rem;
 }
 
+.container-fluid {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
 .background-white {
   background-color: $white;
 }

@@ -1,13 +1,15 @@
 <template>
   <b-navbar :class="{ 'navbar': true, 'navbar--dark': dark }" :toggleable="true" :variant="dark ? 'dark' : 'light'" fixed="top">
-    <nuxt-link to="/" class="logo-link">
-      <compromis-logo :mono="dark" class="logo" />
-    </nuxt-link>
-    <div v-if="logoLabel" class="nav-label logo-label">
-      {{ logoLabel }}
-    </div>
-    <div v-if="navLabel" class="nav-label app-label">
-      {{ navLabel }}
+    <div class="container-fluid">
+      <nuxt-link to="/" class="logo-link">
+        <compromis-logo :mono="dark" class="logo" />
+      </nuxt-link>
+      <div v-if="logoLabel" class="nav-label logo-label">
+        {{ logoLabel }}
+      </div>
+      <div v-if="navLabel" class="nav-label app-label">
+        {{ navLabel }}
+      </div>
     </div>
   </b-navbar>
 </template>
@@ -49,7 +51,7 @@ export default {
     left: 0;
     right: 0;
     background-color: $white !important;
-    padding: .75rem 2rem;
+    padding: .75rem 0;
     transition: .25s ease-in-out;
 
     .logo {
@@ -134,7 +136,7 @@ export default {
   @include media-breakpoint-down(md) {
     .navbar {
       z-index: 100;
-      padding: .75rem 1rem;
+      padding: .75rem 0;
 
       .logo-label {
         display: none !important;

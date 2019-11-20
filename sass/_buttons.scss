@@ -1,0 +1,96 @@
+.btn {
+  &-lg {
+    border-radius: .75rem;
+    font-weight: bold;
+    box-shadow: $default-shadow;
+    border: 0;
+    padding: .75rem 1rem;
+    transition: .25s ease-in-out;
+
+    &:hover {
+      box-shadow: $raised-shadow;
+      transform: translateY(-.25rem);
+    }
+
+    &:focus {
+      box-shadow: $default-shadow-orange !important;
+    }
+
+    &:active, &:active:focus {
+      transform: translateY(.15rem);
+      box-shadow: $default-shadow;
+    }
+  }
+
+  &-primary {
+    background: $gradient;
+  }
+
+  &-outline-primary {
+    position: relative;
+    box-shadow: none;
+
+    &:hover {
+      transform: none;
+      box-shadow: none;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: $gradient;
+      z-index: -1;
+      border-radius: .75rem;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      bottom: 2px;
+      left: 2px;
+      background: $white;
+      border-radius: .6rem;
+    }
+
+    & > span {
+      position: relative;
+      z-index: 1;
+      background: $gradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  &-light {
+
+  }
+
+  &-outline-light {
+
+  }
+
+  &-dark {
+
+  }
+
+  &-outline-dark {
+
+  }
+
+  svg {
+    margin-right: .25rem;
+  }
+
+  .format {
+    opacity: .75;
+    font-size: .85rem;
+    letter-spacing: .5px;
+    margin-left: .25rem;
+  }
+}

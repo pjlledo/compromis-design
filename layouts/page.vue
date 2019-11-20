@@ -5,7 +5,9 @@
       <div class="row">
         <div class="col-lg-4 col-xl-3">
           <aside class="sidebar">
-            Sidebar
+            <div class="sidebar-scroll">
+              <app-sidebar />
+            </div>
             <button
               @click="toggleSidebar"
               :aria-expanded="sidebarOpen"
@@ -30,10 +32,12 @@
 
 <script>
 import AppNav from '@/components/AppNav'
+import AppSidebar from '@/components/AppSidebar'
 
 export default {
   components: {
-    AppNav
+    AppNav,
+    AppSidebar
   },
 
   data () {
@@ -47,6 +51,12 @@ export default {
       bodyAttrs: {
         class: 'background-white'
       }
+    }
+  },
+
+  watch: {
+    '$route' () {
+      this.sidebarOpen = false
     }
   },
 
@@ -67,10 +77,8 @@ export default {
     left: 0;
     right: 0;
     height: calc(100vh - 3.375rem);
-    background: $gray-lightest;
     overflow: visible;
-    padding: 2rem 0;
-    transition: .6s cubic-bezier(.56,0,.4,1.2);
+    transition: left .6s cubic-bezier(.56,0,.4,1.2), width .6s cubic-bezier(.56,0,.4,1.2);
 
     &::before {
       content: '';
@@ -82,6 +90,16 @@ export default {
       background: $gray-lightest;
       z-index: -1;
       box-shadow: $inset-shadow;
+    }
+
+    &-scroll {
+      height: calc(100vh - 3.375rem);
+      overflow-y: scroll;
+      padding-top: 4rem;
+      padding-left: 2rem;
+      margin-left: -2rem;
+      margin-right: 2rem;
+      @include scrollbar;
     }
 
     &-toggler {
@@ -96,18 +114,13 @@ export default {
     transition: .6s cubic-bezier(.56,0,.4,1.2);
   }
 
-  .container-fluid {
-    margin: 0 auto;
-    max-width: 1400px;
-  }
-
   @include media-breakpoint-down(md) {
     .sidebar {
       position: fixed;
       width: 16rem;
       left: -12rem;
       z-index: 20;
-      padding: 1rem;
+      padding: 2rem;
 
       &::before {
         box-shadow: $inset-shadow-xs;

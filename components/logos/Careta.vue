@@ -9,6 +9,13 @@
     style="enable-background:new 0 0 500 500;"
     xml:space="preserve"
   >
+    <g id="Mono" v-if="logoStyle === 'mono'">
+      <path
+        fill="currentColor"
+        d="M23.35,11.35C10.49,11.35,0,21.37,0,33.66v432.67c0,12.27,10.49,22.32,23.35,22.32h453.28
+        c12.82,0,23.37-10.05,23.37-22.32V33.66c0-12.29-10.54-22.31-23.37-22.31H23.35z"
+      />
+    </g>
     <g id="Taronja" v-if="logoStyle === 'normal'">
       <linearGradient
         id="SVGID_1_"
@@ -136,7 +143,7 @@ export default {
       type: String,
       default: 'normal',
       validator: (value) => {
-        return ['normal', 'feminista', 'lgtb'].includes(value)
+        return ['mono', 'normal', 'feminista', 'lgtb'].includes(value)
       }
     }
   }

@@ -30,7 +30,7 @@ $gray-700: mix($gray-darkest, $gray-lightest, 70%);
 $gray-800: mix($gray-darkest, $gray-lightest, 90%);
 $gray-900: $gray-darkest;
 
-$body-bg: $gray-100;
+$body-bg: $gray-lightest;
 $body-color: $gray-darkest;
 
 //Gradients
@@ -63,6 +63,10 @@ $border-radius-xl: 5rem;
 $default-shadow: 0 .8rem 1.7rem -.3rem rgba($gray-900, .15),
     0 .5rem 1rem -.5rem rgba($gray-900, .2),
     0 -.4rem 1rem -.4rem rgba($gray-900, .015);
+$default-shadow-orange: 0 .8rem 1.7rem -.3rem rgba($primary, .15),
+    0 .5rem 1rem -.5rem rgba($primary, .2),
+    0 -.4rem 1rem -.4rem rgba($primary, .015),
+    0 0 0 .25rem rgba($primary, .5);
 $raised-shadow: 0 1.25rem 2.1rem -.3rem rgba($gray-900, .15),
     0 .9rem 1.4rem -.5rem rgba($gray-900, .2),
     0 -.75rem 1.4rem -.4rem rgba($gray-900, .015);
@@ -86,7 +90,7 @@ $navbar-height: 3.375rem;
         background-color: $gray-400;
         border-radius: 4rem;
         transition: .25s ease-in-out;
-        border: .25rem $white solid;
+        border: .25rem $gray-lightest solid;
     }
 
     &::-webkit-scrollbar-thumb:hover {

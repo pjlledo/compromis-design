@@ -14,7 +14,7 @@
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/" class="template-item">
+          <nuxt-link to="/tipografia" class="template-item">
             <span class="template-item-icon template-item-icon--typography">
               <strong>A</strong>a
             </span>
@@ -22,7 +22,7 @@
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/" class="template-item">
+          <nuxt-link to="/colors" class="template-item">
             <span class="template-item-icon template-item-icon--colors">
               <span class="color orange-1" />
               <span class="color orange-2" />
@@ -35,7 +35,7 @@
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/" class="template-item">
+          <nuxt-link to="/xarxes-socials" class="template-item">
             <span class="template-item-icon template-item-icon--social">
               <fa :icon="['fab', 'facebook-square']" />
               <fa :icon="['fab', 'twitter']" />
@@ -48,22 +48,22 @@
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/" class="template-item template-item--xs">
+          <nuxt-link to="/aplicacions" class="template-item template-item--xs">
             <span class="template-item-name">Aplicacions</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/" class="template-item template-item--xs">
+          <nuxt-link to="/fotografia" class="template-item template-item--xs">
             <span class="template-item-name">Fotografia</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/" class="template-item template-item--xs">
+          <nuxt-link to="/video" class="template-item template-item--xs">
             <span class="template-item-name">Vídeo</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/" class="template-item template-item--xs">
+          <nuxt-link to="/campanyes" class="template-item template-item--xs">
             <span class="template-item-name">Campanyes</span>
           </nuxt-link>
         </li>
