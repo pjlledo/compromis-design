@@ -1,6 +1,6 @@
 <template>
   <svg version="1.1" x="0px" y="0px" viewBox="0 0 220 38.2" style="enable-background:new 0 0 220 38.2;">
-    <g :class="{ 'mono': mono }">
+    <g :class="{ 'mono': mono, 'inverted' : inverted }">
       <g>
         <defs>
           <path
@@ -128,7 +128,8 @@ export default {
   name: 'CompromisLogo',
 
   props: {
-    mono: Boolean
+    mono: Boolean,
+    inverted: Boolean
   }
 }
 </script>
@@ -147,6 +148,12 @@ export default {
     .careta,
     .text {
       fill: currentColor;
+    }
+  }
+
+  .inverted {
+    .text {
+      fill: white;
     }
   }
 </style>
