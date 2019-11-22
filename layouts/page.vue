@@ -20,7 +20,7 @@
             </button>
           </aside>
         </div>
-        <div class="col-lg-8 col-xl-9" style="height: 20000px;">
+        <div class="col-lg-8 col-xl-9">
           <main class="content">
             <nuxt />
           </main>

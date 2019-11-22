@@ -8,6 +8,11 @@
         <ul v-if="$route.name === 'logo'" class="submenu">
           <li><a href="#marca">Marca</a></li>
           <li><a href="#composicio">Composició del text</a></li>
+          <li><a href="#proporcions">Proporcions</a></li>
+          <li><a href="#respecte">Àrea de respecte</a></li>
+          <li><a href="#monocromatiques">Versions monocromàtiques</a></li>
+          <li><a href="#inadequats">Usos Inadequats</a></li>
+          <li><a href="#adaptacions">Adaptacions de la marca</a></li>
         </ul>
       </li>
       <li>
