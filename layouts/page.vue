@@ -110,7 +110,9 @@ export default {
   }
 
   .content {
+    position: relative;
     padding: 4rem 2rem;
+    left: 0;
     transition: .6s cubic-bezier(.56,0,.4,1.2);
   }
 
@@ -133,13 +135,14 @@ export default {
         }
 
         .content {
-          padding-left: calc(70vw + 1rem);
+          left: 70vw;
+          opacity: .5;
         }
       }
     }
 
     .content {
-      padding-left: 5rem;
+      left: 5rem;
       padding-right: 0;
     }
 
