@@ -86,13 +86,16 @@ export default {
 
 .colors {
   display: grid;
-  flex-wrap: wrap;
   grid-template-columns: repeat(auto-fill, 15rem);
+  grid-template-rows: repeat(2, auto auto auto auto);
   grid-gap: 2rem;
 }
 
 .color {
   display: grid;
-  grid-template-rows: auto auto 150px auto;
+  grid-row: span 4;
+  grid-template-rows: auto auto minmax(140px, auto) auto; // fallback
+  grid-template-rows: subgrid;
+  grid-gap: 0;
 }
 </style>
