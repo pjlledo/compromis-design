@@ -202,7 +202,7 @@
     <div class="row">
       <div class="col-md-8">
         <figure>
-          <img src="../assets/logotip/corts.svg" alt="Logo corts horitzontal">
+          <img src="../assets/logotip/corts.svg" alt="Logo corts horitzontal" style="height: 52px;">
         </figure>
       </div>
     </div>
@@ -277,21 +277,21 @@
     <div class="row">
       <div class="col-md-8">
         <figure>
-          <img src="../assets/logotip/bloc.svg" alt="Logo bloc horitzontal">
+          <img src="../assets/logotip/bloc.svg" alt="Logo bloc horitzontal" style="height: 60px;">
         </figure>
       </div>
     </div>
     <div class="row">
       <div class="col-md-8">
         <figure>
-          <img src="../assets/logotip/verdsequo.svg" alt="Logo verds horitzontal">
+          <img src="../assets/logotip/verdsequo.svg" alt="Logo verds horitzontal" style="height: 60px;">
         </figure>
       </div>
     </div>
     <div class="row">
       <div class="col-md-8">
         <figure>
-          <img src="../assets/logotip/iniciativa.jpg" alt="Logo iniciativa horitzontal">
+          <img src="../assets/logotip/iniciativa.jpg" alt="Logo iniciativa horitzontal" style="height: 60px; width: auto;">
         </figure>
       </div>
     </div>
@@ -318,6 +318,22 @@
         </figure>
       </div>
     </div>
+    <h3>Sobre fons degradat</h3>
+    <div class="row">
+      <div class="col-md-8">
+        <p>
+          En els casos en que el logotip haja d'anar sobre un format especial amb fons de color (com un cartell A4, una pantalla) en el que haja
+          de destacar la "careta" sense text, es col·loca sobre fons degradat.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <figure class="figure-gradient">
+          <img src="../assets/logotip/careta-ulls.svg" alt="Logo quadrat">
+        </figure>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -334,5 +350,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.figure-error {
+  display: flex;
+  justify-content: center;
+  img {
+    height: 65px;
+    width: auto;
+  }
+}
 </style>
