@@ -193,9 +193,6 @@
             <figcaption>Els ulls i boca de la "careta" no són buits, han d’omplir-se de blanc. Respecteu les versions oficials</figcaption>
           </div>
         </div>
-      </section>
-
-      <section>
         <h2 id="adaptacions">
           Adaptacions de la marca
         </h2>
@@ -217,7 +214,7 @@
         <div class="row">
           <div class="col-md-8">
             <figure>
-              <img src="../assets/logotip/corts.svg" alt="Logo corts horitzontal">
+              <img src="../assets/logotip/corts.svg" alt="Logo corts horitzontal" style="height: 52px;">
             </figure>
           </div>
         </div>
@@ -233,7 +230,6 @@
             </figure>
           </div>
         </div>
-
         <h3>Opció horitzontal</h3>
         <div class="row">
           <div class="col-md-8">
@@ -277,7 +273,6 @@
             </div>
           </div>
         </div>
-
         <h3>Opció comprimida</h3>
         <div class="row">
           <div class="col-md-8">
@@ -295,7 +290,6 @@
             </figure>
           </div>
         </div>
-
         <h3>Convivència amb altres marques</h3>
         <div class="row">
           <div class="col-md-8">
@@ -307,7 +301,7 @@
         <div class="row">
           <div class="col-md-8">
             <figure>
-              <img src="../assets/logotip/bloc.svg" alt="Logo bloc horitzontal">
+              <img src="../assets/logotip/bloc.svg" alt="Logo bloc horitzontal" style="height: 60px;">
             </figure>
           </div>
           <div class="col-md-4 d-flex align-items-end">
@@ -320,7 +314,7 @@
         <div class="row">
           <div class="col-md-8">
             <figure>
-              <img src="../assets/logotip/verdsequo.svg" alt="Logo verds horitzontal">
+              <img src="../assets/logotip/verdsequo.svg" alt="Logo verds horitzontal" style="height: 60px;">
             </figure>
           </div>
           <div class="col-md-4 d-flex align-items-end">
@@ -333,7 +327,7 @@
         <div class="row">
           <div class="col-md-8">
             <figure>
-              <img src="../assets/logotip/iniciativa.jpg" alt="Logo iniciativa horitzontal">
+              <img src="../assets/logotip/iniciativa.jpg" alt="Logo iniciativa horitzontal" style="height: 60px; width: auto;">
             </figure>
           </div>
           <div class="col-md-4 d-flex align-items-end">
@@ -343,7 +337,6 @@
             </div>
           </div>
         </div>
-
         <h3>Opció quadrada (excepcionalment)</h3>
         <div class="row">
           <div class="col-md-8">
@@ -373,6 +366,22 @@
             </div>
           </div>
         </div>
+        <h3>Sobre fons degradat</h3>
+        <div class="row">
+          <div class="col-md-8">
+            <p>
+              En els casos en que el logotip haja d'anar sobre un format especial amb fons de color (com un cartell A4, una pantalla) en el que haja
+              de destacar la "careta" sense text, es col·loca sobre fons degradat.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <figure class="figure-gradient">
+              <img src="../assets/logotip/careta-ulls.svg" alt="Logo quadrat">
+            </figure>
+          </div>
+        </div>
       </section>
     </div>
   </div>
@@ -391,5 +400,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.figure-error {
+  display: flex;
+  justify-content: center;
+  img {
+    height: 65px;
+    width: auto;
+  }
+}
 </style>

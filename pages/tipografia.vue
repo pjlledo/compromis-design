@@ -2,8 +2,8 @@
   <div>
     <h1>Tipografia</h1>
     <p class="intro">
-      En aquesta secció presentem la tipografia que cal emprar en el material de Compromís, Akkurat. És important no usar ninguna tipografia que no siga aquesta
-      (excepte en casos on ho indiquem), i usar els dos pesos (regular i negreta) com s'explica a continuació.
+      La tipografia que cal emprar en el material de Compromís és Akkurat. És important no usar ninguna tipografia que no siga aquesta
+      (excepte en casos excepcionals), i usar els dos pesos (regular i negreta) com s'explica a continuació.
     </p>
     <div class="row">
       <div class="col-md-8">

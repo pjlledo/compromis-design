@@ -42,6 +42,14 @@
       border: 1px lighten($red, 20%) solid;
     }
 
+    &.figure-gradient {
+      background: $gradient;
+      img {
+        width: 180px;
+        padding: 1rem;
+      }
+    }
+
     img {
       width: 100%;
     }

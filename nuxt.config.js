@@ -43,6 +43,7 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
+    'nuxt-clipboard2',
     ['vue-scrollto/nuxt', { offset: -80 }],
     ['nuxt-fontawesome', {
       component: 'fa',
