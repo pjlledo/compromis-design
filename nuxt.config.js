@@ -44,6 +44,7 @@ export default {
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
     'nuxt-clipboard2',
+    ['vue-scrollto/nuxt', { offset: -80 }],
     ['nuxt-fontawesome', {
       component: 'fa',
       imports: [
@@ -67,5 +68,18 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+
+  /*
+  ** BootstrapVue config
+  */
+  bootstrapVue: {
+    componentPlugins: [
+      'NavbarPlugin',
+      'CollapsePlugin',
+      'VBScrollspyPlugin'
+    ],
+    bootstrapCSS: false,
+    bootstrapVueCSS: false
   }
 }

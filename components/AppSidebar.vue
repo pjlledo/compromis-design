@@ -5,15 +5,32 @@
         <nuxt-link to="/logo" class="template-item">
           <careta logo-style="mono" class="icon-careta" /> <span>Logo</span>
         </nuxt-link>
-        <ul v-if="$route.name === 'logo'" class="submenu">
-          <li><a href="#marca">Marca</a></li>
-          <li><a href="#composicio">Composició del text</a></li>
-          <li><a href="#proporcions">Proporcions</a></li>
-          <li><a href="#respecte">Àrea de respecte</a></li>
-          <li><a href="#monocromatiques">Versions monocromàtiques</a></li>
-          <li><a href="#inadequats">Usos Inadequats</a></li>
-          <li><a href="#adaptacions">Adaptacions de la marca</a></li>
-        </ul>
+        <b-nav
+          v-if="$route.name === 'logo'"
+          v-b-scrollspy="80"
+        >
+          <b-nav-item v-scroll-to="'#marca'" href="#marca">
+            Marca
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#composicio'" href="#composicio">
+            Composició del text
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#proporcions'" href="#proporcions">
+            Proporcions
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#respecte'" href="#respecte">
+            Àrea de respecte
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#monocromatiques'" href="#monocromatiques">
+            Versions monocromàtiques
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#inadequats'" href="#inadequats">
+            Usos Inadequats
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#adaptacions'" href="#adaptacions">
+            Adaptacions de la marca
+          </b-nav-item>
+        </b-nav>
       </li>
       <li>
         <nuxt-link to="/tipografia" class="template-item">
@@ -119,9 +136,10 @@ export default {
       }
     }
 
-    .submenu {
+    .nav {
       padding-left: 2.25rem;
       margin-bottom: 1.5rem;
+      flex-direction: column;
 
       a {
         font-size: 1rem;
@@ -130,6 +148,12 @@ export default {
 
         &:hover {
           text-decoration: underline;
+        }
+      }
+
+      .active {
+        a {
+          font-weight: bold;
         }
       }
     }
