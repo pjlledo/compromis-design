@@ -245,6 +245,12 @@
               <img src="../assets/logotip/local-proporcions.svg" alt="Logo local horitzontal">
             </figure>
           </div>
+          <div class="col-md-4 d-flex align-items-end">
+            <div class="assets btn-group">
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
+            </div>
+          </div>
         </div>
         <div class="row">
           <div class="col-md-8">
@@ -259,6 +265,12 @@
             <figure>
               <img src="../assets/logotip/corts-proporcions.svg" alt="Logo local horitzontal">
             </figure>
+          </div>
+          <div class="col-md-4 d-flex align-items-end">
+            <div class="assets btn-group">
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
+            </div>
           </div>
         </div>
         <h3>Opció comprimida</h3>
@@ -292,6 +304,12 @@
               <img src="../assets/logotip/bloc.svg" alt="Logo bloc horitzontal" style="height: 60px; width: auto;">
             </figure>
           </div>
+          <div class="col-md-4 d-flex align-items-end">
+            <div class="assets btn-group">
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
+            </div>
+          </div>
         </div>
         <div class="row">
           <div class="col-md-8">
@@ -299,12 +317,24 @@
               <img src="../assets/logotip/iniciativa.jpg" alt="Logo iniciativa horitzontal" style="height: 60px; width: auto;">
             </figure>
           </div>
+          <div class="col-md-4 d-flex align-items-end">
+            <div class="assets btn-group">
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
+            </div>
+          </div>
         </div>
         <div class="row">
           <div class="col-md-8">
             <figure>
               <img src="../assets/logotip/verdsequo.svg" alt="Logo verds horitzontal" style="height: 60px;">
             </figure>
+          </div>
+          <div class="col-md-4 d-flex align-items-end">
+            <div class="assets btn-group">
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
+            </div>
           </div>
         </div>
         <h3>Opció quadrada (excepcionalment)</h3>
@@ -328,6 +358,12 @@
             <figure>
               <img src="../assets/logotip/quadrat-proporcions.svg" alt="Proporcions del logo quadrat">
             </figure>
+          </div>
+          <div class="col-md-4 d-flex align-items-end">
+            <div class="assets btn-group">
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
+            </div>
           </div>
         </div>
         <h3>Sobre fons degradat</h3>
