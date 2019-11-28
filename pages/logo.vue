@@ -289,14 +289,7 @@
         <div class="row">
           <div class="col-md-8">
             <figure>
-              <img src="../assets/logotip/bloc.svg" alt="Logo bloc horitzontal" style="height: 60px;">
-            </figure>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <figure>
-              <img src="../assets/logotip/verdsequo.svg" alt="Logo verds horitzontal" style="height: 60px;">
+              <img src="../assets/logotip/bloc.svg" alt="Logo bloc horitzontal" style="height: 60px; width: auto;">
             </figure>
           </div>
         </div>
@@ -304,6 +297,13 @@
           <div class="col-md-8">
             <figure>
               <img src="../assets/logotip/iniciativa.jpg" alt="Logo iniciativa horitzontal" style="height: 60px; width: auto;">
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <figure>
+              <img src="../assets/logotip/verdsequo.svg" alt="Logo verds horitzontal" style="height: 60px;">
             </figure>
           </div>
         </div>
@@ -341,7 +341,7 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure class="figure-gradient">
+            <figure class="figure-gradient text-center">
               <img src="../assets/logotip/careta-ulls.svg" alt="Logo quadrat">
             </figure>
           </div>

@@ -30,6 +30,14 @@
           <stop offset="0.6994" style="stop-color:#DD551D" />
           <stop offset="1" style="stop-color:#D23517" />
         </linearGradient>
+        <rect
+          v-if="!mono"
+          class="careta-background"
+          x="4"
+          y="4"
+          width="33.48"
+          height="29.19"
+        />
         <rect class="careta" width="40.01" height="38.2" />
       </g>
       <path
@@ -138,6 +146,10 @@ export default {
   .careta {
     clip-path: url(#caretaClipPath);
     fill: url(#compromisLogoGradient);
+
+    &-background {
+      fill: white;
+    }
   }
 
   .text {
