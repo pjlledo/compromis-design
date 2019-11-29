@@ -29,6 +29,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    './plugins/global.js'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -77,7 +78,8 @@ export default {
     componentPlugins: [
       'NavbarPlugin',
       'CollapsePlugin',
-      'VBScrollspyPlugin'
+      'VBScrollspyPlugin',
+      'ButtonPlugin'
     ],
     bootstrapCSS: false,
     bootstrapVueCSS: false
