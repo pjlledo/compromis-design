@@ -6,15 +6,24 @@
     <h4>{{ title }}</h4>
     <p>{{ useCase }}</p>
     <div class="color-info">
-      <p>
-        <span>RGB</span> {{ rgb }}
-      </p>
-      <p>
-        <span>HEX</span> {{ hex }}
-      </p>
-      <p>
-        <span>CMYK</span> {{ cmyk }}
-      </p>
+      <div class="color-info-value">
+        <span>RGB</span>
+        <div v-for="(rgbValue, i) in rgbValues" :key="i">
+          <div :style="{ backgroundColor: hexValues[i] }" v-if="rgbValues.length > 1" class="color-sample" /> {{ rgbValue }}
+        </div>
+      </div>
+      <div class="color-info-value">
+        <span>HEX</span>
+        <div v-for="(hexValue, i) in hexValues" :key="i">
+          <div :style="{ backgroundColor: hexValues[i] }" v-if="hexValues.length > 1" class="color-sample" /> {{ hexValue }}
+        </div>
+      </div>
+      <div class="color-info-value">
+        <span>CMYK</span>
+        <div v-for="(cmykValue, i) in cmykValues" :key="i">
+          <div :style="{ backgroundColor: hexValues[i] }" v-if="cmykValues.length > 1" class="color-sample" /> {{ cmykValue }}
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -33,15 +42,15 @@ export default {
       default: ''
     },
     rgb: {
-      type: String,
+      type: String || Array,
       default: ''
     },
     hex: {
-      type: String,
+      type: String || Array,
       default: ''
     },
     cmyk: {
-      type: String,
+      type: String || Array,
       default: ''
     },
     useCase: {
@@ -57,6 +66,21 @@ export default {
   data () {
     return {
       text: 'Copiar HEX'
+    }
+  },
+
+  computed: {
+    rgbValues () {
+      if (typeof this.rgb === 'string') { return [this.rgb] }
+      return this.rgb
+    },
+    hexValues () {
+      if (typeof this.hex === 'string') { return [this.hex] }
+      return this.hex
+    },
+    cmykValues () {
+      if (typeof this.cmyk === 'string') { return [this.cmyk] }
+      return this.cmyk
     }
   },
 
@@ -91,17 +115,17 @@ export default {
     color: $gray-600;
     padding: .75rem 1rem;
     border-radius: $border-radius;
+    font-size: 1rem;
+    margin-top: auto;
 
-    p {
-      margin-bottom: 0;
-      font-size: 1rem;
+    &-value {
+      display: grid;
+      grid-template-columns: 60px auto;
     }
 
     span {
       font-weight: bold;
-      display: inline-block;
-      line-height: 1;
-      width: 60px;
+      grid-row: span 2;
     }
   }
 
@@ -183,6 +207,14 @@ export default {
         transform:  translateY(.25rem) rotate(0) scale(1);
       }
     }
+  }
+
+  &-sample {
+    width: .75rem;
+    height: .75rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: .25rem;
   }
 }
 </style>

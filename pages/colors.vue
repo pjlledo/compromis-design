@@ -17,19 +17,19 @@
     <h2>Mostres de color</h2>
     <div class="colors">
       <color-swatch
+        :rgb="['210 53 23','243 145 40']"
+        :hex="['#d23517','#f39128']"
+        :cmyk="['12 93 100 3', '1 51 96 0']"
         name="gradient"
         title="Taronja degradat"
         use-case="És la tonalitat identificativa de Compromís. S'utilitza en la careta, els 'blocs' i com a color accent."
-        rgb="243 145 40"
-        hex="f29128"
-        cmyk="0 51 89 0"
       />
       <color-swatch
         name="orange"
         title="Taronja pla"
         use-case="S'utilitza en aplicacions planes, o en text destacat menut on l'ús del degradat dificultaria la lectura"
         rgb="255 103 32"
-        hex="FF6720"
+        hex="#FF6720"
         cmyk="0 68 96 0"
       />
       <color-swatch
@@ -37,7 +37,7 @@
         title="Blanc"
         use-case="És en la majoria dels casos el color de fons i el predominant."
         rgb="255 255 255"
-        hex="FFFFFF"
+        hex="#FFFFFF"
         cmyk="0 0 0 0"
         dark
       />
@@ -46,7 +46,7 @@
         title="Negre"
         use-case="És el color de text, i és pot usar com a fons en aplicacions fosques."
         rgb="53 57 73"
-        hex="353949"
+        hex="#353949"
         cmyk="78 70 49 43"
       />
       <color-swatch
@@ -54,7 +54,7 @@
         title="Gris"
         use-case="S'utilitza per al text d'informació secundària."
         rgb="151 154 164"
-        hex="979AA4"
+        hex="#979AA4"
         cmyk="0 68 96 0"
       />
       <color-swatch
@@ -62,7 +62,7 @@
         title="Gris Clar"
         use-case="És pot utilitzar com a fons diferenciat del blanc."
         rgb="238 240 246"
-        hex="EEF0F6"
+        hex="#EEF0F6"
         cmyk="5 3 1 0"
         dark
       />
@@ -89,12 +89,13 @@ export default {
   grid-template-columns: repeat(auto-fill, 15rem);
   grid-template-rows: repeat(2, auto auto auto auto);
   grid-gap: 2rem;
+  margin-top: 1rem;
 }
 
 .color {
   display: grid;
   grid-row: span 4;
-  grid-template-rows: auto auto minmax(140px, auto) auto; // fallback
+  grid-template-rows: 16.5rem 2.5rem minmax(140px, auto) auto; // fallback
   grid-template-rows: subgrid;
   grid-gap: 0;
 }
