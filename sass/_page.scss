@@ -53,6 +53,11 @@
     img {
       width: 100%;
     }
+
+    &.edge {
+      padding: 0;
+      overflow: hidden;
+    }
   }
 
   figcaption {
