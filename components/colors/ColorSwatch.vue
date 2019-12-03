@@ -42,15 +42,15 @@ export default {
       default: ''
     },
     rgb: {
-      type: String || Array,
+      type: [String, Array],
       default: ''
     },
     hex: {
-      type: String || Array,
+      type: [String, Array],
       default: ''
     },
     cmyk: {
-      type: String || Array,
+      type: [String, Array],
       default: ''
     },
     useCase: {
