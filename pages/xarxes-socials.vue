@@ -33,7 +33,30 @@
     </div>
 
     <h2>Targes</h2>
-    <p>..</p>
+    <div class="row">
+      <div class="col-md-8">
+        <p>Les targes són un dels materials més útils per a compartir en xarxes. Permeten destacar una frase, una notícia, una foto, anunciar un debat, fer una comparativa...</p>
+        <p>Per a fer la majoria de targes existeix el generador, una ferramenta que permet generar aquest contingut sense complicacions.</p>
+        <p>Respecte al ús de les targes convé fer algunes indicacions:</p>
+        <ul>
+          <li>Useu les targes amb moderació: en excés perden el seu efecte. No totes les publicacions han d'anar acompanyades amb tarja.</li>
+          <li>
+            Aneu en compte també amb les targes amb text excessiu - van en contra del propòsit de les targes, que és resumir, destacar allò important i fer més digerible la informació. Els textos han d'anar en el cos de
+            text de la publicació, mai en la imatge.
+          </li>
+          <li>
+            No modifiqueu les targes del generador ni afegiu elements en programes d'edició després de fer-les. Si el generador no cobreix allò que necessiteu, consulteu amb disseny@compromis.net.
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 d-flex align-items-end">
+        <p>
+          <c-button href="https://targes.compromis.net" variant="outline-primary" size="lg" target="_blank">
+            Generador de targes
+          </c-button>
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
