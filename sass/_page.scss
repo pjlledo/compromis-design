@@ -83,6 +83,20 @@
   }
 }
 
+.incorrect-list {
+  padding-left: .8rem;
+
+  li {
+    list-style: none;
+    display: flex;
+
+    svg {
+      color: $red;
+      margin: .25rem .5rem 0;
+    }
+  }
+}
+
 @include media-breakpoint-down(md) {
   .page {
     h1 {
