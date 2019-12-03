@@ -1,7 +1,7 @@
 {
   "name": "compromis-design",
   "version": "1.0.0",
-  "description": "My slick Nuxt.js project",
+  "description": "Guia de disseny i arquitectura de marca de Compromís",
   "author": "Compromís",
   "private": true,
   "scripts": {
