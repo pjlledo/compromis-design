@@ -56,9 +56,9 @@
             <strong>Usos incorrectes</strong>
             <ul class="incorrect-list">
               <li><fa :icon="['far', 'times-circle']" /> No inclogueu la paraula "per" o "x" ni als noms d'usuari ni als noms llargs.</li>
-              <li><fa :icon="['far', 'times-circle']" /> No escriviu la paraula Compromís en majúscules: *COMPROMÍS.</li>
+              <li><fa :icon="['far', 'times-circle']" /> No escriviu la paraula Compromís en majúscules: <em>*COMPROMÍS</em>.</li>
               <li><fa :icon="['far', 'times-circle']" /> No inclogueu simbols als noms d'usuari: guionets, punts o barres baixes, entre altres.</li>
-              <li><fa :icon="['far', 'times-circle']" /> Les abreviacions s'han d'escriure en majúscula: *@Compromisalc.</li>
+              <li><fa :icon="['far', 'times-circle']" /> Les abreviacions s'han d'escriure en majúscula: <em>*@Compromisalc</em>.</li>
             </ul>
           </li>
         </ul>
@@ -78,7 +78,7 @@
             text de la publicació, mai en la imatge.
           </li>
           <li>
-            No modifiqueu les targes del generador ni afegiu elements en programes d'edició després de fer-les. Si el generador no cobreix allò que necessiteu, consulteu amb disseny@compromis.net.
+            No modifiqueu les targes del generador ni afegiu elements en programes d'edició després de fer-les. Si el generador no cobreix allò que necessiteu, consulteu amb <a href="mailto:disseny@compromis.net">disseny@compromis.net</a>.
           </li>
         </ul>
       </div>
