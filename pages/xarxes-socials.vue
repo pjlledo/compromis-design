@@ -3,7 +3,9 @@
     <h1>Xarxes socials</h1>
     <div class="row">
       <div class="col-md-8">
-        <h2>Foto de perfil</h2>
+        <h2 id="foto-perfil">
+          Foto de perfil
+        </h2>
         <p>La foto de perfil que emprem a les xarxes socials està composada d'una foto representativa del municipi o institució i la careta de Compromís.</p>
         <p>Empreu l'eina oficial per generar la foto de perfil del vostre col·lectiu.</p>
         <figure class="text-center">
@@ -11,15 +13,15 @@
         </figure>
       </div>
       <div class="col-md-4 d-flex align-items-end">
-        <p>
-          <c-button href="https://targes.compromis.net/#/social" variant="outline-primary" size="lg" target="_blank">
-            Crea una foto de perfil
-          </c-button>
-        </p>
+        <c-button href="https://targes.compromis.net/#/social" variant="outline-primary" size="lg" target="_blank">
+          <fa :icon="['far', 'user-circle']" /> Crea una foto de perfil
+        </c-button>
       </div>
     </div>
 
-    <h2>Capçalera</h2>
+    <h2 id="capcalera">
+      Capçalera
+    </h2>
     <div class="row">
       <div class="col-md-8">
         <p>Com a capçalera, és recomanable emprar una foto representativa del municipi, com una panoràmica o una foto d'un monument representatiu.</p>
@@ -32,7 +34,9 @@
       </div>
     </div>
 
-    <h2>Nom d'usuari</h2>
+    <h2 id="nom-usuari">
+      Nom d'usuari
+    </h2>
     <div class="row">
       <div class="col-md-8">
         <p>Si creem una nova pàgina o perfil d'un col·lectiu local de Compromís, és important triar un nom d'usuari que seguisca el mateix patró que la resta de col·lectius locals.</p>
@@ -65,7 +69,9 @@
       </div>
     </div>
 
-    <h2>Targes</h2>
+    <h2 id="targes">
+      Targes
+    </h2>
     <div class="row">
       <div class="col-md-8">
         <p>Les targes són un dels materials més útils per a compartir en xarxes. Permeten destacar una frase, una notícia, una foto, anunciar un debat, fer una comparativa...</p>
@@ -85,13 +91,15 @@
       <div class="col-md-4 d-flex align-items-end">
         <p>
           <c-button href="https://targes.compromis.net" variant="outline-primary" size="lg" target="_blank">
-            Generador de targes
+            <fa :icon="['far', 'send-backward']" /> Generador de targes
           </c-button>
         </p>
       </div>
     </div>
 
-    <h2>Manual de xarxes</h2>
+    <h2 id="manual-xarxes">
+      Manual de xarxes
+    </h2>
     <div class="row">
       <div class="col-md-8">
         <p class="mb-0">
@@ -101,7 +109,7 @@
       <div class="col-md-4 d-flex align-items-end">
         <p>
           <c-button href="https://targes.compromis.net" variant="outline-primary" size="lg" target="_blank">
-            Manual de Xarxes Socials
+            <fa :icon="['far', 'book']" /> Manual de Xarxes
           </c-button>
         </p>
       </div>

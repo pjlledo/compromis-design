@@ -62,7 +62,11 @@ export default {
         },
         {
           set: '@fortawesome/pro-regular-svg-icons',
-          icons: ['faFontCase', 'faPalette', 'faShareAlt', 'faPrint', 'faCamera', 'faFilm', 'faMegaphone', 'faArrowCircleDown', 'faFile', 'faTimesCircle']
+          icons: [
+            'faFontCase', 'faPalette', 'faShareAlt', 'faPrint', 'faCamera',
+            'faFilm', 'faMegaphone', 'faArrowCircleDown', 'faFile', 'faTimesCircle',
+            'faSendBackward', 'faUserCircle', 'faBook'
+          ]
         }
       ]
     }]
