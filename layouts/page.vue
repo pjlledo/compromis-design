@@ -103,9 +103,15 @@ export default {
     }
 
     &-toggler {
-      position: absolute;
+      position: fixed;
       bottom: 2rem;
-      right: .5rem;
+      right: 1rem;
+      background: $gray-200;
+      color: $white;
+      border-radius: 50%;
+      height: 4rem;
+      width: 4rem;
+      box-shadow: $default-shadow;
     }
   }
 
@@ -119,10 +125,10 @@ export default {
   @include media-breakpoint-down(md) {
     .sidebar {
       position: fixed;
-      width: 16rem;
-      left: -12rem;
+      width: 80vw;
+      left: -80vw;
       z-index: 20;
-      padding: 2rem;
+      padding: 1rem;
 
       &::before {
         box-shadow: $inset-shadow-xs;
@@ -139,11 +145,17 @@ export default {
           opacity: .5;
         }
       }
+
+      &-scroll {
+        margin-right: 0;
+        padding-top: 0;
+        padding-bottom: 3rem;
+      }
     }
 
     .content {
-      left: 5rem;
-      padding-right: 0;
+      left: 0;
+      padding: 0;
     }
 
     .container-fluid {

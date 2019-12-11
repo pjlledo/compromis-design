@@ -123,10 +123,10 @@ export default {
       &[aria-expanded="true"] {
         .navbar-toggler-icon {
           &::after {
-            transform: rotate(45deg) translateY(-9px);
+            transform: rotate(45deg) translateY(-5px) translateX(-3px);
           }
           &::before {
-            transform: rotate(-45deg) translateY(8px);
+            transform: rotate(-46deg) translateY(5px) translateX(-5px);
           }
         }
       }
