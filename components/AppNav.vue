@@ -73,8 +73,6 @@ export default {
     }
 
     .logo-label {
-      border-left: 1px $gray-400 solid;
-      margin-left: .75rem;
       padding: .3rem .75rem;
       color: $gray-700;
     }

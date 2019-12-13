@@ -14,7 +14,7 @@
           <div class="col-md-8">
             <p>
               El conjunt format pel logotip i el símbol gràfic que l’acompanya, el denominem marca. Així com el símbol es podrà utilitzar per separat,
-              el logotip sempre haurà de presentar-se amb el símbol (la "careta"), per obtindre una correcta identificació de la marca.
+              el logotip sempre haurà de presentar-se amb el símbol (la “careta”), per obtindre una correcta identificació de la marca.
             </p>
             <figure>
               <img src="../assets/logotip/logo.svg" alt="logo">

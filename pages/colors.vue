@@ -6,7 +6,9 @@
       a tot material que es faça seguint les indicacions d'aquesta secció.
     </p>
 
-    <h2>Ús del color</h2>
+    <h2 id="us-color">
+      Ús del color
+    </h2>
     <p>
       El taronja és el nostre color accent, però pot arribar a agobiar si s'utilitza en excés. Per això, el color predominant als dissenys ha de ser el blanc.
       Per fer-se una idea, la porporció hauria de ser d'un quart de taronja
@@ -14,7 +16,9 @@
       o degradat per a destacar algunes paraules.
     </p>
 
-    <h2>Mostres de color</h2>
+    <h2 id="mostres-color">
+      Mostres de color
+    </h2>
     <div class="colors">
       <color-swatch
         :rgb="['210 53 23','243 145 40']"
