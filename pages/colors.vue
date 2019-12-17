@@ -9,12 +9,16 @@
     <h2 id="us-color">
       Ús del color
     </h2>
-    <p>
-      El taronja és el nostre color accent, però pot arribar a agobiar si s'utilitza en excés. Per això, el color predominant als dissenys ha de ser el blanc.
-      Per fer-se una idea, la porporció hauria de ser d'un quart de taronja
-      sobre el total del blanc. Per a textos cal utilitzar tonalitats de grisos. Excepcionalment, podeu usar text en taronja
-      o degradat per a destacar algunes paraules.
-    </p>
+    <div class="row">
+      <div class="col-md-8">
+        <p>
+          El taronja és el nostre color accent, però pot arribar a agobiar si s'utilitza en excés. Per això, el color predominant als dissenys ha de ser el blanc.
+          Per fer-se una idea, la porporció hauria de ser d'un quart de taronja
+          sobre el total del blanc. Per a textos cal utilitzar tonalitats de grisos. Excepcionalment, podeu usar text en taronja
+          o degradat per a destacar algunes paraules.
+        </p>
+      </div>
+    </div>
 
     <h2 id="mostres-color">
       Mostres de color
@@ -37,15 +41,6 @@
         cmyk="0 68 96 0"
       />
       <color-swatch
-        name="white"
-        title="Blanc"
-        use-case="És en la majoria dels casos el color de fons i el predominant."
-        rgb="255 255 255"
-        hex="#FFFFFF"
-        cmyk="0 0 0 0"
-        dark
-      />
-      <color-swatch
         name="gray-dark"
         title="Negre"
         use-case="És el color de text, i és pot usar com a fons en aplicacions fosques."
@@ -63,11 +58,20 @@
       />
       <color-swatch
         name="gray-light"
-        title="Gris Clar"
+        title="Gris clar"
         use-case="És pot utilitzar com a fons diferenciat del blanc."
         rgb="238 240 246"
         hex="#EEF0F6"
         cmyk="5 3 1 0"
+        dark
+      />
+      <color-swatch
+        name="white"
+        title="Blanc"
+        use-case="És en la majoria dels casos el color de fons i el predominant."
+        rgb="255 255 255"
+        hex="#FFFFFF"
+        cmyk="0 0 0 0"
         dark
       />
     </div>
@@ -90,17 +94,8 @@ export default {
 
 .colors {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 15rem);
-  grid-template-rows: repeat(2, auto auto auto auto);
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
   grid-gap: 2rem;
-  margin-top: 1rem;
-}
-
-.color {
-  display: grid;
-  grid-row: span 4;
-  grid-template-rows: 16.5rem 2.5rem minmax(140px, auto) auto; // fallback
-  grid-template-rows: subgrid;
-  grid-gap: 0;
+  margin-top: 2rem;
 }
 </style>
