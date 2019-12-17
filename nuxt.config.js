@@ -65,7 +65,8 @@ export default {
           icons: [
             'faFontCase', 'faPalette', 'faShareAlt', 'faPrint', 'faCamera',
             'faFilm', 'faMegaphone', 'faArrowCircleDown', 'faFile', 'faTimesCircle',
-            'faSendBackward', 'faUserCircle', 'faBook', 'faPhotoVideo', 'faPlay', 'faPortrait'
+            'faSendBackward', 'faUserCircle', 'faBook', 'faPhotoVideo', 'faPlay', 'faPortrait',
+            'faBorderNone', 'faBorderAll'
           ]
         }
       ]
