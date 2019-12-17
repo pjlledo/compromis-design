@@ -16,28 +16,13 @@
               El conjunt format pel logotip i el símbol gràfic que l’acompanya, el denominem marca. Així com el símbol es podrà utilitzar per separat,
               el logotip sempre haurà de presentar-se amb el símbol (la “careta”), per obtindre una correcta identificació de la marca.
             </p>
-            <figure />
+            <logo-grid :logo="logos.Logo" />
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
               <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
               <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <h2 id="composicio">
-          Composició del text
-        </h2>
-        <div class="row">
-          <div class="col-md-8">
-            <p>
-              La marca està formada pel símbol gràfic de la coalició més el text “Compromís”, en Akkurat Bold. A la paraula “Compromís”
-              se li ha reduït l’interlletrat (-55 pt.)
-            </p>
-            <figure />
           </div>
         </div>
       </section>
@@ -51,7 +36,7 @@
             <p>
               Relacions entre els diferents elements de la marca per a la seua correcta reproducció.
             </p>
-            <figure />
+            <logo-grid :logo="logos.Careta" />
           </div>
         </div>
       </section>
@@ -65,7 +50,7 @@
             <p>
               Al voltant de la marca que ha de mantenir-se sempre una zona lliure i buida, per a diferenciar la marca de la resta d’elements que composen el disseny. El marge serà equivalent a l’alçada del cos de les lletres.
             </p>
-            <figure />
+            <logo-grid :logo="logos.LogoRespecte" />
           </div>
         </div>
       </section>
@@ -84,13 +69,13 @@
         <div class="row">
           <div class="col-md-4">
             <figure>
-              <logo />
+              <compromis-logo />
             </figure>
             <figcaption>Positiu</figcaption>
           </div>
           <div class="col-md-4">
             <figure>
-              <logo mono class="" />
+              <compromis-logo mono />
             </figure>
             <figcaption>Positiu B/N</figcaption>
           </div>
@@ -98,21 +83,15 @@
         <div class="row">
           <div class="col-md-4">
             <figure class="figure-dark">
-              <logo inverted />
+              <compromis-logo inverted />
             </figure>
             <figcaption>Negatiu</figcaption>
           </div>
           <div class="col-md-4">
             <figure class="figure-dark">
-              <logo mono style="color: white;" />
+              <compromis-logo mono style="color: white;" />
             </figure>
             <figcaption>Negatiu B/N</figcaption>
-          </div>
-          <div class="col-md-4 d-flex align-items-end">
-            <div class="assets btn-group">
-              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
-              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
-            </div>
           </div>
         </div>
       </section>
@@ -170,9 +149,6 @@
           </div>
         </div>
 
-        <logo-grid :logo="logos.LocalAlt" />
-        <logo-grid :logo="logos.LocalAltDosLinies" />
-
         <h2 id="adaptacions">
           Adaptacions de la marca
         </h2>
@@ -184,29 +160,6 @@
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-8">
-            <figure />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <figure />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <figure />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <figure />
-          </div>
-          <div class="col-md-4">
-            <figure />
-          </div>
-        </div>
         <h3>Versió horitzontal</h3>
         <div class="row">
           <div class="col-md-8">
@@ -214,11 +167,7 @@
               La versió horitzontal és la preferible sempre a no ser que l’espai ho permeta.
               S'ha de tindre en compte els colors, les proporcions i les àrees de respecte dels afegitons.
             </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <figure />
+            <logo-grid :logo="logos.Local" />
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
@@ -227,37 +176,20 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-8">
-            <p>
-              En cas que l’extensió dispose d’un logotip propi, s’afegirà en paral·lel respectant les mesures i proporcions.
-              El color haurà d’adaptar-se al gris oficial perquè no lleve força a la marca de Compromís.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <figure />
-          </div>
-          <div class="col-md-4 d-flex align-items-end">
-            <div class="assets btn-group">
-              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
-              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
-            </div>
-          </div>
-        </div>
-        <h4>Versió horitzontal multilínia</h4>
+        <h3>Versió horitzontal multilínia</h3>
         <div class="row">
           <div class="col-md-8">
             <p>
               En cas que l'espai siga més reduit, i/o el nom de l'afegit siga llarg i es puga dividir, també es pot utilitzar la següent versió horitzontal
               que divideix el nom en diverses línies.
             </p>
+            <logo-grid :logo="logos.LocalDosLinies" />
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <figure />
+          <div class="col-md-4 d-flex align-items-end">
+            <div class="assets btn-group">
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
+            </div>
           </div>
         </div>
         <h3>Versió comprimida</h3>
@@ -268,11 +200,30 @@
               S’hauran de tindre en compte els colors, les proporcions i les àrees de respecte dels afegitons.
               Esta versió no contempla la possibilitat d’incloure un altre logotip de forma paral·lela. Els textos afegits s’alinearan a la dreta.
             </p>
+            <logo-grid :logo="logos.LocalAlt" />
+          </div>
+          <div class="col-md-4 d-flex align-items-end">
+            <div class="assets btn-group">
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
+            </div>
           </div>
         </div>
+        <h3>Versió comprimida multilínia</h3>
         <div class="row">
           <div class="col-md-8">
-            <figure />
+            <p>
+              Aquesta versió s'utilitza únicament quan l'espai és limitat de forma que és impossible utilitzar la versió horitzontal.
+              S’hauran de tindre en compte els colors, les proporcions i les àrees de respecte dels afegitons.
+              Esta versió no contempla la possibilitat d’incloure un altre logotip de forma paral·lela. Els textos afegits s’alinearan a la dreta.
+            </p>
+            <logo-grid :logo="logos.LocalAltDosLinies" />
+          </div>
+          <div class="col-md-4 d-flex align-items-end">
+            <div class="assets btn-group">
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
+              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
+            </div>
           </div>
         </div>
         <h3>Convivència amb altres marques</h3>
@@ -285,29 +236,7 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure />
-          </div>
-          <div class="col-md-4 d-flex align-items-end">
-            <div class="assets btn-group">
-              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
-              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <figure />
-          </div>
-          <div class="col-md-4 d-flex align-items-end">
-            <div class="assets btn-group">
-              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
-              <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <figure />
+            <logo-grid :logo="logos.Marca" />
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
@@ -325,14 +254,7 @@
               anteriors siguen possibles. És el cas per exemple de l’espai reduït i quadrat per a la marca en una
               papereta electoral. En cap cas es poden afegir extensions de col·lectiu local o departament a aquesta versió.
             </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <figure />
-          </div>
-          <div class="col-md-4">
-            <figure />
+            <logo-grid :logo="logos.Quadrat" />
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
@@ -352,7 +274,9 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure class="figure-gradient text-center" />
+            <figure class="figure-gradient text-center">
+              <img src="../assets/logo/ulls-i-boca.svg" alt="">
+            </figure>
           </div>
         </div>
       </section>
@@ -363,25 +287,39 @@
 </template>
 
 <script>
-import Logo from '@/components/logos/CompromisLogo'
+import CompromisLogo from '@/components/logos/CompromisLogo.vue'
 import LogoGrid from '@/components/logos/proportions/LogoGrid.vue'
+import Careta from '@/components/logos/proportions/Careta.vue'
+import Quadrat from '@/components/logos/proportions/Quadrat.vue'
+import Logo from '@/components/logos/proportions/Logo.vue'
+import LogoRespecte from '@/components/logos/proportions/LogoRespecte.vue'
+import Local from '@/components/logos/proportions/Local.vue'
 import LocalAlt from '@/components/logos/proportions/LocalAlt.vue'
 import LocalAltDosLinies from '@/components/logos/proportions/LocalAltDosLinies.vue'
+import LocalDosLinies from '@/components/logos/proportions/LocalDosLinies.vue'
+import Marca from '@/components/logos/proportions/Marca.vue'
 
 export default {
   layout: 'page',
 
   scrollToTop: true,
   components: {
-    Logo,
+    CompromisLogo,
     LogoGrid
   },
 
   data () {
     return {
       logos: {
+        Logo,
+        LogoRespecte,
+        Careta,
+        Quadrat,
         LocalAlt,
-        LocalAltDosLinies
+        LocalAltDosLinies,
+        Local,
+        LocalDosLinies,
+        Marca
       }
     }
   }

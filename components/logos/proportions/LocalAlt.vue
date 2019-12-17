@@ -5,7 +5,6 @@
     x="0px"
     y="0px"
     viewBox="0 0 983.55 194.08"
-    style="enable-background:new 0 0 983.55 194.08;"
   >
     <g id="logo">
       <g>

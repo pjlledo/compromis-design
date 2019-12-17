@@ -44,13 +44,15 @@
 
     &.figure-gradient {
       background: $gradient;
+
       img {
         width: 180px;
         padding: 1rem;
       }
     }
 
-    img {
+    img,
+    svg {
       width: 100%;
     }
 
