@@ -49,14 +49,14 @@
               <li>La mateixa regla s'aplica als noms llargs, però introduint espais i accents. Per exemple: "Compromís Llíria". Si no cap, intentem trobar una forma d'abreviar el nom. Per exemple: "Compromís Callosa" si "Compromís Callosa d'en Sarrià" no hi cap.</li>
             </ul>
           </li>
-          <li>
+          <li class="mt-2">
             <strong>En xarxes sense límit de caràcters (com Facebook o Instagram), recomanem:</strong>
             <ul>
               <li>Per a noms d'usuari o adreces sense espais ni caràcters especials: "Compromis + Nom del municipi". Per exemple: CompromisVilamarxant, CompromisTorrent.</li>
               <li>Per a noms de pàgina: "Compromís + Nom del municipi". Per exemple: Compromís Benicàssim.</li>
             </ul>
           </li>
-          <li>
+          <li class="mt-2">
             <strong>Usos incorrectes</strong>
             <ul class="incorrect-list">
               <li><fa :icon="['far', 'times-circle']" /> No inclogueu la paraula "per" o "x" ni als noms d'usuari ni als noms llargs.</li>

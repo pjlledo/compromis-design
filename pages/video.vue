@@ -14,9 +14,9 @@
         <h2 id="exemples">
           Exemples
         </h2>
-        <p>Per a... consulteu la secció de Vídeos del Facebook de Compromís.</p>
+        <p>Per a fer-vos una idea de com podeu montar vídeos (esquema, estètica, etc.), consulteu la secció de Vídeos del Facebook de Compromís.</p>
 
-        <c-button variant="outline-primary" size="lg" href="https://www.facebook.com/pg/coaliciocompromis/videos" target="_blank">
+        <c-button variant="outline-primary" href="https://www.facebook.com/pg/coaliciocompromis/videos" target="_blank">
           <fa :icon="['far', 'play']" /> Vídeos de Compromís
         </c-button>
 
