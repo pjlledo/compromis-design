@@ -7,7 +7,13 @@
 <script>
 
 export default {
-  layout: 'page'
+  layout: 'page',
+
+  head () {
+    return {
+      title: ''
+    }
+  }
 }
 </script>
 

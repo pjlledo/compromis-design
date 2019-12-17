@@ -54,6 +54,10 @@ export default {
     padding: .75rem 0;
     transition: .25s ease-in-out;
 
+    & > .container-fluid {
+      padding: 0 5rem;
+    }
+
     .logo {
       height: 28px;
 
@@ -73,8 +77,6 @@ export default {
     }
 
     .logo-label {
-      border-left: 1px $gray-400 solid;
-      margin-left: .75rem;
       padding: .3rem .75rem;
       color: $gray-700;
     }
@@ -123,12 +125,20 @@ export default {
       &[aria-expanded="true"] {
         .navbar-toggler-icon {
           &::after {
-            transform: rotate(45deg) translateY(-9px);
+            transform: rotate(45deg) translateY(-5px) translateX(-3px);
           }
           &::before {
-            transform: rotate(-45deg) translateY(8px);
+            transform: rotate(-46deg) translateY(5px) translateX(-5px);
           }
         }
+      }
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    .navbar {
+      & > .container-fluid {
+        padding: 0 3rem;
       }
     }
   }
@@ -137,6 +147,10 @@ export default {
     .navbar {
       z-index: 100;
       padding: .75rem 0;
+
+      & > .container-fluid {
+        padding: 0 1rem;
+      }
 
       .logo-label {
         display: none !important;

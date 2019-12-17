@@ -5,14 +5,21 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Manual d\'estil - Compromís',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      { name: 'msapplication-TileColor', content: '#2b5797' },
+      { name: 'theme-color', content: '#353949' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+      { rel: 'manifest', href: '/site.webmanifest' },
+      { rel: 'mask-icon', type: 'image/x-icon', href: '/safari-pinned-tab.svg', color: '#ff6720' }
     ]
   },
   /*
@@ -55,7 +62,11 @@ export default {
         },
         {
           set: '@fortawesome/pro-regular-svg-icons',
-          icons: ['faFontCase', 'faPalette', 'faShareAlt', 'faPrint', 'faCamera', 'faFilm', 'faMegaphone', 'faArrowCircleDown', 'faFile']
+          icons: [
+            'faFontCase', 'faPalette', 'faShareAlt', 'faPrint', 'faCamera',
+            'faFilm', 'faMegaphone', 'faArrowCircleDown', 'faFile', 'faTimesCircle',
+            'faSendBackward', 'faUserCircle', 'faBook', 'faPhotoVideo', 'faPlay', 'faPortrait'
+          ]
         }
       ]
     }]

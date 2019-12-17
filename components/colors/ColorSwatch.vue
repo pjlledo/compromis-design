@@ -42,15 +42,15 @@ export default {
       default: ''
     },
     rgb: {
-      type: String || Array,
+      type: [String, Array],
       default: ''
     },
     hex: {
-      type: String || Array,
+      type: [String, Array],
       default: ''
     },
     cmyk: {
-      type: String || Array,
+      type: [String, Array],
       default: ''
     },
     useCase: {
@@ -99,11 +99,16 @@ export default {
 @import '../../sass/variables';
 
 .color {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-column-gap: 1.5rem;
+  grid-row-gap: .5rem;
+  max-width: 750px;
+  align-items: start;
 
   h4 {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0;
   }
 
   p {
@@ -111,30 +116,33 @@ export default {
   }
 
   &-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     border: 1px solid $gray-400;
     color: $gray-600;
-    padding: .75rem 1rem;
+    padding: .25rem 1rem;
     border-radius: $border-radius;
     font-size: 1rem;
     margin-top: auto;
 
     &-value {
-      display: grid;
-      grid-template-columns: 60px auto;
+      margin-top: -.25rem;
     }
 
     span {
       font-weight: bold;
       grid-row: span 2;
+      font-size: .75rem;
     }
   }
 
   &-swatch {
     display: inline-flex;
+    grid-column: 1;
+    grid-row: span 3;
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-bottom: 1.5rem;
     color: $white;
     font-size: 1.5rem;
     font-weight: bold;
@@ -215,6 +223,13 @@ export default {
     border-radius: 50%;
     display: inline-block;
     margin-right: .25rem;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .color {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
   }
 }
 </style>

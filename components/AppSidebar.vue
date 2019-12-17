@@ -41,11 +41,42 @@
         <nuxt-link to="/colors" class="template-item">
           <fa :icon="['far', 'palette']" fixed-width /> <span>Colors</span>
         </nuxt-link>
+        <b-nav
+          v-if="$route.name === 'colors'"
+          v-b-scrollspy="80"
+        >
+          <b-nav-item v-scroll-to="'#us-color'" href="#us-color">
+            Ús del color
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#mostres-color'" href="#mostres-color">
+            Mostres de color
+          </b-nav-item>
+        </b-nav>
       </li>
       <li>
         <nuxt-link to="/xarxes-socials" class="template-item">
           <fa :icon="['far', 'share-alt']" fixed-width /> <span>Xarxes socials</span>
         </nuxt-link>
+        <b-nav
+          v-if="$route.name === 'xarxes-socials'"
+          v-b-scrollspy="80"
+        >
+          <b-nav-item v-scroll-to="'#foto-perfil'" href="#foto-perfil">
+            Foto de perfil
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#capcalera'" href="#capcalera">
+            Capçalera
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#nom-usuari'" href="#nom-usuari">
+            Nom d'usuari
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#targes'" href="#targes">
+            Targes
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#manual-xarxes'" href="#manual-xarxes">
+            Manual de xarxes
+          </b-nav-item>
+        </b-nav>
       </li>
       <li>
         <nuxt-link to="/aplicacions" class="template-item template-item--xs">

@@ -1,9 +1,10 @@
 .btn {
   border: 0;
+  font-weight: bold;
+  padding: .6rem .8rem;
 
   &-lg {
     border-radius: $border-radius;
-    font-weight: bold;
     box-shadow: $default-shadow;
     border: 0;
     padding: .75rem 1rem;
