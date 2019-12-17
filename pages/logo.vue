@@ -16,9 +16,7 @@
               El conjunt format pel logotip i el símbol gràfic que l’acompanya, el denominem marca. Així com el símbol es podrà utilitzar per separat,
               el logotip sempre haurà de presentar-se amb el símbol (la "careta"), per obtindre una correcta identificació de la marca.
             </p>
-            <figure>
-              <img src="../assets/logotip/logo.svg" alt="logo">
-            </figure>
+            <figure />
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
@@ -39,9 +37,7 @@
               La marca està formada pel símbol gràfic de la coalició més el text “Compromís”, en Akkurat Bold. A la paraula “Compromís”
               se li ha reduït l’interlletrat (-55 pt.)
             </p>
-            <figure>
-              <img src="../assets/logotip/interlletrat.svg" alt="Interlletrat del logo">
-            </figure>
+            <figure />
           </div>
         </div>
       </section>
@@ -55,9 +51,7 @@
             <p>
               Relacions entre els diferents elements de la marca per a la seua correcta reproducció.
             </p>
-            <figure>
-              <img src="../assets/logotip/proporcions.svg" alt="Proporcions del logo">
-            </figure>
+            <figure />
           </div>
         </div>
       </section>
@@ -71,9 +65,7 @@
             <p>
               Al voltant de la marca que ha de mantenir-se sempre una zona lliure i buida, per a diferenciar la marca de la resta d’elements que composen el disseny. El marge serà equivalent a l’alçada del cos de les lletres.
             </p>
-            <figure>
-              <img src="../assets/logotip/area-respecte.svg" alt="àrea de respecte">
-            </figure>
+            <figure />
           </div>
         </div>
       </section>
@@ -139,60 +131,47 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <figure class="figure-error">
-              <img src="../assets/logotip/mal-antic.png" alt="Logo Antic">
-            </figure>
+            <figure class="figure-error" />
             <figcaption>No utitlitzeu versions antigues i/o no oficials</figcaption>
           </div>
           <div class="col-md-4">
-            <figure class="figure-error">
-              <img src="../assets/logotip/mal-nom.png" alt="Nom canviat">
-            </figure>
+            <figure class="figure-error" />
             <figcaption>No altereu el nom del marca</figcaption>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <figure class="figure-error">
-              <img src="../assets/logotip/mal-disposicio.png" alt="Disposicio mal">
-            </figure>
+            <figure class="figure-error" />
             <figcaption>No altereu la disposicó dels elements</figcaption>
           </div>
           <div class="col-md-4">
-            <figure class="figure-error">
-              <img src="../assets/logotip/mal-font.png" alt="Tipografia canviada">
-            </figure>
+            <figure class="figure-error" />
             <figcaption>No canvieu la tipografia</figcaption>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <figure class="figure-error">
-              <img src="../assets/logotip/mal-deformat.png" alt="Deformació">
-            </figure>
+            <figure class="figure-error" />
             <figcaption>No deformeu ni altereu la proporció</figcaption>
           </div>
           <div class="col-md-4">
-            <figure class="figure-error">
-              <img src="../assets/logotip/mal-color.png" alt="Color alterat">
-            </figure>
+            <figure class="figure-error" />
             <figcaption>No modifiqueu el color del símbol</figcaption>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <figure class="figure-error">
-              <img src="../assets/logotip/mal-color-2.png" alt="Color de lletra alterat">
-            </figure>
+            <figure class="figure-error" />
             <figcaption>No modifiqueu el color de les lletres</figcaption>
           </div>
           <div class="col-md-4">
-            <figure class="figure-error">
-              <img src="../assets/logotip/mal-foto.png" alt="Ulls i boca buits">
-            </figure>
+            <figure class="figure-error" />
             <figcaption>Els ulls i boca de la "careta" no són buits, han d’omplir-se de blanc. Respecteu les versions oficials</figcaption>
           </div>
         </div>
+
+        <logo-grid :logo="logos.LocalAlt" />
+
         <h2 id="adaptacions">
           Adaptacions de la marca
         </h2>
@@ -206,44 +185,39 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure>
-              <img src="../assets/logotip/local.svg" alt="Logo local horitzontal">
-            </figure>
+            <figure />
           </div>
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure>
-              <img src="../assets/logotip/corts.svg" alt="Logo corts horitzontal" style="height: 52px;">
-            </figure>
+            <figure />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <figure />
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <figure>
-              <img src="../assets/logotip/local-alt.svg" alt="Logo local comprimit">
-            </figure>
+            <figure />
           </div>
           <div class="col-md-4">
-            <figure>
-              <img src="../assets/logotip/comarcal.svg" alt="Logo comarcal comrpimit">
-            </figure>
+            <figure />
           </div>
         </div>
-        <h3>Opció horitzontal</h3>
+        <h3>Versió horitzontal</h3>
         <div class="row">
           <div class="col-md-8">
             <p>
-              L'opció horitzontal és la preferible sempre a no ser que l’espai ho permeta.
+              La versió horitzontal és la preferible sempre a no ser que l’espai ho permeta.
               S'ha de tindre en compte els colors, les proporcions i les àrees de respecte dels afegitons.
             </p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure>
-              <img src="../assets/logotip/local-proporcions.svg" alt="Logo local horitzontal">
-            </figure>
+            <figure />
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
@@ -262,9 +236,7 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure>
-              <img src="../assets/logotip/corts-proporcions.svg" alt="Logo local horitzontal">
-            </figure>
+            <figure />
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
@@ -273,21 +245,33 @@
             </div>
           </div>
         </div>
-        <h3>Opció comprimida</h3>
+        <h4>Versió horitzontal multilínia</h4>
         <div class="row">
           <div class="col-md-8">
             <p>
-              Aquesta opció s'utilitza únicament quan l'espai és limitat de forma que és impossible utilitzar la versió horitzontal.
-              S’hauran de tindre en compte els colors, les proporcions i les àrees de respecte dels afegitons.
-              Esta opció no contempla la possibilitat d’incloure un altre logotip de forma paral·lela. Els textos afegits s’alinearan a la dreta.
+              En cas que l'espai siga més reduit, i/o el nom de l'afegit siga llarg i es puga dividir, també es pot utilitzar la següent versió horitzontal
+              que divideix el nom en diverses línies.
             </p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure>
-              <img src="../assets/logotip/local-alt-proporcions.svg" alt="Logo local horitzontal">
-            </figure>
+            <figure/>
+          </div>
+        </div>
+        <h3>Versió comprimida</h3>
+        <div class="row">
+          <div class="col-md-8">
+            <p>
+              Aquesta versió s'utilitza únicament quan l'espai és limitat de forma que és impossible utilitzar la versió horitzontal.
+              S’hauran de tindre en compte els colors, les proporcions i les àrees de respecte dels afegitons.
+              Esta versió no contempla la possibilitat d’incloure un altre logotip de forma paral·lela. Els textos afegits s’alinearan a la dreta.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <figure />
           </div>
         </div>
         <h3>Convivència amb altres marques</h3>
@@ -300,9 +284,7 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure>
-              <img src="../assets/logotip/bloc.svg" alt="Logo bloc horitzontal" style="height: 60px; width: auto;">
-            </figure>
+            <figure/>
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
@@ -313,9 +295,7 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure>
-              <img src="../assets/logotip/iniciativa.jpg" alt="Logo iniciativa horitzontal" style="height: 60px; width: auto;">
-            </figure>
+            <figure/>
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
@@ -326,9 +306,7 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure>
-              <img src="../assets/logotip/verdsequo.svg" alt="Logo verds horitzontal" style="height: 60px;">
-            </figure>
+            <figure/>
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
@@ -350,14 +328,10 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <figure>
-              <img src="../assets/logotip/quadrat.svg" alt="Logo quadrat">
-            </figure>
+            <figure/>
           </div>
           <div class="col-md-4">
-            <figure>
-              <img src="../assets/logotip/quadrat-proporcions.svg" alt="Proporcions del logo quadrat">
-            </figure>
+            <figure/>
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
@@ -377,24 +351,36 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure class="figure-gradient text-center">
-              <img src="../assets/logotip/careta-ulls.svg" alt="Logo quadrat">
-            </figure>
+            <figure class="figure-gradient text-center"/>
           </div>
         </div>
       </section>
     </div>
+    </section>
+  </div>
   </div>
 </template>
 
 <script>
-import Logo from '../components/logos/CompromisLogo'
+import Logo from '@/components/logos/CompromisLogo'
+import LogoGrid from '@/components/logos/proportions/LogoGrid.vue'
+import LocalAlt from '@/components/logos/proportions/LocalAlt.vue'
+
 export default {
   layout: 'page',
 
   scrollToTop: true,
   components: {
-    Logo
+    Logo,
+    LogoGrid
+  },
+
+  data () {
+    return {
+      logos: {
+        LocalAlt
+      }
+    }
   }
 }
 </script>
