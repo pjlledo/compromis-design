@@ -104,9 +104,17 @@ $navbar-height: 3.375rem;
 $container-max-widths: (
   sm: 540px,
   md: 720px,
-  lg: 1100px,
-  xl: 1440px
+  lg: 1400px,
+  xl: 2440px
 );
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1425px
+) !default;
 
 // Boostrap variables and functions
 @import 'bootstrap/scss/_functions';

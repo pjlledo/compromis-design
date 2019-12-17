@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container-fluid {
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: map-get($container-max-widths, 'xl');
 }
 
 .background-white {
