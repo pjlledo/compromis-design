@@ -4,7 +4,7 @@
     version="1.1"
     x="0px"
     y="0px"
-    viewBox="0 0 983.55 194.08"
+    width="1604.4px" height="180.76px" viewBox="0 0 1604.4 180.76"
   >
     <g id="logo">
       <g>

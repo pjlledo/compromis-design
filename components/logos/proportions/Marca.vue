@@ -1,7 +1,7 @@
 <template>
   <!-- eslint-disable -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1277.08px" height="191.57px" viewBox="0 0 1277.08 191.57" style="enable-background:new 0 0 1277.08 191.57;"
+	 width="1604.4px" height="180.76px" viewBox="0 0 1604.4 180.76" style="enable-background:new 0 0 1277.08 191.57;"
 	 xml:space="preserve">
 <g id="logo">
 	<g>
