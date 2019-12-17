@@ -171,6 +171,7 @@
         </div>
 
         <logo-grid :logo="logos.LocalAlt" />
+        <logo-grid :logo="logos.LocalAltDosLinies" />
 
         <h2 id="adaptacions">
           Adaptacions de la marca
@@ -256,7 +257,7 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure/>
+            <figure />
           </div>
         </div>
         <h3>Versió comprimida</h3>
@@ -284,7 +285,7 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure/>
+            <figure />
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
@@ -295,7 +296,7 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure/>
+            <figure />
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
@@ -306,7 +307,7 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure/>
+            <figure />
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
@@ -328,10 +329,10 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <figure/>
+            <figure />
           </div>
           <div class="col-md-4">
-            <figure/>
+            <figure />
           </div>
           <div class="col-md-4 d-flex align-items-end">
             <div class="assets btn-group">
@@ -351,7 +352,7 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <figure class="figure-gradient text-center"/>
+            <figure class="figure-gradient text-center" />
           </div>
         </div>
       </section>
@@ -365,6 +366,7 @@
 import Logo from '@/components/logos/CompromisLogo'
 import LogoGrid from '@/components/logos/proportions/LogoGrid.vue'
 import LocalAlt from '@/components/logos/proportions/LocalAlt.vue'
+import LocalAltDosLinies from '@/components/logos/proportions/LocalAltDosLinies.vue'
 
 export default {
   layout: 'page',
@@ -378,7 +380,8 @@ export default {
   data () {
     return {
       logos: {
-        LocalAlt
+        LocalAlt,
+        LocalAltDosLinies
       }
     }
   }
