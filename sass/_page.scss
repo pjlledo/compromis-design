@@ -44,6 +44,8 @@
 
     &.figure-gradient {
       background: $gradient;
+      padding-top: calc(2rem + 3vw);
+      padding-bottom: calc(2rem + 3vw);
 
       img {
         width: 180px;
