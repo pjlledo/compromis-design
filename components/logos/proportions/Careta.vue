@@ -3,7 +3,7 @@
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="211.7px"
     height="260.3px" viewBox="0 0 211.7 260.3" style="enable-background:new 0 0 211.7 260.3;" xml:space="preserve">
     <g>
-      <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="130.1252" y1="30.0496" x2="47.6112" y2="217.78">
+      <linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="130.1252" y1="30.0496" x2="47.6112" y2="217.78">
         <stop  offset="0" style="stop-color:#F29027"/>
         <stop  offset="0.2356" style="stop-color:#EC8027"/>
         <stop  offset="0.6924" style="stop-color:#DD5727"/>
@@ -67,7 +67,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-	.st0{fill:url(#SVGID_1_);}
+	.st0{fill:url(#gradient);}
 	.st1{fill:#FFFFFF;}
 	.st2{fill:#7683AF;}
 	.st3{fill:none;stroke:#7683AF;stroke-width:0.75;stroke-miterlimit:10;}
