@@ -27,6 +27,16 @@
 
   &-sm {
     padding: .3rem .6rem;
+
+    &:focus,
+    &:active {
+      box-shadow: none !important;
+      transform: none !important;
+    }
+
+    &:active:focus {
+      transform: none !important;
+    }
   }
 
   &-primary {
