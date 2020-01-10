@@ -171,6 +171,7 @@ export default {
       padding-left: 2.25rem;
       margin-bottom: 1.5rem;
       flex-direction: column;
+      line-height: 1.75;
 
       a {
         font-size: 1rem;

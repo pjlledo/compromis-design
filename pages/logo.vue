@@ -110,41 +110,57 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <figure class="figure-error" />
+            <figure class="figure-error">
+              <img src="../assets/logo/antic.png" alt="Logo antic">
+            </figure>
             <figcaption>No utitlitzeu versions antigues i/o no oficials</figcaption>
           </div>
           <div class="col-md-4">
-            <figure class="figure-error" />
+            <figure class="figure-error">
+              <img src="../assets/logo/nom.png" alt="Logo antic">
+            </figure>
             <figcaption>No altereu el nom del marca</figcaption>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <figure class="figure-error" />
+            <figure class="figure-error">
+              <img src="../assets/logo/disposicio.png" alt="Logo antic">
+            </figure>
             <figcaption>No altereu la disposicó dels elements</figcaption>
           </div>
           <div class="col-md-4">
-            <figure class="figure-error" />
+            <figure class="figure-error">
+              <img src="../assets/logo/tipografia.png" alt="Logo antic">
+            </figure>
             <figcaption>No canvieu la tipografia</figcaption>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <figure class="figure-error" />
+            <figure class="figure-error">
+              <img src="../assets/logo/deformat.png" alt="Logo antic">
+            </figure>
             <figcaption>No deformeu ni altereu la proporció</figcaption>
           </div>
           <div class="col-md-4">
-            <figure class="figure-error" />
+            <figure class="figure-error">
+              <img src="../assets/logo/color.png" alt="Logo antic">
+            </figure>
             <figcaption>No modifiqueu el color del símbol</figcaption>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <figure class="figure-error" />
+            <figure class="figure-error">
+              <img src="../assets/logo/color-lletra.png" alt="Logo antic">
+            </figure>
             <figcaption>No modifiqueu el color de les lletres</figcaption>
           </div>
           <div class="col-md-4">
-            <figure class="figure-error" />
+            <figure class="figure-error">
+              <img src="../assets/logo/ulls.png" alt="Logo antic">
+            </figure>
             <figcaption>Els ulls i boca de la "careta" no són buits, han d’omplir-se de blanc. Respecteu les versions oficials</figcaption>
           </div>
         </div>
@@ -281,8 +297,6 @@
         </div>
       </section>
     </div>
-    </section>
-  </div>
   </div>
 </template>
 
@@ -327,11 +341,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../sass/variables";
 .figure-error {
-  display: flex;
-  justify-content: center;
   img {
-    height: 65px;
+    height: 100px;
     width: auto;
   }
 }

@@ -1,12 +1,12 @@
 <template>
   <figure>
     <div class="controls">
-      <c-button @click="showGrid = !showGrid" size="sm" variant="outline-secondary" class="toggle-button">
+      <c-button @click="showGrid = !showGrid" size="sm" class="toggle-button">
         <span v-if="showGrid">
-          <fa :icon="['far', 'border-none']" /> Amaga les guies
+          <fa :icon="['far', 'eye']" /> Guies
         </span>
         <span v-else>
-          <fa :icon="['far', 'border-all']" /> Mostra les guies
+          <fa :icon="['far', 'eye-slash']" /> Guies
         </span>
       </c-button>
     </div>
@@ -35,9 +35,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.controls {
-  text-align: right;
-  margin-top: -1rem;
-  margin-bottom: 2rem;
+@import "../../../sass/variables";
+
+figure {
+  padding: 3.5rem calc(1rem + 4vw) 2.5rem;
+  position: relative;
+  svg {
+    max-height: 300px;
+  }
 }
+
+.controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.toggle-button {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: .35rem;
+  border-top-left-radius: 0;
+  border: 0;
+}
+
 </style>

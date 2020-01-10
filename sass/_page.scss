@@ -1,6 +1,6 @@
 .page {
   h1 {
-    font-size: 8rem;
+    font-size: 9rem;
     letter-spacing: -4px;
     margin-bottom: 2rem;
     margin-top: -1rem;
@@ -8,6 +8,7 @@
 
   h2 {
     margin-top: 5rem;
+    font-size: 2.5rem;
   }
 
   h3 {
@@ -22,8 +23,12 @@
   }
 
   p {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     line-height: 1.6;
+  }
+
+  ul, ol {
+    font-size: 1.05rem;
   }
 
   figure {
@@ -39,7 +44,29 @@
     }
 
     &.figure-error {
-      border: 1px lighten($red, 20%) solid;
+      border: 1px lighten($red, 5%) solid;
+      position: relative;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+
+      &::before {
+        content: 'X';
+        font-size: 1rem;
+        line-height: 1.2;
+        font-weight: bold;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: $white;
+        padding: .4rem .75rem .4rem;
+        background-color: lighten($red, 5%);
+        border-bottom-right-radius: .35rem;
+      }
     }
 
     &.figure-gradient {
@@ -56,6 +83,7 @@
     img,
     svg {
       width: 100%;
+      height: auto;
     }
 
     &.edge {
@@ -114,6 +142,10 @@ dl {
   .page {
     h1 {
       font-size: 4rem;
+    }
+
+    h2 {
+      font-size: 2rem;
     }
 
     .intro {
