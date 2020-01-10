@@ -91,7 +91,9 @@ export default {
       'NavbarPlugin',
       'CollapsePlugin',
       'VBScrollspyPlugin',
-      'ButtonPlugin'
+      'ButtonPlugin',
+      'FormInputPlugin',
+      'FormRadioPlugin'
     ],
     bootstrapCSS: false,
     bootstrapVueCSS: false
