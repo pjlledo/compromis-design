@@ -297,6 +297,10 @@
         </div>
       </section>
     </div>
+    </section >
+    Custom
+    <custom-local />
+  </div>
   </div>
 </template>
 
@@ -312,6 +316,7 @@ import LocalAlt from '@/components/logos/proportions/LocalAlt.vue'
 import LocalAltDosLinies from '@/components/logos/proportions/LocalAltDosLinies.vue'
 import LocalDosLinies from '@/components/logos/proportions/LocalDosLinies.vue'
 import Marca from '@/components/logos/proportions/Marca.vue'
+import CustomLocal from '@/components/logos/CustomLocal.vue'
 
 export default {
   layout: 'page',
@@ -319,7 +324,8 @@ export default {
   scrollToTop: true,
   components: {
     CompromisLogo,
-    LogoGrid
+    LogoGrid,
+    CustomLocal
   },
 
   data () {
