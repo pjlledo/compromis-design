@@ -1,16 +1,11 @@
 <template>
   <div>
     <b-form-input v-model="name" placeholder="Alacant" />
-    <b-form-group label="Versió">
-      <b-form-radio v-model="version" name="version" value="H">
-        Versió horitzontal
-      </b-form-radio>
-      <b-form-radio v-model="version" name="version" value="V">
-        Versió vertical
-      </b-form-radio>
-    </b-form-group>
-    <button @click="download">
-      Download
+    <button @click="download('H')">
+      Download H
+    </button>
+    <button @click="download('V')">
+      Download V
     </button>
   </div>
 </template>
@@ -26,16 +21,15 @@ export default {
   name: 'CustomLocal',
   data () {
     return {
-      name: '',
-      version: 'H'
+      name: ''
     }
   },
   methods: {
-    download () {
+    download (version) {
       const name = utf8.encode(this.name)
       let svgData
       const spaces = name.indexOf(' ')
-      if (this.version === 'H') {
+      if (version === 'H') {
         svgData = name.length > 11 && spaces >= 0 ? localHorizontalTwoLiner(name) : localHorizontalOneLiner(name)
       } else {
         svgData = name.length > 11 && spaces >= 0 ? localVerticalTwoLiner(name) : localVerticalOneLiner(name)

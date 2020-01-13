@@ -186,6 +186,7 @@
             <logo-grid :logo="logos.Local" />
           </div>
           <div class="col-md-4 d-flex align-items-end">
+            <custom-local />
             <div class="assets btn-group">
               <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
               <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
@@ -298,8 +299,6 @@
       </section>
     </div>
     </section >
-    Custom
-    <custom-local />
   </div>
   </div>
 </template>
