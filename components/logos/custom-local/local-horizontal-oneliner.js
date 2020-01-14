@@ -1,15 +1,16 @@
-// import font from './font'
+import font from './font'
 
 export default function svg (text) {
   return `
   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      viewBox="0 0 1750 341" style="enable-background:new 0 0 1750 341;" xml:space="preserve">
   <style type="text/css">
+    ${font}
     .st0{fill:url(#SVGID_1_);}
     .st1{fill:#FFFFFF;}
     .st2{fill:#353949;}
     .st3{fill:#979AA4;}
-    .st4{font-family:'Manrope-Medium';}
+    .st4{font-family:'Manrope';}
     .st5{font-size:111px;}
     .st6{letter-spacing:-3;}
     .st7{fill:url(#SVGID_2_);}
