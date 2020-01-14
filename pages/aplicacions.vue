@@ -32,7 +32,7 @@
             <dt>Suport</dt>
             <dd>
               Paper allisat blanc<br>
-              100% reciclat i lliure de clor<br (>
+              100% reciclat i lliure de clor<br>
               100 g/m²
             </dd>
 

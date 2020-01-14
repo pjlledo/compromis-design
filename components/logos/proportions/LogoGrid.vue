@@ -21,7 +21,7 @@ export default {
 
   props: {
     logo: {
-      type: Function,
+      type: [Function, Object],
       default: () => {}
     }
   },
@@ -40,6 +40,8 @@ export default {
 figure {
   padding: 3.5rem calc(1rem + 4vw) 2.5rem;
   position: relative;
+  overflow: hidden;
+
   svg {
     max-height: 300px;
   }

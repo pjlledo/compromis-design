@@ -12,9 +12,6 @@
           <b-nav-item v-scroll-to="'#marca'" href="#marca">
             Marca
           </b-nav-item>
-          <b-nav-item v-scroll-to="'#composicio'" href="#composicio">
-            Composició del text
-          </b-nav-item>
           <b-nav-item v-scroll-to="'#proporcions'" href="#proporcions">
             Proporcions
           </b-nav-item>
@@ -25,7 +22,7 @@
             Versions monocromàtiques
           </b-nav-item>
           <b-nav-item v-scroll-to="'#inadequats'" href="#inadequats">
-            Usos Inadequats
+            Usos inadequats
           </b-nav-item>
           <b-nav-item v-scroll-to="'#adaptacions'" href="#adaptacions">
             Adaptacions de la marca
