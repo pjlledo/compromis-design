@@ -1,9 +1,10 @@
-// import font from './font'
+import font from './font'
 
 export default function svg (text) {
   return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="940.3px"
      height="195.2px" viewBox="0 0 940.3 195.2" style="enable-background:new 0 0 940.3 195.2;" xml:space="preserve">
   <style type="text/css">
+    ${font}
     .st0{fill:url(#SVGID_1_);}
     .st1{fill:#FFFFFF;}
     .st2{fill:#353949;}
@@ -70,8 +71,8 @@ export default function svg (text) {
         c-2.1,1.5-5.1,2.2-8.9,2.2c-4.6,0-8.4-1.1-11.4-3.2c-3-2.2-4.9-5.1-5.8-8.9l-19.6,3c1.4,8.3,5.1,14.6,11.3,19.1
         c6.2,4.5,14.2,6.7,24.1,6.7c10.4,0,18.6-2.3,24.4-6.9c5.9-4.6,8.8-11,8.8-19.2C940.3,92.1,939.5,88.6,937.8,85.6z"/>
     </g>
-    
-      <text transform="matrix(1 0 0 1 574.8051 180.6754)" style="fill:#979AA4; font-family:'Manrope-Medium'; font-size:55.8081px; letter-spacing:-1;">${text}</text>
+
+      <text transform="matrix(1 0 0 1 574.8051 180.6754)" style="fill:#979AA4; font-family:'Manrope'; font-size:55.8081px; letter-spacing:-1;">${text}</text>
   </g>
   </svg>`
 }
