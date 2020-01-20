@@ -3,12 +3,12 @@
     <h3>Colors</h3>
     <div class="home-card">
       <div class="home-card-icon color-swatches">
-        <div class="color-swatch color-swatch-gradient" />
-        <div class="color-swatch color-swatch-orange" />
-        <div class="color-swatch color-swatch-black" />
-        <div class="color-swatch  color-swatch-gray" />
-        <div class="color-swatch  color-swatch-light" />
-        <div class="color-swatch  color-swatch-white" />
+        <color-swatch :hex="['#d23517','#f39128']" name="gradient" mini />
+        <color-swatch name="orange" hex="#FF6720" mini />
+        <color-swatch name="gray-dark" hex="#353949" mini />
+        <color-swatch name="gray-med" hex="#979AA4" mini />
+        <color-swatch name="gray-light" hex="#EEF0F6" dark mini />
+        <color-swatch name="white" hex="#FFFFFF" dark mini />
       </div>
       <div class="home-card-buttons">
         <nuxt-link to="/logo" class="btn btn-outline-primary btn-lg">
@@ -20,8 +20,12 @@
 </template>
 
 <script>
-export default {
+import ColorSwatch from '../colors/ColorSwatch'
 
+export default {
+  components: {
+    ColorSwatch
+  }
 }
 </script>
 
@@ -29,43 +33,11 @@ export default {
   @import '../../sass/variables';
 
   .color-swatches {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-y: scroll;
-  }
-
-  .color-swatch {
-    height: 10rem;
-    width: 10rem;
-    border-radius: $border-radius;
-    background: $gray-600;
-    margin-right: 2rem;
-    flex-shrink: 0;
-
-    &-gradient {
-      background: $gradient;
-    }
-
-    &-orange {
-      background: $primary;
-    }
-
-    &-black {
-      background: $gray-900;
-    }
-
-    &-gray {
-      background: $gray-500;
-    }
-
-    &-light {
-      background: $gray-100;
-    }
-
-    &-white {
-      background: $white;
-      border: 2px $gray-100 solid;
-    }
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+    justify-content: center;
   }
 
 </style>

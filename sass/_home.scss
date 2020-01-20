@@ -2,11 +2,10 @@
   max-width: 1200px;
 
   h3 {
-    font-size: 4.5rem;
-    margin-bottom: -1rem;
+    font-size: 4rem;
     margin-top: 3rem;
-    mix-blend-mode: difference;
     opacity: .5;
+    margin-bottom: 1.5rem;
   }
 
   h2 {
@@ -30,19 +29,26 @@
   &-card {
     background: $white;
     padding: 3rem;
-    margin: 3rem 0;
+    margin-bottom: 3rem;
     box-shadow: $default-shadow;
     border-radius: $border-radius;
 
     &-icon {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
       margin-top: 0;
       border-bottom: 2px $gray-100 solid;
-      padding: 1.5rem 3rem 4.5rem 3rem;
-      margin: 0 -3rem;
+      padding: 3rem;
+      margin: -3rem;
+      margin-bottom: 3rem;
       text-align: center;
+      min-height: 315px;
 
       svg {
         max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
       }
     }
 
