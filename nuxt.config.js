@@ -93,7 +93,8 @@ export default {
       'VBScrollspyPlugin',
       'ButtonPlugin',
       'FormInputPlugin',
-      'FormRadioPlugin'
+      'FormRadioPlugin',
+      'DropdownPlugin'
     ],
     bootstrapCSS: false,
     bootstrapVueCSS: false

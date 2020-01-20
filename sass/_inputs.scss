@@ -1,0 +1,36 @@
+.form-control-lg {
+  border-width: 2px;
+  border-radius: $border-radius;
+}
+
+.input-group {
+  .form-control-lg {
+    height: calc(2em + 1rem + 2px);
+    border-color: $gray-100;
+
+    &:focus {
+      border-color: lighten($primary, 20%);
+    }
+  }
+
+  .input-group-append {
+    margin-left: -2px;
+  }
+
+  .btn:hover {
+    transform: none;
+    box-shadow: none;
+    border-color: $gray-300;
+  }
+
+  .dropdown .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: none;
+
+    &:focus:active {
+      color: $gray-700;
+      transform: none;
+    }
+  }
+}

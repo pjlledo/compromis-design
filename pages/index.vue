@@ -1,83 +1,105 @@
 <template>
-  <div class="template-selector">
-    <div class="template-selector-templates">
-      <h2 class="template-selector-header">
-        Manual d’estil
-      </h2>
-      <ul>
-        <li>
-          <nuxt-link to="/logo" class="template-item">
-            <span class="template-item-icon template-item-icon--logo">
-              <careta />
-            </span>
-            <span class="template-item-name">Logo</span>
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="/tipografia" class="template-item">
-            <span class="template-item-icon template-item-icon--typography">
-              <strong>A</strong>a
-            </span>
-            <span class="template-item-name">Tipografia</span>
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="/colors" class="template-item">
-            <span class="template-item-icon template-item-icon--colors">
-              <span class="color orange-1" />
-              <span class="color orange-2" />
-              <span class="color orange-3" />
-              <span class="color gray-1" />
-              <span class="color gray-2" />
-              <span class="color gray-3" />
-            </span>
-            <span class="template-item-name">Colors</span>
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="/xarxes-socials" class="template-item">
-            <span class="template-item-icon template-item-icon--social">
-              <fa :icon="['fab', 'facebook-square']" />
-              <fa :icon="['fab', 'twitter']" />
-              <fa :icon="['fab', 'instagram']" />
-              <fa :icon="['fab', 'youtube']" />
-              <fa :icon="['fab', 'whatsapp']" />
-              <fa :icon="['fab', 'telegram']" />
-            </span>
-            <span class="template-item-name">Xarxes socials</span>
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="/aplicacions" class="template-item template-item--xs">
-            <span class="template-item-name">Aplicacions</span>
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="/fotografia" class="template-item template-item--xs">
-            <span class="template-item-name">Fotografia</span>
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="/video" class="template-item template-item--xs">
-            <span class="template-item-name">Vídeo</span>
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="/campanyes" class="template-item template-item--xs">
-            <span class="template-item-name">Campanyes</span>
-          </nuxt-link>
-        </li>
-      </ul>
+  <div class="container home">
+    <h2>
+      Recursos<br>de marca
+    </h2>
+    <h3>Logo</h3>
+    <div class="home-card home-card--logo">
+      <div class="home-card-icon">
+        <compromis-logo />
+      </div>
+      <div class="home-card-buttons">
+        <div class="division">
+          <h4>Logo de Compromís</h4>
+          <div>
+            <nuxt-link to="/logo" class="btn btn-outline-primary btn-lg">
+              <span>Guies d'ús</span>
+            </nuxt-link>
+            <a href="#" class="btn btn-no-shadow btn-lg">
+              Descarrega
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4>Genera el logo del teu col·lectiu</h4>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              placeholder="Alacant"
+            >
+            <div class="input-group-append">
+              <b-dropdown size="lg" text="Descarrega">
+                <b-dropdown-item>Horitzontal <span class="text-muted">(.svg)</span></b-dropdown-item>
+                <b-dropdown-item>Vertical <span class="text-muted">(.svg)</span></b-dropdown-item>
+              </b-dropdown>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Tipografia</h3>
+    <div class="home-card">
+      <div class="home-card-icon">
+        <div class="row">
+          <div class="col-md-6 font-weight-bold text-left">
+            <div style="font-size: 2rem; margin-bottom: .5rem;">
+              Manrope ExtraBold
+            </div>
+            <div class="">
+              ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+              abcdefghijklmnopqrstuvwxyz<br>
+              0123456789
+            </div>
+          </div>
+          <div class="col-md-6 text-muted text-left">
+            <div style="font-size: 2rem; margin-bottom: .5rem;">
+              Manrope Medium
+            </div>
+            <div class="">
+              ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+              abcdefghijklmnopqrstuvwxyz<br>
+              0123456789
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="home-card-buttons">
+        <nuxt-link to="/logo" class="btn btn-outline-primary btn-lg">
+          <span>Guies d'ús</span>
+        </nuxt-link>
+        <a href="#" class="btn btn-no-shadow btn-lg">
+          Descarrega
+        </a>
+      </div>
+    </div>
+
+    <h3>Colors</h3>
+    <div class="home-card">
+      <div class="home-card-icon color-swatches">
+        <div class="color-swatch color-swatch-gradient" />
+        <div class="color-swatch color-swatch-orange" />
+        <div class="color-swatch color-swatch-black" />
+        <div class="color-swatch  color-swatch-gray" />
+        <div class="color-swatch  color-swatch-light" />
+        <div class="color-swatch  color-swatch-white" />
+      </div>
+      <div class="home-card-buttons">
+        <nuxt-link to="/logo" class="btn btn-outline-primary btn-lg">
+          <span>Guies d'ús</span>
+        </nuxt-link>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Careta from '@/components/logos/Careta'
+import CompromisLogo from '@/components/logos/CompromisLogo'
 
 export default {
   components: {
-    Careta
+    CompromisLogo
   }
 }
 </script>
@@ -85,217 +107,112 @@ export default {
 <style lang="scss" scoped>
   @import '../sass/variables';
 
-  .template-selector {
-    display: grid;
-    position: relative;
-    max-width: 70rem;
-    margin: 0 auto;
+  h3 {
+    font-size: 4.5rem;
+    margin-bottom: -1rem;
+    margin-top: 3rem;
+    mix-blend-mode: difference;
+    opacity: .5;
+  }
 
-    &-templates {
-      h2 {
-        color: rgba($gray-900, .25);
-        padding: 1rem;
-        font-size: 4rem;
-        font-weight: bold;
-        letter-spacing: -1px;
-        line-height: 1;
-        margin-top: 5rem;
-      }
-    }
+  h2 {
+    color: $gray-900;
+    font-size: 9rem;
+    margin-top: 8rem;
+    line-height: .95;
+    letter-spacing: -.4rem;
+  }
 
-    ul {
-      display: flex;
-      flex-wrap: wrap;
-      margin: 0 auto;
-      list-style: none;
-      padding: 0;
-      justify-content: center;
-    }
+  .home {
+    max-width: 1200px;
 
-    .template-item {
-      display: block;
-      position: relative;
+    &-card {
       background: $white;
-      margin: 1rem;
-      color: $gray-900;
-      font-size: 1.5rem;
-      font-weight: bold;
-      letter-spacing: -1px;
-      width: 15rem;
-      height: 15rem;
-      border-radius: 1rem;
+      padding: 3rem;
+      margin: 3rem 0;
       box-shadow: $default-shadow;
-      transition: .2s ease-in-out;
-
-      &:hover {
-        box-shadow: $raised-shadow;
-        transform: rotate($rotation) scale(1.05);
-
-        .template-item-name {
-          background: linear-gradient(45deg, $gradient-start, $gradient-end);
-          background-clip: text;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-      }
-
-      &:active {
-        transform: rotate(0) scale(.95);
-        opacity: .75;
-      }
-
-      &--xs {
-        height: 4.5rem;
-
-        &:hover {
-          transform:  translateY(-.5rem) rotate(0) scale(1);
-        }
-
-        &:active {
-          transform:  translateY(.25rem) rotate(0) scale(1);
-        }
-      }
+      border-radius: $border-radius;
 
       &-icon {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-top: -4rem;
-        margin-left: -5rem;
-        color: $gray-400;
-        width: 10rem;
-        height: 6rem;
+        margin-top: 0;
+        border-bottom: 2px $gray-100 solid;
+        padding: 1.5rem 3rem 4.5rem 3rem;
+        margin: 0 -3rem;
+        text-align: center;
 
-        &--logo {
-          svg {
-            height: 5rem;
-            width: 5rem;
-          }
-        }
-
-        &--typography {
-          font-weight: normal;
-          font-size: 6rem;
-
-          strong {
-            color: $gray-800;
-          }
-        }
-
-        &--colors {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between;
-
-          .color {
-            background: $orange;
-            display: block;
-            height: 3rem;
-            width: 3rem;
-            border-radius: 50%;
-            flex-shrink: 0;
-            margin-bottom: .5rem;
-
-            &.orange-1 {
-              background: $gradient-start;
-            }
-
-            &.orange-2 {
-              background: $orange;
-            }
-
-            &.orange-3 {
-              background: $gradient-end;
-            }
-
-            &.gray-1 {
-              background: $gray-900;
-            }
-
-            &.gray-2 {
-              background: $gray-500;
-            }
-
-            &.gray-3 {
-              background: $gray-200;
-            }
-          }
-        }
-
-        &--social {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between;
-
-          svg {
-            height: 2.25em;
-            width: 2.75rem;
-          }
+        svg {
+          max-width: 400px;
         }
       }
 
-      &-name {
-        display: block;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-      }
-
-      &-label {
-        background: $blue;
-        padding: .25rem .5rem;
-        border-radius: .25rem;
-        color: $white;
+      h4 {
         font-size: 1rem;
-        position: absolute;
-        right: 1rem;
-        top: -.85rem;
-        transition: .25s ease-in-out;
+        color: $gray-700;
+        margin-bottom: 1rem;
       }
 
-      &:hover {
-        .template-item-label {
-          background: $orange;
-        }
+      &-buttons {
+        display: flex;
+        margin-top: 2.5rem;
+      }
+
+      &--logo {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "header"
+          "icon"
+          "buttons";
       }
     }
   }
 
-  @include media-breakpoint-down(sm) {
-    .template-selector {
-      h2 {
-        font-size: 2.25rem;
-        margin-top: 4rem;
-        width: 18rem;
-      }
+  .btn {
+    margin-right: 1rem;
+  }
 
-      ul {
-        justify-content: center;
-      }
+  .color-swatches {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+  }
 
-      .template-item {
-        width: 10rem;
-        height: 10rem;
-        margin: .5rem;
-        border-radius: .5rem;
+  .color-swatch {
+    height: 10rem;
+    width: 10rem;
+    border-radius: $border-radius;
+    background: $gray-600;
+    margin-right: 2rem;
+    flex-shrink: 0;
 
-        &-name {
-          font-size: 1rem;
-          padding: .75rem;
-        }
-
-        &-icon {
-          transform: scale(.75);
-        }
-
-        &--xs {
-          height: 5rem;
-        }
-      }
+    &-gradient {
+      background: $gradient;
     }
+
+    &-orange {
+      background: $primary;
+    }
+
+    &-black {
+      background: $gray-900;
+    }
+
+    &-gray {
+      background: $gray-500;
+    }
+
+    &-light {
+      background: $gray-100;
+    }
+
+    &-white {
+      background: $white;
+      border: 2px $gray-100 solid;
+    }
+  }
+
+  .division {
+    padding-right: 1rem;
+    margin-right: 2rem;
+    border-right: 1px $gray-200 solid;
   }
 </style>
