@@ -11,7 +11,7 @@
         <color-swatch name="white" hex="#FFFFFF" dark mini />
       </div>
       <div class="home-card-buttons">
-        <nuxt-link to="/logo" class="btn btn-outline-primary btn-lg">
+        <nuxt-link to="/colors" class="btn btn-outline-primary btn-lg">
           <span>Guies d'ús</span>
         </nuxt-link>
       </div>
