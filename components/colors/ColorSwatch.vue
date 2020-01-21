@@ -1,11 +1,15 @@
 <template>
-  <div class="color">
+  <div :class="{'color': true, 'color--mini': true }">
     <button v-clipboard:copy="hex" v-clipboard:success="onCopy" @mouseleave="onLeave" :class="`color-swatch color-swatch-${name}`" href="#">
       <span :class="{'color-swatch-text': true, 'color-swatch-text-dark': dark }">{{ text }}</span>
     </button>
-    <h4>{{ title }}</h4>
-    <p>{{ useCase }}</p>
-    <div class="color-info">
+    <h4 v-if="!mini">
+      {{ title }}
+    </h4>
+    <p v-if="!mini">
+      {{ useCase }}
+    </p>
+    <div v-if="!mini" class="color-info">
       <div class="color-info-value">
         <span>RGB</span>
         <div v-for="(rgbValue, i) in rgbValues" :key="i">
@@ -58,6 +62,10 @@ export default {
       default: ''
     },
     dark: {
+      type: Boolean,
+      default: false
+    },
+    mini: {
       type: Boolean,
       default: false
     }
@@ -224,12 +232,32 @@ export default {
     display: inline-block;
     margin-right: .25rem;
   }
+
+  &--mini {
+    display: flex;
+    display: flex;
+    align-items: center;
+
+    .color-swatch {
+      width: 6rem;
+      height: 6rem;
+      font-size: 1rem;
+      padding: 1rem;
+    }
+  }
 }
 
 @include media-breakpoint-down(md) {
   .color {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
+  }
+
+  .color--mini {
+    .color-swatch {
+      width: 5rem;
+      height: 5rem;
+    }
   }
 }
 </style>

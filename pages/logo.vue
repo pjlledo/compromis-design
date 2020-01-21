@@ -187,7 +187,7 @@
           <logo-grid :logo="logos.Local" />
         </div>
         <div class="col-md-4 d-flex align-items-end">
-          <custom-local />
+          <custom-local-generator />
           <div class="assets btn-group">
             <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
             <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
@@ -313,7 +313,7 @@ import LocalAlt from '@/components/logos/proportions/LocalAlt.vue'
 import LocalAltDosLinies from '@/components/logos/proportions/LocalAltDosLinies.vue'
 import LocalDosLinies from '@/components/logos/proportions/LocalDosLinies.vue'
 import Marca from '@/components/logos/proportions/Marca.vue'
-import CustomLocal from '@/components/logos/CustomLocal.vue'
+import CustomLocalGenerator from '@/components/logos/CustomLocalGenerator.vue'
 
 export default {
   layout: 'page',
@@ -322,7 +322,7 @@ export default {
   components: {
     CompromisLogo,
     LogoGrid,
-    CustomLocal
+    CustomLocalGenerator
   },
 
   data () {

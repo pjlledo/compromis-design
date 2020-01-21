@@ -3,7 +3,16 @@
     <h3>Logo</h3>
     <div class="home-card home-card--logo">
       <div class="home-card-icon">
-        <compromis-logo />
+        <div class="compromis-logo-preview">
+          <compromis-logo />
+          <div v-if="!twoLiner" class="local-logo-preview">
+            {{ localName }}
+          </div>
+          <div v-else class="local-logo-preview two-liner">
+            <span>{{ twoLines.line1 }}</span>
+            <span>{{ twoLines.line2 }}</span>
+          </div>
+        </div>
       </div>
       <div class="home-card-buttons">
         <div class="division">
@@ -19,19 +28,7 @@
         </div>
         <div>
           <h4>Genera el logo del teu col·lectiu</h4>
-          <div class="input-group">
-            <input
-              type="text"
-              class="form-control form-control-lg"
-              placeholder="Alacant"
-            >
-            <div class="input-group-append">
-              <b-dropdown size="lg" text="Descarrega">
-                <b-dropdown-item>Horitzontal <span class="text-muted">(.svg)</span></b-dropdown-item>
-                <b-dropdown-item>Vertical <span class="text-muted">(.svg)</span></b-dropdown-item>
-              </b-dropdown>
-            </div>
-          </div>
+          <custom-local-generator @name-change="(name) => localName = name" />
         </div>
       </div>
     </div>
@@ -39,15 +36,87 @@
 </template>
 
 <script>
+import splitIntoTwoLines from '@/components/logos/custom-local/twolines'
 import CompromisLogo from '@/components/logos/CompromisLogo'
+import CustomLocalGenerator from '@/components/logos/CustomLocalGenerator'
 
 export default {
   components: {
-    CompromisLogo
+    CompromisLogo,
+    CustomLocalGenerator
+  },
+
+  data () {
+    return {
+      localName: '',
+      twoLines: {}
+    }
+  },
+
+  computed: {
+    twoLiner () {
+      const name = this.localName
+      const spaces = name.indexOf(' ')
+      return name.length > 11 && spaces >= 0
+    }
+  },
+
+  watch: {
+    localName () {
+      this.twoLines = splitIntoTwoLines(this.localName)
+    }
   }
 }
 </script>
 
 <style lang="scss" scoped>
+@import '../../sass/variables';
 
+.compromis-logo-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .local-logo-preview {
+    font-size: 3rem;
+    color: $gray-600;
+    letter-spacing: -.03em;
+    margin-left: 20px;
+
+    &.two-liner {
+      font-size: 2rem;
+      text-align: left;
+      line-height: 1;
+
+      span {
+        display: block;
+      }
+    }
+  }
+
+  svg {
+    max-width: 400px;
+    width: 100%;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .compromis-logo-preview {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+
+    .local-logo-preview {
+      position: absolute;
+      top: 83%;
+      left: 54%;
+      font-size: 1.15rem;
+      line-height: 1;
+
+      &.two-liner {
+        font-size: 1.15rem;
+      }
+    }
+  }
+}
 </style>

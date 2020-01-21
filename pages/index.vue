@@ -7,10 +7,10 @@
     <logo-card />
     <banners-card />
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <typography-card />
       </div>
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <colors-card />
       </div>
     </div>

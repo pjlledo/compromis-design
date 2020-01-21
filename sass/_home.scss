@@ -1,13 +1,9 @@
+:root {
+  --home-card-padding: 2.5rem;
+}
+
 .home {
   max-width: 1200px;
-
-  h3 {
-    font-size: 4.5rem;
-    margin-bottom: -1rem;
-    margin-top: 3rem;
-    mix-blend-mode: difference;
-    opacity: .5;
-  }
 
   h2 {
     color: $gray-900;
@@ -15,6 +11,13 @@
     margin-top: 8rem;
     line-height: .95;
     letter-spacing: -.4rem;
+  }
+
+  h3 {
+    font-size: 4rem;
+    margin-top: 3rem;
+    opacity: .5;
+    margin-bottom: 1.5rem;
   }
 
   h4 {
@@ -29,26 +32,27 @@
 
   &-card {
     background: $white;
-    padding: 3rem;
-    margin: 3rem 0;
+    padding: var(--home-card-padding);
+    margin-bottom: var(--home-card-padding);
     box-shadow: $default-shadow;
     border-radius: $border-radius;
 
     &-icon {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
       margin-top: 0;
       border-bottom: 2px $gray-100 solid;
-      padding: 1.5rem 3rem 4.5rem 3rem;
-      margin: 0 -3rem;
+      padding: var(--home-card-padding);
+      margin: calc(var(--home-card-padding) * -1);
+      margin-bottom: var(--home-card-padding);
       text-align: center;
-
-      svg {
-        max-width: 400px;
-      }
+      min-height: 315px;
     }
 
     &-buttons {
       display: flex;
-      margin-top: 2.5rem;
+      // margin-top: 2.5rem;
     }
 
     .division {
@@ -56,5 +60,46 @@
       margin-right: 2rem;
       border-right: 1px $gray-200 solid;
     }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  :root {
+    --home-card-padding: 1.5rem;
+  }
+  
+  .home {
+    h2 {
+      font-size: 4rem;
+      letter-spacing: -.2rem;
+    }
+
+    h3 {
+      font-size: 3rem;
+    }
+
+    &-card {
+      &-buttons {
+        flex-wrap: wrap;
+        margin-bottom: -.5rem;
+
+        .btn {
+          margin-bottom: .5rem;
+        }
+      }
+    }
+
+    .division {
+      width: 100%;
+      flex-shrink: 0;
+      margin-right: 0;
+      margin-bottom: 1rem;
+      padding-right: 0;
+      border: 0;
+    }
+  }
+
+  .input-group .form-control-lg {
+    height: calc(2em + 1rem + -2px) !important;
   }
 }

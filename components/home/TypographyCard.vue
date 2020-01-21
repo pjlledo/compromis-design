@@ -3,18 +3,17 @@
     <h3>Tipografia</h3>
     <div class="home-card">
       <div class="home-card-icon text-left">
-        <h5 class="mb-4 font-weight-bold" style="font-size: 2rem;">
-          Manrope
+        <h5 class="font-weight-bold mb-2" style="font-size: 2rem;">
+          Manrope ExtraBold
+        </h5>
+        <h5 class="font-weight-normal text-muted mb-4" style="font-size: 2rem;">
+          Manrope Medium
         </h5>
         <div class="font-weight-bold mb-2">
-          ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
-          abcdefghijklmnopqrstuvwxyz<br>
-          0123456789
+          Setze jutges d'un jutjat mengen fetge d'un penjat.
         </div>
         <div class="text-muted">
-          ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
-          abcdefghijklmnopqrstuvwxyz<br>
-          0123456789
+          Setze jutges d'un jutjat mengen fetge d'un penjat. Si el penjat es despenja, es menja els setze fetges dels jutges del jutjat que l'han penjat.
         </div>
       </div>
       <div class="home-card-buttons">
