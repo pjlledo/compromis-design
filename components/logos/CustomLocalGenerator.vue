@@ -3,9 +3,11 @@
     <input
       id="localName"
       v-model="name"
+      @keypress.enter="download('H')"
       type="text"
       class="form-control form-control-lg"
       placeholder="Alacant"
+      list="municipalities"
     >
     <div class="input-group-append">
       <b-dropdown size="lg" text="Descarrega">
@@ -17,6 +19,11 @@
         </b-dropdown-item>
       </b-dropdown>
     </div>
+    <datalist id="municipalities">
+      <option v-for="(municipality, i) in municipalities" :key="i">
+        {{ municipality.name }}
+      </option>
+    </datalist>
   </div>
 </template>
 
@@ -29,6 +36,14 @@ import localVerticalTwoLiner from './custom-local/local-vertical-twoliner'
 
 export default {
   name: 'CustomLocalGenerator',
+
+  props: {
+    municipalities: {
+      type: Array,
+      default: () => []
+    }
+  },
+
   data () {
     return {
       name: ''

@@ -4,7 +4,7 @@
       Recursos<br>de marca
     </h2>
 
-    <logo-card />
+    <logo-card :municipalities="municipalities" />
     <banners-card />
     <div class="row">
       <div class="col-lg-6">
@@ -33,6 +33,11 @@ export default {
     ColorsCard,
     OtherCard,
     BannersCard
+  },
+
+  async asyncData ({ $axios }) {
+    const municipalities = await $axios.$get('https://compromis.net/espai/targes/municipalities')
+    return { municipalities }
   }
 }
 </script>

@@ -50,6 +50,7 @@ export default {
   */
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
+    '@nuxtjs/axios',
     'bootstrap-vue/nuxt',
     'nuxt-clipboard2',
     ['vue-scrollto/nuxt', { offset: -80 }],

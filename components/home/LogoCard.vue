@@ -28,7 +28,7 @@
         </div>
         <div>
           <label for="localName">Genera el logo del teu col·lectiu</label>
-          <custom-local-generator @name-change="(name) => localName = name" />
+          <custom-local-generator @name-change="(name) => localName = name" :municipalities="municipalities" />
         </div>
       </div>
     </div>
@@ -44,6 +44,13 @@ export default {
   components: {
     CompromisLogo,
     CustomLocalGenerator
+  },
+
+  props: {
+    municipalities: {
+      type: Array,
+      default: () => []
+    }
   },
 
   data () {
