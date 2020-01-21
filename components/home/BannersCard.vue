@@ -7,33 +7,33 @@
       <div class="template-selector-templates">
         <ul>
           <li>
-            <nuxt-link to="/logo" class="template-item">
+            <a href="https://targes.compromis.net/#/headline" class="template-item">
               <span class="template-item-icon template-item-icon--logo">
                 <careta />
               </span>
-              <span class="template-item-name">Logo</span>
-            </nuxt-link>
+              <span class="template-item-name">Titular</span>
+            </a>
           </li>
           <li>
-            <nuxt-link to="/tipografia" class="template-item">
+            <a href="https://targes.compromis.net/#/quote" class="template-item">
               <span class="template-item-icon template-item-icon--typography">
                 <strong>A</strong>a
               </span>
-              <span class="template-item-name">Tipografia</span>
-            </nuxt-link>
+              <span class="template-item-name">Cita</span>
+            </a>
           </li>
           <li>
-            <nuxt-link to="/colors" class="template-item">
-              <span class="template-item-name">Colors</span>
-            </nuxt-link>
+            <a href="https://targes.compromis.net/#/text" class="template-item">
+              <span class="template-item-name">Text Lliure</span>
+            </a>
           </li>
           <li>
-            <nuxt-link to="/xarxes-socials" class="template-item">
-              <span class="template-item-name">Xarxes socials</span>
-            </nuxt-link>
+            <a href="https://targes.compromis.net/#/event" class="template-item">
+              <span class="template-item-name">Acte</span>
+            </a>
           </li>
         </ul>
-        <home-card-banners />
+        <a href="https://targes.compromis.net" class="apple-link">Totes les Targes</a>
       </div>
     </div>
   </div>
@@ -51,6 +51,23 @@ export default {
 
 <style lang="scss" scoped>
   @import '../../sass/variables';
+
+  .apple-link {
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: gray-900;
+
+    &:hover {
+      color: $primary;
+      text-decoration: none;
+      border-bottom: 2px solid $primary;
+    }
+
+    &::after {
+      content: ' >';
+    }
+  }
 
   .template-selector {
     display: grid;
