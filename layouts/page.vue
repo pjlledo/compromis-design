@@ -24,6 +24,7 @@
           <main @click="sidebarOpen = false" class="content">
             <nuxt />
           </main>
+          <app-footer in-page />
         </div>
       </div>
     </div>
@@ -33,11 +34,13 @@
 <script>
 import AppNav from '@/components/AppNav'
 import AppSidebar from '@/components/AppSidebar'
+import AppFooter from '@/components/AppFooter'
 
 export default {
   components: {
     AppNav,
-    AppSidebar
+    AppSidebar,
+    AppFooter
   },
 
   data () {

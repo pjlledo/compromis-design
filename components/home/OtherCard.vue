@@ -8,7 +8,7 @@
         </nuxt-link>
       </div>
       <div class="col-md-4">
-        <nuxt-link to="/aplicacions" class="home-card">
+        <nuxt-link to="/material-impres" class="home-card">
           <h4><fa :icon="['far', 'print']" fixed-width /> Material imprès</h4>
         </nuxt-link>
       </div>

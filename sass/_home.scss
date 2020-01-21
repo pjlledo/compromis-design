@@ -25,6 +25,7 @@
   }
 
   label {
+    font-weight: bold;
     font-size: 1rem;
     color: $gray-700;
     margin-bottom: 1rem;
@@ -37,15 +38,50 @@
   a.home-card {
     display: block;
     color: $gray-900;
+    transition: .25s ease-in-out;
+
+    h4 {
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: $gradient;
+        mix-blend-mode: screen;
+        opacity: 0;
+        transition: .25s ease-in-out;
+      }
+    }
+
+    svg {
+      margin-right: .5rem;
+      transition: .25s ease-in-out;
+    }
 
     &:hover {
       text-decoration: none;
+      transform: translateY(-.5rem);
+      box-shadow: $raised-shadow;
+      color: #000;
 
       h4 {
-        background: $gradient;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        &::after {
+          opacity: 1;
+        }
       }
+
+      svg {
+        transform: rotate(-10deg);
+      }
+    }
+
+    &:active {
+      transform: translateY(-.1rem);
+      box-shadow: $default-shadow;
     }
   }
 
@@ -97,6 +133,10 @@
     }
 
     &-card {
+      &-icon {
+        min-height: 200px;
+      }
+
       &-buttons {
         flex-wrap: wrap;
         margin-bottom: -.5rem;
@@ -117,7 +157,12 @@
     }
   }
 
-  .input-group .form-control-lg {
-    height: calc(2em + 1rem + -2px) !important;
+  .input-group {
+    .form-control-lg {
+      height: calc(2em + 1rem + -2px) !important;
+    }
+    .btn {
+      margin-right: 0;
+    }
   }
 }

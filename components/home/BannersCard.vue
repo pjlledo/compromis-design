@@ -7,45 +7,49 @@
       <div class="template-selector-templates">
         <ul>
           <li>
-            <a href="https://targes.compromis.net/#/headline" class="template-item">
-              <span class="template-item-icon template-item-icon--logo">
-                <careta />
+            <a href="https://targes.compromis.net/#/headline" class="template-item" target="_blank" rel="noreferrer noopener">
+              <span class="template-item-icon">
+                <fa :icon="['far', 'newspaper']" fixed-width />
               </span>
               <span class="template-item-name">Titular</span>
             </a>
           </li>
           <li>
-            <a href="https://targes.compromis.net/#/quote" class="template-item">
-              <span class="template-item-icon template-item-icon--typography">
-                <strong>A</strong>a
+            <a href="https://targes.compromis.net/#/quote" class="template-item" target="_blank" rel="noreferrer noopener">
+              <span class="template-item-icon">
+                <fa :icon="['far', 'quote-left']" fixed-width />
               </span>
               <span class="template-item-name">Cita</span>
             </a>
           </li>
           <li>
-            <a href="https://targes.compromis.net/#/text" class="template-item">
-              <span class="template-item-name">Text Lliure</span>
+            <a href="https://targes.compromis.net/#/text" class="template-item" target="_blank" rel="noreferrer noopener">
+              <span class="template-item-icon">
+                <fa :icon="['far', 'align-left']" fixed-width />
+              </span>
+              <span class="template-item-name">Text lliure</span>
             </a>
           </li>
           <li>
-            <a href="https://targes.compromis.net/#/event" class="template-item">
+            <a href="https://targes.compromis.net/#/event" class="template-item" target="_blank" rel="noreferrer noopener">
+              <span class="template-item-icon">
+                <fa :icon="['far', 'portrait']" fixed-width />
+              </span>
               <span class="template-item-name">Acte</span>
             </a>
           </li>
         </ul>
-        <a href="https://targes.compromis.net" class="apple-link">Totes les Targes</a>
+        <div class="template-selector-more">
+          <a href="https://targes.compromis.net" class="apple-link" target="_blank" rel="noreferrer noopener"><span>Totes les targes</span></a>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Careta from '@/components/logos/Careta'
-
 export default {
-  components: {
-    Careta
-  }
+
 }
 </script>
 
@@ -61,7 +65,10 @@ export default {
     &:hover {
       color: $primary;
       text-decoration: none;
-      border-bottom: 2px solid $primary;
+
+      span {
+        border-bottom: 2px solid $primary;
+      }
     }
 
     &::after {
@@ -132,18 +139,6 @@ export default {
         opacity: .75;
       }
 
-      &--xs {
-        height: 4.5rem;
-
-        &:hover {
-          transform:  translateY(-.5rem) rotate(0) scale(1);
-        }
-
-        &:active {
-          transform:  translateY(.25rem) rotate(0) scale(1);
-        }
-      }
-
       &-icon {
         display: flex;
         justify-content: center;
@@ -152,42 +147,13 @@ export default {
         top: 50%;
         left: 50%;
         margin-top: -4rem;
-        margin-left: -5rem;
+        margin-left: -3.5rem;
         color: $gray-400;
-        width: 10rem;
-        height: 6rem;
-
-        &--logo {
-          svg {
-            height: 5rem;
-            width: 5rem;
-          }
-        }
-
-        &--typography {
-          font-weight: normal;
-          font-size: 6rem;
-
-          strong {
-            color: $gray-800;
-          }
-        }
-
-        &--colors {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between;
-
-          .color {
-            background: $orange;
-            display: block;
-            height: 3rem;
-            width: 3rem;
-            border-radius: 50%;
-            flex-shrink: 0;
-            margin-bottom: .5rem;
-          }
-        }
+        width: 7rem;
+        height: 7rem;
+        background: $gray-100;
+        border-radius: $border-radius;
+        font-size: 2.5rem;
       }
 
       &-name {
@@ -215,6 +181,10 @@ export default {
           background: $orange;
         }
       }
+    }
+
+    &-more {
+      margin-top: 2rem;
     }
   }
 
@@ -248,10 +218,6 @@ export default {
 
         &-icon {
           transform: scale(.75);
-        }
-
-        &--xs {
-          height: 5rem;
         }
       }
     }

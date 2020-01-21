@@ -4,6 +4,10 @@
   padding: .6rem .8rem;
   color: $gray-700;
 
+  svg {
+    margin-right: 1rem;
+  }
+
   &:hover {
     color: $gray-900;
   }

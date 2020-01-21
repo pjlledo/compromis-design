@@ -76,7 +76,7 @@
         </b-nav>
       </li>
       <li>
-        <nuxt-link to="/aplicacions" class="template-item template-item--xs">
+        <nuxt-link to="/material-impres" class="template-item template-item--xs">
           <fa :icon="['far', 'print']" fixed-width /> <span>Material imprès</span>
         </nuxt-link>
       </li>

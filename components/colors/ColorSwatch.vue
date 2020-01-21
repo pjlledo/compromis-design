@@ -1,5 +1,5 @@
 <template>
-  <div :class="{'color': true, 'color--mini': true }">
+  <div :class="{'color': true, 'color--mini': mini }">
     <button v-clipboard:copy="hex" v-clipboard:success="onCopy" @mouseleave="onLeave" :class="`color-swatch color-swatch-${name}`" href="#">
       <span :class="{'color-swatch-text': true, 'color-swatch-text-dark': dark }">{{ text }}</span>
     </button>

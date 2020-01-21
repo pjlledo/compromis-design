@@ -47,7 +47,7 @@
           </dl>
 
           <c-button variant="outline-primary">
-            Plantilla de carta
+            <fa :icon="['far', 'arrow-circle-down']" /> Plantilla de carta
           </c-button>
         </div>
       </div>
@@ -91,7 +91,7 @@
           </dl>
 
           <c-button variant="outline-primary">
-            Plantilla de sobre
+            <fa :icon="['far', 'arrow-circle-down']" /> Plantilla de sobre
           </c-button>
         </div>
       </div>
@@ -126,7 +126,7 @@
           </dl>
 
           <c-button variant="outline-primary">
-            Plantilla de sobre
+            <fa :icon="['far', 'arrow-circle-down']" /> Plantilla de sobre
           </c-button>
         </div>
       </div>
@@ -178,7 +178,7 @@
           </dl>
 
           <c-button variant="outline-primary">
-            Plantilla de sobre
+            <fa :icon="['far', 'arrow-circle-down']" /> Plantilles de targetes
           </c-button>
         </div>
       </div>
