@@ -1,13 +1,10 @@
 <template>
   <div id="scene" ref="scene" :class="{'blobs': true, 'hidden': hidden }">
-    <div class="blob-holder" data-depth="0.1">
+    <div class="blob-holder" data-depth="0.2">
       <div class="blob blob-1" />
     </div>
-    <div class="blob-holder" data-depth="0.2">
-      <div class="blob blob-2" />
-    </div>
     <div class="blob-holder" data-depth="0.05">
-      <div class="blob blob-3" />
+      <div class="blob blob-2" />
     </div>
   </div>
 </template>
@@ -63,19 +60,13 @@ export default {
 
       &-1 {
         animation-name: blob1;
-        bottom: -30rem;
-        right: -30rem;
+        top: 80%;
+        left: -30rem;
       }
 
       &-2 {
         animation-name: blob2;
-        top: 40%;
-        left: -30rem;
-      }
-
-      &-3 {
-        animation-name: blob3;
-        top: -40rem;
+        top: -30rem;
         right: -23rem;
       }
     }
@@ -84,26 +75,13 @@ export default {
   .hidden {
     .blob {
       &-1 {
-        bottom: -60rem;
-        right: -60rem;
-      }
-
-      &-2 {
         top: -60rem;
         left: -60rem;
       }
 
-      &-3 {
+      &-2 {
         top: -60rem;
         right: -60rem;
-      }
-    }
-  }
-
-  @include media-breakpoint-down(sm) {
-    .blob {
-      &-2 {
-        display: none;
       }
     }
   }
@@ -111,37 +89,20 @@ export default {
   @include media-breakpoint-down(md) {
     .blobs {
       .blob {
-        width: 45rem;
-        height: 45rem;
-
-        &-3 {
-          top: -38rem;
-        }
-      }
-    }
-  }
-
-  @include media-breakpoint-down(lg) {
-    .blobs {
-      .blob {
         &-1 {
-          bottom: -40rem;
+          top: 80%;
+          left: -40rem;
+        }
+
+        &-2 {
+          top: -40rem;
+          right: -35rem;
         }
       }
     }
   }
 
   @keyframes blob1 {
-    from {
-      transform: translate(-3rem, -3rem) rotate($rotation);
-    }
-
-    to {
-      transform: translate(0, 0) rotate($rotation);
-    }
-  }
-
-  @keyframes blob2 {
     from {
       transform: translate(3rem, 3rem) rotate($rotation);
     }
@@ -151,7 +112,7 @@ export default {
     }
   }
 
-  @keyframes blob3 {
+  @keyframes blob2 {
     from {
       transform: translate(-3rem, 3rem) rotate($rotation);
     }

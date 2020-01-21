@@ -234,7 +234,9 @@ export default {
   }
 
   &--mini {
-    display: block;
+    display: flex;
+    display: flex;
+    align-items: center;
 
     .color-swatch {
       width: 6rem;
@@ -249,6 +251,13 @@ export default {
   .color {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
+  }
+
+  .color--mini {
+    .color-swatch {
+      width: 5rem;
+      height: 5rem;
+    }
   }
 }
 </style>
