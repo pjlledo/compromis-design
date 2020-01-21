@@ -21,6 +21,10 @@
   }
 
   h4 {
+    margin-bottom: 0;
+  }
+
+  label {
     font-size: 1rem;
     color: $gray-700;
     margin-bottom: 1rem;
@@ -28,6 +32,21 @@
 
   .btn {
     margin-right: 1rem;
+  }
+
+  a.home-card {
+    display: block;
+    color: $gray-900;
+
+    &:hover {
+      text-decoration: none;
+
+      h4 {
+        background: $gradient;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
   }
 
   &-card {
@@ -52,7 +71,6 @@
 
     &-buttons {
       display: flex;
-      // margin-top: 2.5rem;
     }
 
     .division {

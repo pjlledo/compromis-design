@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Aplicacions</h1>
+    <h1>Material imprès</h1>
 
     <section>
       <h2 id="carta">

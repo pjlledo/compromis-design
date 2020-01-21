@@ -16,7 +16,7 @@
       </div>
       <div class="home-card-buttons">
         <div class="division">
-          <h4>Logo de Compromís</h4>
+          <label>Logo de Compromís</label>
           <div>
             <nuxt-link to="/logo" class="btn btn-outline-primary btn-lg">
               <span>Guies d'ús</span>
@@ -27,7 +27,7 @@
           </div>
         </div>
         <div>
-          <h4>Genera el logo del teu col·lectiu</h4>
+          <label for="localName">Genera el logo del teu col·lectiu</label>
           <custom-local-generator @name-change="(name) => localName = name" />
         </div>
       </div>

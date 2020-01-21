@@ -1,6 +1,7 @@
 <template>
   <div class="input-group">
     <input
+      id="localName"
       v-model="name"
       type="text"
       class="form-control form-control-lg"

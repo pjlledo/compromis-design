@@ -13,6 +13,8 @@
         <colors-card />
       </div>
     </div>
+
+    <other-card />
   </div>
 </template>
 
@@ -20,12 +22,14 @@
 import LogoCard from '@/components/home/LogoCard.vue'
 import TypographyCard from '@/components/home/TypographyCard.vue'
 import ColorsCard from '@/components/home/ColorsCard.vue'
+import OtherCard from '@/components/home/OtherCard.vue'
 
 export default {
   components: {
     LogoCard,
     TypographyCard,
-    ColorsCard
+    ColorsCard,
+    OtherCard
   }
 }
 </script>

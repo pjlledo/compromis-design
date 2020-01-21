@@ -77,7 +77,7 @@
       </li>
       <li>
         <nuxt-link to="/aplicacions" class="template-item template-item--xs">
-          <fa :icon="['far', 'print']" fixed-width /> <span>Aplicacions</span>
+          <fa :icon="['far', 'print']" fixed-width /> <span>Material imprès</span>
         </nuxt-link>
       </li>
       <li>
