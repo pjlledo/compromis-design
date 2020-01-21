@@ -1,13 +1,8 @@
 import font from './font'
+import splitIntoTwoLines from '@/components/logos/custom-local/twolines'
 
 export default function svg (text) {
-  let halfway = Math.floor(text.length / 2)
-  const before = text.lastIndexOf(' ', halfway)
-  const after = text.indexOf(' ', halfway + 1)
-  halfway = (halfway - before < after - halfway) ? before : after
-
-  const line1 = text.substr(0, halfway)
-  const line2 = text.substr(halfway + 1)
+  const twoLines = splitIntoTwoLines(text)
 
   return `<?xml version="1.0" encoding="utf-8"?>
   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -22,7 +17,7 @@ export default function svg (text) {
      <defs>
      </defs>
      <g>
-       <text transform="matrix(1 0 0 1 975.806 69.4859)"><tspan x="0" y="0" style="fill:#979AA4; font-family:'Manrope'; font-size:68.0757px; letter-spacing:-2;">${line1}</tspan><tspan x="0" y="70" style="fill:#979AA4; font-family:'Manrope'; font-size:68.0757px; letter-spacing:-2;">${line2}</tspan></text>
+       <text transform="matrix(1 0 0 1 975.806 69.4859)"><tspan x="0" y="0" style="fill:#979AA4; font-family:'Manrope'; font-size:68.0757px; letter-spacing:-2;">${twoLines.line1}</tspan><tspan x="0" y="70" style="fill:#979AA4; font-family:'Manrope'; font-size:68.0757px; letter-spacing:-2;">${twoLines.line2}</tspan></text>
        <g>
          <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="122.7419" y1="-17.15" x2="40.2278" y2="170.5804">
            <stop  offset="0" style="stop-color:#F29027"/>
