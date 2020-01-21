@@ -5,6 +5,7 @@
     </h2>
 
     <logo-card />
+    <banners-card />
     <div class="row">
       <div class="col-md-6">
         <typography-card />
@@ -20,12 +21,14 @@
 import LogoCard from '@/components/home/LogoCard.vue'
 import TypographyCard from '@/components/home/TypographyCard.vue'
 import ColorsCard from '@/components/home/ColorsCard.vue'
+import BannersCard from '@/components/home/BannersCard'
 
 export default {
   components: {
     LogoCard,
     TypographyCard,
-    ColorsCard
+    ColorsCard,
+    BannersCard
   }
 }
 </script>
