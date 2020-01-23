@@ -241,13 +241,13 @@
 
               <label>O descarrega les plantilles en <code>.ai</code> i <code>.svg</code></label>
               <ul>
-                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="#">Versió horitzontal</a></li>
-                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="#">Versió horitzontal multilínia</a></li>
-                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="#">Versió comprimida</a></li>
-                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="#">Versió comprimida multilínia</a></li>
+                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logo-horizontal.zip">Versió horitzontal</a></li>
+                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logo-horizontal-multilinia.zip">Versió horitzontal multilínia</a></li>
+                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logo-comprimit.zip">Versió comprimida</a></li>
+                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logo-compromit-multilinia.zip">Versió comprimida multilínia</a></li>
                 <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="#">Logos comarcals</a></li>
                 <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="#">Logos institucionals</a></li>
-                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="#">Logo quadrat</a></li>
+                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logo-quadrat.zip">Logo quadrat</a></li>
               </ul>
             </div>
           </div>
