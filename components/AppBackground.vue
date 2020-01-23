@@ -95,7 +95,7 @@ export default {
         }
 
         &-2 {
-          top: -40rem;
+          top: -45rem;
           right: -35rem;
         }
       }
