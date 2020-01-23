@@ -20,10 +20,9 @@
           <logo-grid :logo="logos.Logo" />
         </div>
         <div class="col-xl-4 d-flex align-items-end">
-          <div class="assets btn-group">
-            <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .svg</span></a>
-            <a href="#" class="btn btn-lg btn-outline-primary btn-file"><span><fa :icon="['far', 'file']" /> .ai</span></a>
-          </div>
+          <c-button href="/assets/logo/logo.zip" variant="outline-primary" size="lg">
+            <fa :icon="['far', 'arrow-circle-down']" /> Descarrega logo
+          </c-button>
         </div>
       </div>
     </section>
