@@ -183,6 +183,136 @@
         </div>
       </div>
     </section>
+
+    <section>
+      <h2 id="carta">
+        Carpeta
+      </h2>
+      <p>
+        Exemple de la portada i contraportada d’una carpeta.
+      </p>
+      <div class="row mb-4">
+        <div class="col-xl-9">
+          <div class="row">
+            <div class="col-md-6">
+              <figure class="edge no-margin text-center mb-4 mb-md-0">
+                <img src="../assets/aplicacions/carpeta-back.png" alt="Contraportada de carpeta" style="max-width: 500px;">
+              </figure>
+              <figcaption>Contraportada</figcaption>
+            </div>
+            <div class="col-md-6">
+              <figure class="edge no-margin text-center">
+                <img src="../assets/aplicacions/carpeta-front.png" alt="Portada de carpeta" style="max-width: 500px;">
+              </figure>
+              <figcaption>Portada</figcaption>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <dl>
+            <dt>Format</dt>
+            <dd>228 x 317 mm.</dd>
+
+            <dt>Tintes d’impressió</dt>
+            <dd>Quatricomia</dd>
+          </dl>
+          <c-button variant="outline-primary">
+            <fa :icon="['far', 'arrow-circle-down']" /> Plantilles de carpeta
+          </c-button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="carta">
+        Roll-up
+      </h2>
+      <p>
+        Exemple de roll-up genèric per a actes i altres esdeveniments.
+      </p>
+      <div class="row mb-4">
+        <div class="col-xl-9">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <figure class="edge no-margin text-center mb-4 mb-md-0">
+                <img src="../assets/aplicacions/rollup-1.png" alt="Contraportada de carpeta" style="max-width: 500px;">
+              </figure>
+              <figcaption>Roll-up mut</figcaption>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <figure class="edge no-margin text-center">
+                <img src="../assets/aplicacions/rollup-2.png" alt="Portada de carpeta" style="max-width: 500px;">
+              </figure>
+              <figcaption>Roll-up per a col·lectius</figcaption>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <figure class="edge no-margin text-center">
+                <img src="../assets/aplicacions/rollup-3.png" alt="Portada de carpeta" style="max-width: 500px;">
+              </figure>
+              <figcaption>Roll-up alternatiu per a col·lectius</figcaption>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <dl>
+            <dt>Format</dt>
+            <dd>100 x 200 cm</dd>
+
+            <dt>Tintes d’impressió</dt>
+            <dd>Quatricomia</dd>
+          </dl>
+          <c-button variant="outline-primary">
+            <fa :icon="['far', 'arrow-circle-down']" /> Plantilles de roll-up
+          </c-button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="carta">
+        Nota de premsa
+      </h2>
+      <p>
+        Exemples de carta o escrit oficial,en color i en una tinta.
+      </p>
+      <div class="row">
+        <div class="col-xl-9">
+          <div class="row">
+            <div class="col-lg-6">
+              <figure class="no-margin edge text-center mb-4 mb-xl-0">
+                <img src="../assets/aplicacions/carta-color.png" alt="Carta a color" style="max-width: 500px;">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <dl>
+            <dt>Format</dt>
+            <dd>DIN A4, 287 x 210 mm.</dd>
+
+            <dt>Suport</dt>
+            <dd>
+              Paper allisat blanc<br>
+              100% reciclat i lliure de clor<br>
+              100 g/m²
+            </dd>
+
+            <dt>Composició tipogràfica</dt>
+            <dd>
+              Manrope, 10/12<br>
+              o en el seu defecte: Arial o Helvetica, 10/12
+            </dd>
+
+            <dt>Tintes d’impressió</dt>
+            <dd>Quatricomia</dd>
+          </dl>
+
+          <c-button variant="outline-primary">
+            <fa :icon="['far', 'arrow-circle-down']" /> Plantilla de nota de premsa
+          </c-button>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
