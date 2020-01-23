@@ -85,6 +85,12 @@ export default {
 
   components: {
     ColorSwatch
+  },
+
+  head () {
+    return {
+      title: `Colors - Manual d'estil - Compromís`
+    }
   }
 }
 </script>

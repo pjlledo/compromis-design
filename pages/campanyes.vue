@@ -13,7 +13,13 @@
 <script>
 
 export default {
-  layout: 'page'
+  layout: 'page',
+
+  head () {
+    return {
+      title: `Campanyes - Manual d'estil - Compromís`
+    }
+  }
 }
 </script>
 

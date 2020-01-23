@@ -120,7 +120,13 @@
 <script>
 
 export default {
-  layout: 'page'
+  layout: 'page',
+
+  head () {
+    return {
+      title: `Xarxes socials - Manual d'estil - Compromís`
+    }
+  }
 }
 </script>
 

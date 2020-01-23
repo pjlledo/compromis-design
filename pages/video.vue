@@ -68,7 +68,13 @@
 <script>
 
 export default {
-  layout: 'page'
+  layout: 'page',
+
+  head () {
+    return {
+      title: `Vídeo - Manual d'estil - Compromís`
+    }
+  }
 }
 </script>
 

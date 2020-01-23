@@ -193,7 +193,7 @@ export default {
 
   head () {
     return {
-      title: ''
+      title: `Material imprès - Manual d'estil - Compromís`
     }
   }
 }

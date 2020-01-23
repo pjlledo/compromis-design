@@ -318,6 +318,12 @@ import CustomLocalGenerator from '@/components/logos/CustomLocalGenerator.vue'
 export default {
   layout: 'page',
 
+  head () {
+    return {
+      title: `Logo - Manual d'estil - Compromís`
+    }
+  },
+
   scrollToTop: true,
   components: {
     CompromisLogo,

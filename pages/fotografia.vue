@@ -43,9 +43,14 @@
 </template>
 
 <script>
-
 export default {
-  layout: 'page'
+  layout: 'page',
+
+  head () {
+    return {
+      title: `Fotografia - Manual d'estil - Compromís`
+    }
+  }
 }
 </script>
 
