@@ -21,7 +21,7 @@
           <span>Guies d'ús</span>
         </nuxt-link>
         <a href="https://manropefont.com/manrope.zip" class="btn btn-no-shadow btn-lg">
-          Descarrega
+          <fa :icon="['far', 'arrow-circle-down']" /> Manrope
         </a>
       </div>
     </div>

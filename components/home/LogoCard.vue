@@ -22,7 +22,7 @@
               <span>Guies d'ús</span>
             </nuxt-link>
             <a href="/assets/logo/logo.zip" class="btn btn-no-shadow btn-lg">
-              Descarrega
+              <fa :icon="['far', 'arrow-circle-down']" /> Logo
             </a>
           </div>
         </div>

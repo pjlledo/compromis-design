@@ -10,7 +10,7 @@
       list="municipalities"
     >
     <div class="input-group-append">
-      <b-dropdown size="lg" text="Descarrega">
+      <b-dropdown size="lg" text="Genera">
         <b-dropdown-item @click="download('H')">
           Horitzontal <span class="text-muted">(.svg)</span>
         </b-dropdown-item>
