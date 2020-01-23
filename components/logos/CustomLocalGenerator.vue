@@ -15,7 +15,7 @@
           Horitzontal <span class="text-muted">(.svg)</span>
         </b-dropdown-item>
         <b-dropdown-item @click="download('V')">
-          Vertical <span class="text-muted">(.svg)</span>
+          Compromida <span class="text-muted">(.svg)</span>
         </b-dropdown-item>
       </b-dropdown>
     </div>

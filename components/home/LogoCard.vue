@@ -21,7 +21,7 @@
             <nuxt-link to="/logo" class="btn btn-outline-primary btn-lg">
               <span>Guies d'ús</span>
             </nuxt-link>
-            <a href="#" class="btn btn-no-shadow btn-lg">
+            <a href="/assets/logo/logo.zip" class="btn btn-no-shadow btn-lg">
               Descarrega
             </a>
           </div>

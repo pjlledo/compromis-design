@@ -118,6 +118,40 @@
   .btn {
     margin-right: .5rem;
   }
+
+  &-sticky {
+    position: relative;
+  
+    &-content {
+      position: sticky;
+      top: 6rem;
+    }
+  }
+
+  &-list {
+    label {
+      font-weight: bold;
+      color: $gray-700;
+    }
+  
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    li {
+      color: $primary;
+  
+      svg {
+        margin-right: .5rem;
+      }
+    }
+  
+    .generator {
+      margin-bottom: 2rem;
+    }
+  }
 }
 
 .incorrect-list {
@@ -155,6 +189,18 @@ dl {
 
     p {
       font-size: 1rem;
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .assets {
+    margin-top: 2rem;
+
+    &-sticky {
+      margin-top: 2rem;
+      border-top: 1px $gray-200 solid;
+      padding-top: 2rem;
     }
   }
 }
