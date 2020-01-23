@@ -79,6 +79,29 @@
         <nuxt-link to="/material-impres" class="template-item template-item--xs">
           <fa :icon="['far', 'print']" fixed-width /> <span>Material imprès</span>
         </nuxt-link>
+        <b-nav
+          v-if="$route.name === 'material-impres'"
+          v-b-scrollspy="80"
+        >
+          <b-nav-item v-scroll-to="'#carta'" href="#carta">
+            Carta
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#sobre'" href="#sobre">
+            Sobre
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#targetes-visita'" href="#targetes-visita">
+            Targetes de visita
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#carpeta'" href="#carpeta">
+            Carpeta
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#roll-up'" href="#roll-up">
+            Roll-up
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#nota-premsa'" href="#nota-premsa">
+            Nota de premsa
+          </b-nav-item>
+        </b-nav>
       </li>
       <li>
         <nuxt-link to="/fotografia" class="template-item template-item--xs">

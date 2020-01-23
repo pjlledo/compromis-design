@@ -54,7 +54,7 @@
     </section>
 
     <section>
-      <h2 id="carta">
+      <h2 id="sobre">
         Sobre
       </h2>
       <p>
@@ -133,7 +133,7 @@
     </section>
 
     <section>
-      <h2 id="carta">
+      <h2 id="targetes-visita">
         Targetes de visita
       </h2>
       <p>
@@ -185,7 +185,7 @@
     </section>
 
     <section>
-      <h2 id="carta">
+      <h2 id="carpeta">
         Carpeta
       </h2>
       <p>
@@ -224,7 +224,7 @@
     </section>
 
     <section>
-      <h2 id="carta">
+      <h2 id="roll-up">
         Roll-up
       </h2>
       <p>
@@ -269,7 +269,7 @@
     </section>
 
     <section>
-      <h2 id="carta">
+      <h2 id="nota-premsa">
         Nota de premsa
       </h2>
       <p>

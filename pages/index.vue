@@ -6,6 +6,7 @@
 
     <logo-card :municipalities="municipalities" />
     <banners-card />
+
     <div class="row">
       <div class="col-lg-6">
         <typography-card />
