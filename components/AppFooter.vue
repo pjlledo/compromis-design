@@ -1,5 +1,5 @@
 <template>
-  <div :class="{'container': true, 'in-page': inPage}">
+  <div :class="{'container': !inPage, 'in-page': inPage}">
     <footer>
       <p>Si tens qualsevol dubte o suggeriment, pots contactar-nos en <a href="mailto:disseny@compromis.net">disseny@compromis.net</a></p>
       <p><strong>Manual d'Estil de Compromís</strong>. Darrera actualització: 21 de gener de 2020.</p>
@@ -46,6 +46,8 @@ footer {
     position: relative;
     background: $white;
     margin-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 
     p {
       font-size: 1rem;
@@ -58,6 +60,24 @@ footer {
       height: 2px;
       background: $gray-400;
       top: .5rem;
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .in-page {
+    footer {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .in-page {
+    footer {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 }
