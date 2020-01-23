@@ -36,7 +36,7 @@
 
     <h2>Repositori de fotos</h2>
     <p>A aquesta secció trobareu una galeria de fotos amb tots els càrrecs públics.</p>
-    <c-button variant="outline-primary" size="lg" href="" target="_blank">
+    <c-button variant="outline-primary" size="lg" href="https://flickr.com/coaliciocompromis" target="_blank">
       <fa :icon="['far', 'portrait']" /> Galeria de fotos
     </c-button>
   </div>
