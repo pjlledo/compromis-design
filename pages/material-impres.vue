@@ -273,14 +273,14 @@
         Nota de premsa
       </h2>
       <p>
-        Exemples de carta o escrit oficial,en color i en una tinta.
+        Exemple de nota de premsa per a enviar a mitjans.
       </p>
       <div class="row">
         <div class="col-xl-9">
           <div class="row">
             <div class="col-lg-6">
               <figure class="no-margin edge text-center mb-4 mb-xl-0">
-                <img src="../assets/aplicacions/carta-color.png" alt="Carta a color" style="max-width: 500px;">
+                <img src="../assets/aplicacions/nota-premsa.png" alt="Nota de premsa" style="max-width: 500px;">
               </figure>
             </div>
           </div>
@@ -290,7 +290,10 @@
             <dt>Format</dt>
             <dd>DIN A4, 287 x 210 mm.</dd>
 
-            <dt>Suport</dt>
+            <dt>Suport digital</dt>
+            <dd>.pdf, .doc o .docx</dd>
+
+            <dt>Suport imprès</dt>
             <dd>
               Paper allisat blanc<br>
               100% reciclat i lliure de clor<br>
