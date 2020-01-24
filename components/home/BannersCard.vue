@@ -56,18 +56,26 @@ export default {
 <style lang="scss" scoped>
   @import '../../sass/variables';
 
-  .apple-link {
+  a.apple-link {
     position: relative;
     font-size: 1.2rem;
     font-weight: bold;
-    color: gray-900;
+    color: $gray-900;
+    opacity: .75;
+    transition: .25s ease-in-out;
+
+    span {
+      transition: .25s ease-in-out;
+      border-bottom: 2px solid transparent;
+    }
 
     &:hover {
-      color: $primary;
+      color: $gray-900;
       text-decoration: none;
+      opacity: 1;
 
       span {
-        border-bottom: 2px solid $primary;
+        border-color: $gray-900;
       }
     }
 
