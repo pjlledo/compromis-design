@@ -138,7 +138,7 @@ export default {
   @include media-breakpoint-down(lg) {
     .navbar {
       & > .container-fluid {
-        padding: 0 3rem;
+        padding: 0 2rem;
       }
     }
   }

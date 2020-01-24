@@ -2,8 +2,8 @@
   <div class="page">
     <app-nav dark nav-label="Manual d'estil" logo-label="Disseny" />
     <div :class="{ 'sidebar-open': sidebarOpen }" class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4 col-xl-3">
+      <div class="layout">
+        <div class="sidebar-wrapper">
           <aside class="sidebar">
             <div class="sidebar-scroll">
               <app-sidebar />
@@ -20,7 +20,7 @@
             </button>
           </aside>
         </div>
-        <div class="col-lg-8 col-xl-9">
+        <div class="content-wrapper">
           <main @click="sidebarOpen = false" class="content">
             <nuxt />
           </main>
@@ -73,6 +73,16 @@ export default {
 
 <style lang="scss" scoped>
   @import "../sass/variables";
+
+  .layout {
+    display: flex;
+  }
+
+  .sidebar-wrapper {
+    width: 25%;
+    max-width: 450px;
+    flex-shrink: 0;
+  }
 
   .sidebar {
     position: sticky;
@@ -127,17 +137,25 @@ export default {
   }
 
   @include media-breakpoint-down(lg) {
+    .sidebar-wrapper {
+      width: 300px;
+    }
+
     .content {
       padding-left: 2rem;
       padding-right: 2rem;
     }
 
     .sidebar-scroll {
-      padding-left: 4rem;
+      padding-left: 3rem;
     }
   }
 
   @include media-breakpoint-down(md) {
+    .layout {
+      flex-direction: column;
+    }
+
     .sidebar {
       position: fixed;
       width: 80vw;

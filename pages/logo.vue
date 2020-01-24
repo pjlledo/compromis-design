@@ -8,18 +8,18 @@
     </p>
 
     <section>
-      <h2 id="marca">
-        La marca
-      </h2>
       <div class="row">
         <div class="col-xl-8">
+          <h2 id="marca">
+            La marca
+          </h2>
           <p>
             El conjunt format pel logotip i el símbol gràfic que l’acompanya, el denominem marca. Així com el símbol es podrà utilitzar per separat,
             el logotip sempre haurà de presentar-se amb el símbol (la “careta”), per obtindre una correcta identificació de la marca.
           </p>
           <logo-grid :logo="logos.Logo" />
         </div>
-        <div class="col-xl-4 d-flex align-items-end">
+        <div class="col-xl-4 d-flex align-items-end mt-4 mt-xl-0">
           <c-button href="/assets/logo/logo.zip" variant="outline-primary" size="lg">
             <fa :icon="['far', 'arrow-circle-down']" /> Descarrega logo
           </c-button>
@@ -28,11 +28,11 @@
     </section>
 
     <section>
-      <h2 id="proporcions">
-        Proporcions
-      </h2>
       <div class="row">
         <div class="col-xl-8">
+          <h2 id="proporcions">
+            Proporcions
+          </h2>
           <p>
             Relacions entre els diferents elements de la marca per a la seua correcta reproducció.
           </p>
@@ -57,7 +57,7 @@
 
     <section>
       <h2 id="monocromatiques">
-        Versions monocromàtiques, positiva i negativa
+        Versions monocromàtiques
       </h2>
       <div class="row">
         <div class="col-xl-8">
@@ -67,13 +67,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xl-4">
+        <div class="col-md-6 col-xl-4">
           <figure>
             <compromis-logo />
           </figure>
           <figcaption>Positiu</figcaption>
         </div>
-        <div class="col-xl-4">
+        <div class="col-md-6 col-xl-4">
           <figure>
             <compromis-logo mono />
           </figure>
@@ -81,13 +81,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xl-4">
+        <div class="col-md-6 col-xl-4">
           <figure class="figure-dark">
             <compromis-logo inverted />
           </figure>
           <figcaption>Negatiu</figcaption>
         </div>
-        <div class="col-xl-4">
+        <div class="col-md-6 col-xl-4">
           <figure class="figure-dark">
             <compromis-logo mono style="color: white;" />
           </figure>
@@ -109,13 +109,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xl-4">
+        <div class="col-md-6 col-xl-4">
           <figure class="figure-error">
             <img src="../assets/logo/antic.png" alt="Logo antic">
           </figure>
           <figcaption>No utitlitzeu versions antigues i/o no oficials</figcaption>
         </div>
-        <div class="col-xl-4">
+        <div class="col-md-6 col-xl-4">
           <figure class="figure-error">
             <img src="../assets/logo/nom.png" alt="Logo antic">
           </figure>
@@ -123,13 +123,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xl-4">
+        <div class="col-md-6 col-xl-4">
           <figure class="figure-error">
             <img src="../assets/logo/disposicio.png" alt="Logo antic">
           </figure>
           <figcaption>No altereu la disposicó dels elements</figcaption>
         </div>
-        <div class="col-xl-4">
+        <div class="col-md-6 col-xl-4">
           <figure class="figure-error">
             <img src="../assets/logo/tipografia.png" alt="Logo antic">
           </figure>
@@ -137,13 +137,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xl-4">
+        <div class="col-md-6 col-xl-4">
           <figure class="figure-error">
             <img src="../assets/logo/deformat.png" alt="Logo antic">
           </figure>
           <figcaption>No deformeu ni altereu la proporció</figcaption>
         </div>
-        <div class="col-xl-4">
+        <div class="col-md-6 col-xl-4">
           <figure class="figure-error">
             <img src="../assets/logo/color.png" alt="Logo antic">
           </figure>
@@ -151,13 +151,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xl-4">
+        <div class="col-md-6 col-xl-4">
           <figure class="figure-error">
             <img src="../assets/logo/color-lletra.png" alt="Logo antic">
           </figure>
           <figcaption>No modifiqueu el color de les lletres</figcaption>
         </div>
-        <div class="col-xl-4">
+        <div class="col-md-6 col-xl-4">
           <figure class="figure-error">
             <img src="../assets/logo/ulls.png" alt="Logo antic">
           </figure>
