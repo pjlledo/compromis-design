@@ -251,6 +251,7 @@ export default {
   .color {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
+    max-width: 100%;
 
     &-info {
       grid-template-columns: 1fr;
@@ -259,6 +260,10 @@ export default {
     &-swatch {
       width: 100%;
       margin-bottom: 1rem;
+
+      &:hover {
+        transform: none;
+      }
     }
   }
 
