@@ -77,7 +77,7 @@
       </li>
       <li>
         <nuxt-link to="/material-impres" class="template-item template-item--xs">
-          <fa :icon="['far', 'print']" fixed-width /> <span>Material imprès</span>
+          <fa :icon="['far', 'print']" fixed-width /> <span>Material imprés</span>
         </nuxt-link>
         <b-nav
           v-if="$route.name === 'material-impres'"
