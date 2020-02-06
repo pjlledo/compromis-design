@@ -46,7 +46,7 @@
             <dd>Quatricomia</dd>
           </dl>
 
-          <c-button variant="outline-primary">
+          <c-button variant="outline-primary" href="/assets/material-impres/carta.zip">
             <fa :icon="['far', 'arrow-circle-down']" /> Plantilla de carta
           </c-button>
         </div>
@@ -90,7 +90,7 @@
             <dd>Quatricomia</dd>
           </dl>
 
-          <c-button variant="outline-primary">
+          <c-button variant="outline-primary" href="/assets/material-impres/sobre.zip">
             <fa :icon="['far', 'arrow-circle-down']" /> Plantilla de sobre
           </c-button>
         </div>
@@ -125,7 +125,7 @@
             <dd>Quatricomia</dd>
           </dl>
 
-          <c-button variant="outline-primary">
+          <c-button variant="outline-primary" href="/assets/material-impres/sobre.zip">
             <fa :icon="['far', 'arrow-circle-down']" /> Plantilla de sobre
           </c-button>
         </div>
@@ -177,7 +177,7 @@
             <dd>Quatricomia</dd>
           </dl>
 
-          <c-button variant="outline-primary">
+          <c-button variant="outline-primary" href="/assets/material-impres/targetes-visita.zip">
             <fa :icon="['far', 'arrow-circle-down']" /> Plantilles de targetes
           </c-button>
         </div>
@@ -216,7 +216,7 @@
             <dt>Tintes d’impressió</dt>
             <dd>Quatricomia</dd>
           </dl>
-          <c-button variant="outline-primary">
+          <c-button variant="outline-primary" href="/assets/material-impres/carpeta.zip">
             <fa :icon="['far', 'arrow-circle-down']" /> Plantilles de carpeta
           </c-button>
         </div>
@@ -261,7 +261,7 @@
             <dt>Tintes d’impressió</dt>
             <dd>Quatricomia</dd>
           </dl>
-          <c-button variant="outline-primary">
+          <c-button variant="outline-primary" href="/assets/material-impres/roll-up.zip">
             <fa :icon="['far', 'arrow-circle-down']" /> Plantilles de roll-up
           </c-button>
         </div>
@@ -310,7 +310,7 @@
             <dd>Quatricomia</dd>
           </dl>
 
-          <c-button variant="outline-primary">
+          <c-button variant="outline-primary" href="/assets/material-impres/nota-premsa.zip">
             <fa :icon="['far', 'arrow-circle-down']" /> Plantilla de nota de premsa
           </c-button>
         </div>
@@ -331,7 +331,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-
-</style>

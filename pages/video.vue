@@ -5,7 +5,7 @@
       En aquesta secció podeu descarregar una varietat de recursos per a la composició de vídeos de Compromís,
       com la outro amb el logo o exemples de títols.
     </p>
-    <c-button variant="outline-primary" size="lg">
+    <c-button variant="outline-primary" size="lg" href="https://onedrive.live.com/?id=49217E5E07CD52BD%211524&cid=49217E5E07CD52BD" target="_blank" rel="noopener noreferrer">
       <fa :icon="['far', 'photo-video']" /> Recursos per a vídeo
     </c-button>
 
