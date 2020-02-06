@@ -251,6 +251,15 @@ export default {
   .color {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
+
+    &-info {
+      grid-template-columns: 1fr;
+    }
+
+    &-swatch {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
   }
 
   .color--mini {

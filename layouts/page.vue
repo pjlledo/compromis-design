@@ -21,10 +21,12 @@
           </aside>
         </div>
         <div class="content-wrapper">
-          <main @click="sidebarOpen = false" class="content">
-            <nuxt />
-          </main>
-          <app-footer in-page />
+          <div @click="sidebarOpen = false" class="content">
+            <main>
+              <nuxt />
+            </main>
+            <app-footer in-page />
+          </div>
         </div>
       </div>
     </div>

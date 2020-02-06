@@ -159,10 +159,13 @@
   padding-left: .6rem;
 
   li {
+    position: relative;
     list-style: none;
-    display: flex;
+    padding-left: 2rem;
 
     svg {
+      position: absolute;
+      left: 0;
       color: $red;
       margin: .25rem .5rem 0;
     }

@@ -104,4 +104,10 @@ export default {
   grid-gap: 2rem;
   margin-top: 2rem;
 }
+
+@include media-breakpoint-down(md) {
+  .colors {
+    grid-template-columns: 1fr;
+  }
+}
 </style>

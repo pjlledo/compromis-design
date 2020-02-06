@@ -143,18 +143,18 @@
         <div class="col-xl-9">
           <div class="row">
             <div class="col-lg-4 col-md-6">
-              <figure class="edge no-margin text-center mb-4 mb-md-0">
+              <figure class="edge no-margin text-center0">
                 <img src="../assets/aplicacions/visita-1-front.png" alt="Carta a color" style="max-width: 500px;">
               </figure>
               <figcaption>Targeta de visita: frontal</figcaption>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mt-4 mt-xl-0">
               <figure class="edge no-margin text-center">
                 <img src="../assets/aplicacions/visita-2-front.png" alt="Carta monocolor" style="max-width: 500px;">
               </figure>
               <figcaption>Negatiu</figcaption>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mt-4 mt-xl-0">
               <figure class="edge no-margin text-center">
                 <img src="../assets/aplicacions/visita-back.png" alt="Carta monocolor" style="max-width: 500px;">
               </figure>
@@ -195,12 +195,12 @@
         <div class="col-xl-9">
           <div class="row">
             <div class="col-md-6">
-              <figure class="edge no-margin text-center mb-4 mb-md-0">
+              <figure class="edge no-margin text-center">
                 <img src="../assets/aplicacions/carpeta-back.png" alt="Contraportada de carpeta" style="max-width: 500px;">
               </figure>
               <figcaption>Contraportada</figcaption>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mt-4 mt-xl-0">
               <figure class="edge no-margin text-center">
                 <img src="../assets/aplicacions/carpeta-front.png" alt="Portada de carpeta" style="max-width: 500px;">
               </figure>
@@ -234,18 +234,18 @@
         <div class="col-xl-9">
           <div class="row">
             <div class="col-lg-4 col-md-6">
-              <figure class="edge no-margin text-center mb-4 mb-md-0">
+              <figure class="edge no-margin text-center">
                 <img src="../assets/aplicacions/rollup-1.png" alt="Contraportada de carpeta" style="max-width: 500px;">
               </figure>
               <figcaption>Roll-up mut</figcaption>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mt-4 mt-xl-0">
               <figure class="edge no-margin text-center">
                 <img src="../assets/aplicacions/rollup-2.png" alt="Portada de carpeta" style="max-width: 500px;">
               </figure>
               <figcaption>Roll-up per a col·lectius</figcaption>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mt-4 mt-xl-0">
               <figure class="edge no-margin text-center">
                 <img src="../assets/aplicacions/rollup-3.png" alt="Portada de carpeta" style="max-width: 500px;">
               </figure>

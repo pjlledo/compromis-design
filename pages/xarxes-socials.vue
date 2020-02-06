@@ -12,7 +12,7 @@
           <img src="../assets/xarxes/icona.png" alt="Icona per a xarxes" style="max-width: 200px; border-radius: 50%;">
         </figure>
       </div>
-      <div class="col-md-4 d-flex align-items-end">
+      <div class="col-md-4 d-flex align-items-end mt-4 mt-xl-0">
         <c-button href="https://targes.compromis.net/#/social" variant="outline-primary" size="lg" target="_blank">
           <fa :icon="['far', 'user-circle']" /> Crea una foto de perfil
         </c-button>
@@ -88,7 +88,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-4 d-flex align-items-end">
+      <div class="col-md-4 d-flex align-items-end mt-4 mt-xl-0">
         <p>
           <c-button href="https://targes.compromis.net" variant="outline-primary" size="lg" target="_blank">
             <fa :icon="['far', 'send-backward']" /> Generador de targes
@@ -106,7 +106,7 @@
           Per a consells i recomacions a l'hora de gestionar les xarxes socials del vostre col·lectiu (quan publicar, quin tipus de publicacions fer, bones pràctiques, etc.), consulteu el <strong>Manual d'Ús de Xarxes Socials de Compromís</strong>.
         </p>
       </div>
-      <div class="col-md-4 d-flex align-items-end">
+      <div class="col-md-4 d-flex align-items-end mt-4 mt-xl-0">
         <p>
           <c-button href="https://targes.compromis.net" variant="outline-primary" size="lg" target="_blank">
             <fa :icon="['far', 'book']" /> Manual de Xarxes
