@@ -46,8 +46,8 @@ footer {
     position: relative;
     background: $white;
     margin-top: 4rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 0;
+    padding-right: 0;
 
     p {
       font-size: 1rem;
@@ -60,24 +60,6 @@ footer {
       height: 2px;
       background: $gray-400;
       top: .5rem;
-    }
-  }
-}
-
-@include media-breakpoint-down(lg) {
-  .in-page {
-    footer {
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-  }
-}
-
-@include media-breakpoint-down(md) {
-  .in-page {
-    footer {
-      padding-left: 0;
-      padding-right: 0;
     }
   }
 }

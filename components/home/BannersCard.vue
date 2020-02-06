@@ -89,18 +89,6 @@ export default {
     position: relative;
     margin: 0 auto;
 
-    &-templates {
-      h2 {
-        color: rgba($gray-900, .25);
-        padding: 1rem;
-        font-size: 4rem;
-        font-weight: bold;
-        letter-spacing: -1px;
-        line-height: 1;
-        margin-top: 5rem;
-      }
-    }
-
     ul {
       display: grid;
       grid-template-columns: repeat(4, minmax(10rem, 1fr));
@@ -206,12 +194,6 @@ export default {
 
   @include media-breakpoint-down(sm) {
     .template-selector {
-      h2 {
-        font-size: 2.25rem;
-        margin-top: 4rem;
-
-      }
-
       ul {
         grid-template-columns: 1fr 1fr;
       }
@@ -220,8 +202,8 @@ export default {
         border-radius: .5rem;
 
         &-name {
-          font-size: 1rem;
-          padding: .75rem;
+          font-size: 1.25rem;
+          padding: .5rem .75rem;
         }
 
         &-icon {

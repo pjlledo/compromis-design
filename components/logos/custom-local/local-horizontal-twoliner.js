@@ -1,3 +1,4 @@
+/* eslint-disable */
 import font from './font'
 import splitIntoTwoLines from '@/components/logos/custom-local/twolines'
 
