@@ -7,6 +7,7 @@ p {
   line-height: 1.5;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.5px;
   font-weight: bold;
@@ -31,6 +32,17 @@ code {
 
 .background-white {
   background-color: $white;
+}
+
+
+.intro {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: $gray-700;
+  max-width: 1300px;
+  a {
+    color: $gray-900;
+  }
 }
 
 @include media-breakpoint-down(sm) {

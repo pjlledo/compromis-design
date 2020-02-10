@@ -65,12 +65,12 @@
           <div class="row">
             <div class="col-lg-6">
               <figure class="no-margin text-center mb-4 mb-xl-0">
-                <img src="../assets/aplicacions/sobre-1-color.png" alt="Carta a color" style="max-width: 500px;">
+                <img src="../assets/aplicacions/sobre-1-color.png" alt="Sobre a color" style="max-width: 500px;">
               </figure>
             </div>
             <div class="col-lg-6">
               <figure class="no-margin text-center mb-4 mb-xl-0">
-                <img src="../assets/aplicacions/sobre-1-mono.png" alt="Carta monocolor" style="max-width: 500px;">
+                <img src="../assets/aplicacions/sobre-1-mono.png" alt="Sobre monocolor" style="max-width: 500px;">
               </figure>
             </div>
           </div>
@@ -100,12 +100,12 @@
           <div class="row">
             <div class="col-lg-6">
               <figure class="no-margin text-center mb-4 mb-xl-0">
-                <img src="../assets/aplicacions/sobre-2-color.png" alt="Carta a color" style="max-width: 500px;">
+                <img src="../assets/aplicacions/sobre-2-color.png" alt="Sobre a color" style="max-width: 500px;">
               </figure>
             </div>
             <div class="col-lg-6">
               <figure class="no-margin text-center mb-4 mb-xl-0">
-                <img src="../assets/aplicacions/sobre-2-mono.png" alt="Carta monocolor" style="max-width: 500px;">
+                <img src="../assets/aplicacions/sobre-2-mono.png" alt="Sobre monocolor" style="max-width: 500px;">
               </figure>
             </div>
           </div>
@@ -144,21 +144,21 @@
           <div class="row">
             <div class="col-lg-4 col-md-6">
               <figure class="edge no-margin text-center0">
-                <img src="../assets/aplicacions/visita-1-front.png" alt="Carta a color" style="max-width: 500px;">
+                <img src="../assets/aplicacions/visita-1-front.png" alt="Targeta de visita: cara anterior" style="max-width: 500px;">
               </figure>
-              <figcaption>Targeta de visita: frontal</figcaption>
+              <figcaption>Targeta de visita: cara anterior</figcaption>
             </div>
             <div class="col-lg-4 col-md-6 mt-4 mt-xl-0">
               <figure class="edge no-margin text-center">
-                <img src="../assets/aplicacions/visita-2-front.png" alt="Carta monocolor" style="max-width: 500px;">
+                <img src="../assets/aplicacions/visita-2-front.png" alt="Acreditació: cara anterior" style="max-width: 500px;">
               </figure>
-              <figcaption>Negatiu</figcaption>
+              <figcaption>Acreditació: cara anterior</figcaption>
             </div>
             <div class="col-lg-4 col-md-6 mt-4 mt-xl-0">
               <figure class="edge no-margin text-center">
-                <img src="../assets/aplicacions/visita-back.png" alt="Carta monocolor" style="max-width: 500px;">
+                <img src="../assets/aplicacions/visita-back.png" alt="Targeta de visita: cara posterior" style="max-width: 500px;">
               </figure>
-              <figcaption>Negatiu</figcaption>
+              <figcaption>Targeta de visita: cara posterior</figcaption>
             </div>
           </div>
         </div>
@@ -235,19 +235,19 @@
           <div class="row">
             <div class="col-lg-4 col-md-6">
               <figure class="edge no-margin text-center">
-                <img src="../assets/aplicacions/rollup-1.png" alt="Contraportada de carpeta" style="max-width: 500px;">
+                <img src="../assets/aplicacions/rollup-1.png" alt="Roll up degradat taronja" style="max-width: 500px;">
               </figure>
               <figcaption>Roll-up mut</figcaption>
             </div>
             <div class="col-lg-4 col-md-6 mt-4 mt-xl-0">
               <figure class="edge no-margin text-center">
-                <img src="../assets/aplicacions/rollup-2.png" alt="Portada de carpeta" style="max-width: 500px;">
+                <img src="../assets/aplicacions/rollup-2.png" alt="Roll up degradat taronja amb logos" style="max-width: 500px;">
               </figure>
               <figcaption>Roll-up per a col·lectius</figcaption>
             </div>
             <div class="col-lg-4 col-md-6 mt-4 mt-xl-0">
               <figure class="edge no-margin text-center">
-                <img src="../assets/aplicacions/rollup-3.png" alt="Portada de carpeta" style="max-width: 500px;">
+                <img src="../assets/aplicacions/rollup-3.png" alt="Roll up careta amb logos" style="max-width: 500px;">
               </figure>
               <figcaption>Roll-up alternatiu per a col·lectius</figcaption>
             </div>

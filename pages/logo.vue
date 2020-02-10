@@ -14,8 +14,8 @@
             La marca
           </h2>
           <p>
-            El conjunt format pel logotip i el símbol gràfic que l’acompanya, el denominem marca. Així com el símbol es podrà utilitzar per separat,
-            el logotip sempre haurà de presentar-se amb el símbol (la “careta”), per obtindre una correcta identificació de la marca.
+            El conjunt format pel logotip i el símbol gràfic que l’acompanya, el denominem marca. El símbol (la 'careta'), en alguns casos, es pot utilitzar per separat,
+            però logotip ('compromís') sempre haurà d'anar acompanyat del símbol per a que se'ns identifique millor.
           </p>
           <logo-grid :logo="logos.Logo" />
         </div>
@@ -34,7 +34,7 @@
             Proporcions
           </h2>
           <p>
-            Relacions entre els diferents elements de la marca per a la seua correcta reproducció.
+            Relacions entre els diferents elements de la marca.
           </p>
           <logo-grid :logo="logos.Careta" />
         </div>
@@ -48,7 +48,7 @@
       <div class="row">
         <div class="col-xl-8">
           <p>
-            Al voltant de la marca que ha de mantenir-se sempre una zona lliure i buida, per a diferenciar la marca de la resta d’elements que composen el disseny. El marge serà equivalent a l’alçada del cos de les lletres.
+            Al voltant de la marca ha de mantenir-se sempre una zona lliure i buida, per a diferenciar la marca de la resta d’elements que composen el disseny. El marge serà equivalent a l’alçada del cos de les lletres.
           </p>
           <logo-grid :logo="logos.LogoRespecte" />
         </div>
@@ -62,7 +62,7 @@
       <div class="row">
         <div class="col-xl-8">
           <p>
-            Existeixen diferents versions del logo per tal d’adaptar-se al context. A banda de la versió en color, que és preferible usar, també existeixen les versions monocromàtiques en positiu i negatiu.
+            Existeixen diferents versions del logo per a adaptar-se al context. A banda de la versió en color, que és preferible usar, també existeixen les versions monocromàtiques en positiu i negatiu.
           </p>
         </div>
       </div>
@@ -103,8 +103,8 @@
       <div class="row">
         <div class="col-xl-8">
           <p>
-            És important tindre cura amb la marca, per a mantindre una imatge sòlida i constant. Un bon ús de la marca i el seu color ens aporta valors positius, i ens fa ser més reconeguts.
-            No s'ha de modificar el logo, usar versions antigues, o fer modificacions, com s'indica en els exemples a continuació:
+            És important tindre cura amb la marca, per a mantindre una imatge sòlida i constant. Un bon ús de la marca i el seu color ens aporta valors positius, i ens fa ser més reconeguts. Utilitzeu sempre el logo descarregat
+            d'aquesta web. No s'ha de modificar el logo, usar versions antigues, o fer modificacions, com s'indica en els exemples a continuació:
           </p>
         </div>
       </div>
@@ -161,7 +161,7 @@
           <figure class="figure-error">
             <img src="../assets/logo/ulls.png" alt="Logo antic">
           </figure>
-          <figcaption>Els ulls i boca de la "careta" no són buits, han d’omplir-se de blanc. Respecteu les versions oficials</figcaption>
+          <figcaption>Els ulls i boca de la "careta" no estan buits, han d’omplir-se de blanc. Respecteu les versions oficials</figcaption>
         </div>
       </div>
     </section>
@@ -174,13 +174,14 @@
         <div class="col-xl-8">
           <p>
             Per a particularitzar la marca, poden afegir-se extensions per a col·lectius local, departaments o entitats.
-            Aquest afegitó acompanyarà la marca en proporció horitzontal o comprimida, segons quin s'adeqüe més al context.
+            Aquesta extensió acompanyarà la marca en proporció horitzontal o comprimida, segons quin s'adeqüe més al context.
+            Per a generar i descarregar el vostre logo local utilitzeu la ferramenta que tenim en aquesta mateixa web.
           </p>
 
           <h3>Versió horitzontal</h3>
           <p>
-            La versió horitzontal és la preferible sempre a no ser que l’espai ho permeta.
-            S'ha de tindre en compte els colors, les proporcions i les àrees de respecte dels afegitons.
+            La versió horitzontal és la preferible sempre a no ser que l’espai no permeta gastar-la.
+            S'ha de tindre en compte els colors, les proporcions i les àrees de respecte de les extensions.
           </p>
           <logo-grid :logo="logos.Local" />
 
@@ -193,16 +194,14 @@
 
           <h3>Versió comprimida</h3>
           <p>
-            Aquesta versió s'utilitza únicament quan l'espai és limitat de forma que és impossible utilitzar la versió horitzontal.
-            S’hauran de tindre en compte els colors, les proporcions i les àrees de respecte dels afegitons.
+            Aquesta versió s'utilitza únicament quan l'espai és limitat i no és possible utilitzar la versió horitzontal.
             Esta versió no contempla la possibilitat d’incloure un altre logotip de forma paral·lela. Els textos afegits s’alinearan a la dreta.
           </p>
           <logo-grid :logo="logos.LocalAlt" />
 
           <h3>Versió comprimida multilínia</h3>
           <p>
-            Aquesta versió s'utilitza únicament quan l'espai és limitat de forma que és impossible utilitzar la versió horitzontal.
-            S’hauran de tindre en compte els colors, les proporcions i les àrees de respecte dels afegitons.
+            Aquesta versió s'utilitza únicament quan l'espai és limitat i no és possible utilitzar la versió horitzontal.
             Esta versió no contempla la possibilitat d’incloure un altre logotip de forma paral·lela. Els textos afegits s’alinearan a la dreta.
           </p>
           <logo-grid :logo="logos.LocalAltDosLinies" />

@@ -4,6 +4,14 @@
       Recursos<br>de marca
     </h2>
 
+    <p class="intro">
+      Benvingut al portal de disseny de Compromís. Ací trobaràs
+      la nostra <nuxt-link to="/logo">
+        guia d'estil
+      </nuxt-link> per a saber
+      com utilitzar la marca del partit en distints àmbits.
+    </p>
+
     <logo-card :municipalities="municipalities" />
     <banners-card />
 
@@ -44,5 +52,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+@import "../sass/variables";
+.intro {
+  margin-top: 2rem;
+}
 </style>
