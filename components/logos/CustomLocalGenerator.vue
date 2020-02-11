@@ -1,5 +1,5 @@
 <template>
-  <div class="input-group">
+  <div class="input-group generator">
     <input
       id="localName"
       @input="updateName"
@@ -13,11 +13,16 @@
       list="municipalities"
     >
     <div class="input-group-append">
-      <b-dropdown :disabled="canType" size="lg" text="Genera">
-        <b-dropdown-item @click="download('H')">
+      <b-dropdown size="lg" text="Genera">
+        <b-dropdown-item v-if="canType" disabled>
+          Has d'escriure un nom vàlid d'un <br>
+          col·lectiu local o comarcal de Compromís
+        </b-dropdown-item>
+        <b-dropdown-divider v-if="canType" />
+        <b-dropdown-item @click="download('H')" :disabled="canType">
           Horitzontal <span class="text-muted">(.svg)</span>
         </b-dropdown-item>
-        <b-dropdown-item @click="download('V')">
+        <b-dropdown-item @click="download('V')" :disabled="canType">
           Compromida <span class="text-muted">(.svg)</span>
         </b-dropdown-item>
       </b-dropdown>
@@ -120,6 +125,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 </style>

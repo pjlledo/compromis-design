@@ -92,7 +92,8 @@ export default {
       'ButtonPlugin',
       'FormInputPlugin',
       'FormRadioPlugin',
-      'DropdownPlugin'
+      'DropdownPlugin',
+      'TooltipPlugin'
     ],
     bootstrapCSS: false,
     bootstrapVueCSS: false
