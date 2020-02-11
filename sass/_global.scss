@@ -38,15 +38,19 @@ code {
 .intro {
   font-size: 2rem;
   line-height: 1.4;
-  color: $gray-700;
+  color: rgba($gray-900, .6);
   max-width: 1300px;
   a {
-    color: $gray-900;
+    color: rgba($gray-900, .8);
   }
 }
 
 @include media-breakpoint-down(sm) {
   .container {
     padding: 0 1rem;
+  }
+
+  .intro {
+    font-size: 1.5rem;
   }
 }
