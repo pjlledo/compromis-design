@@ -11,7 +11,7 @@
       </c-button>
     </p>
     <div class="row mt-8">
-      <div class="col-md-8">
+      <div class="col-xl-8">
         <div class="typography-sample bold">
           <span class="typography-sample-icon">Aa</span>
           <span class="typography-sample-letters d-none d-md-block">
@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-xl-8">
         <h3>
           Manrope ExtraBold
         </h3>
@@ -34,7 +34,7 @@
       </div>
     </div>
     <div class="row mt-8">
-      <div class="col-md-8">
+      <div class="col-xl-8">
         <div class="typography-sample">
           <span class="typography-sample-icon">Aa</span>
           <span class="typography-sample-letters d-none d-md-block">
@@ -46,7 +46,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-xl-8">
         <h3>
           Manrope Medium
         </h3>

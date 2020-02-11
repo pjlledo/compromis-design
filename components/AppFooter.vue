@@ -2,7 +2,7 @@
   <div :class="{'container': !inPage, 'in-page': inPage}">
     <footer>
       <p>Si tens qualsevol dubte o suggeriment, pots contactar-nos en <a href="mailto:disseny@compromis.net">disseny@compromis.net</a></p>
-      <p><strong>Manual d'Estil de Compromís</strong>. Darrera actualització: 21 de gener de 2020.</p>
+      <p><strong>Manual d'Estil de Compromís</strong>. Darrera actualització: 11 de febrer de 2020.</p>
     </footer>
   </div>
 </template>
