@@ -2,7 +2,10 @@
   <div class="input-group">
     <input
       id="localName"
-      v-model="name"
+      @input="updateName"
+      :value="name"
+      @keypress="preventTyping"
+      @keydown.delete="resetTyping"
       @keypress.enter="download('H')"
       type="text"
       class="form-control form-control-lg"
@@ -10,7 +13,7 @@
       list="municipalities"
     >
     <div class="input-group-append">
-      <b-dropdown size="lg" text="Genera">
+      <b-dropdown :disabled="canType" size="lg" text="Genera">
         <b-dropdown-item @click="download('H')">
           Horitzontal <span class="text-muted">(.svg)</span>
         </b-dropdown-item>
@@ -21,7 +24,7 @@
     </div>
     <datalist id="municipalities">
       <option v-for="(municipality, i) in municipalities" :key="i">
-        {{ municipality.name }}
+        {{ municipality }}
       </option>
     </datalist>
   </div>
@@ -46,18 +49,58 @@ export default {
 
   data () {
     return {
-      name: ''
+      name: '',
+      canType: true
     }
   },
 
   watch: {
     name () {
-      this.$emit('name-change', this.name)
+      if (this.municipalities.includes(this.name)) {
+        this.$emit('name-change', this.name)
+      } else {
+        this.$emit('name-change', '')
+      }
     }
   },
 
   methods: {
+    updateName (e) {
+      const value = e.target.value
+
+      if (!this.canType) {
+        return
+      }
+
+      const coincidences = this.municipalities.filter((municipality) => {
+        return municipality.startsWith(value)
+      })
+
+      if (coincidences.length === 1) {
+        this.name = coincidences[0]
+        this.canType = false
+      } else {
+        this.name = value
+      }
+    },
+
+    preventTyping (e) {
+      if (!this.canType) { e.preventDefault() }
+    },
+
+    resetTyping (e) {
+      if (!this.canType) {
+        this.name = ''
+        this.canType = true
+      }
+    },
+
     download (version) {
+      if (!this.municipalities.includes(this.name)) {
+        alert(`Has d'escriure un nom vàlid d'un col·lectiu local o comarcal de Compromís`)
+        return
+      }
+
       let svgData
       const name = utf8.encode(this.name)
       const spaces = name.indexOf(' ')
