@@ -201,12 +201,12 @@
               <figcaption>Carpeta assumpte</figcaption>
             </div>
           </div>
-          <div class="row mt-3">
+          <div class="row mt-4">
             <div class="col-12">
               <figure class="no-margin text-center">
                 <img src="../assets/aplicacions/carpeta-2.png" alt="Contraportada de carpeta" style="max-width: 500px; border: 1px #CCC solid;">
               </figure>
-              <figcaption>Carpeta mut</figcaption>
+              <figcaption>Carpeta careta</figcaption>
             </div>
           </div>
         </div>

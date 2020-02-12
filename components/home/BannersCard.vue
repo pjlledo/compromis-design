@@ -2,6 +2,7 @@
   <div>
     <h3>
       Targes
+      <span class="lock"><fa :icon="['far', 'lock-alt']" /></span>
     </h3>
     <div class="template-selector">
       <div class="template-selector-templates">
@@ -82,6 +83,12 @@ export default {
     &::after {
       content: ' >';
     }
+  }
+
+  .lock {
+    font-size: 1.5rem;
+    position: relative;
+    top: -2px;
   }
 
   .template-selector {

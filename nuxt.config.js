@@ -68,7 +68,7 @@ export default {
             'faFontCase', 'faPalette', 'faShareAlt', 'faPrint', 'faCamera',
             'faFilm', 'faMegaphone', 'faArrowCircleDown', 'faFile', 'faTimesCircle',
             'faSendBackward', 'faUserCircle', 'faBook', 'faPhotoVideo', 'faPlay', 'faPortrait',
-            'faEye', 'faEyeSlash', 'faNewspaper', 'faAlignLeft', 'faQuoteLeft'
+            'faEye', 'faEyeSlash', 'faNewspaper', 'faAlignLeft', 'faQuoteLeft', 'faLockAlt'
           ]
         }
       ]
