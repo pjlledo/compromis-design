@@ -148,13 +148,13 @@
               </figure>
               <figcaption>Targeta de visita: cara anterior</figcaption>
             </div>
-            <div class="col-lg-4 col-md-6 mt-4 mt-xl-0">
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
               <figure class="edge no-margin text-center">
                 <img src="../assets/aplicacions/visita-2-front.png" alt="Acreditació: cara anterior" style="max-width: 500px;">
               </figure>
               <figcaption>Acreditació: cara anterior</figcaption>
             </div>
-            <div class="col-lg-4 col-md-6 mt-4 mt-xl-0">
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
               <figure class="edge no-margin text-center">
                 <img src="../assets/aplicacions/visita-back.png" alt="Targeta de visita: cara posterior" style="max-width: 500px;">
               </figure>
@@ -162,7 +162,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 mt-4 mt-xl-0">
           <dl>
             <dt>Format</dt>
             <dd>220 x 110 mm.</dd>
@@ -189,26 +189,28 @@
         Carpeta
       </h2>
       <p>
-        Exemple de la portada i contraportada d’una carpeta.
+        Models de portada i contraportada de carpetes.
       </p>
       <div class="row mb-4">
         <div class="col-xl-9">
           <div class="row">
-            <div class="col-md-6">
-              <figure class="edge no-margin text-center">
-                <img src="../assets/aplicacions/carpeta-back.png" alt="Contraportada de carpeta" style="max-width: 500px;">
+            <div class="col-12">
+              <figure class="no-margin text-center">
+                <img src="../assets/aplicacions/carpeta-1.png" alt="Contraportada de carpeta" style="max-width: 500px; border: 1px #CCC solid;">
               </figure>
-              <figcaption>Contraportada</figcaption>
+              <figcaption>Carpeta assumpte</figcaption>
             </div>
-            <div class="col-md-6 mt-4 mt-xl-0">
-              <figure class="edge no-margin text-center">
-                <img src="../assets/aplicacions/carpeta-front.png" alt="Portada de carpeta" style="max-width: 500px;">
+          </div>
+          <div class="row mt-3">
+            <div class="col-12">
+              <figure class="no-margin text-center">
+                <img src="../assets/aplicacions/carpeta-2.png" alt="Contraportada de carpeta" style="max-width: 500px; border: 1px #CCC solid;">
               </figure>
-              <figcaption>Portada</figcaption>
+              <figcaption>Carpeta mut</figcaption>
             </div>
           </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 mt-4 mt-xl-0">
           <dl>
             <dt>Format</dt>
             <dd>228 x 317 mm.</dd>
@@ -233,27 +235,27 @@
       <div class="row mb-4">
         <div class="col-xl-9">
           <div class="row">
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+              <figure class="edge no-margin text-center">
+                <img src="../assets/aplicacions/rollup-3.png" alt="Roll up careta amb logos" style="max-width: 500px;">
+              </figure>
+              <figcaption>Roll-up per a col·lectius</figcaption>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+              <figure class="edge no-margin text-center">
+                <img src="../assets/aplicacions/rollup-2.png" alt="Roll up degradat taronja amb logos" style="max-width: 500px;">
+              </figure>
+              <figcaption>Roll-up alternatiu per a col·lectius</figcaption>
+            </div>
             <div class="col-lg-4 col-md-6">
               <figure class="edge no-margin text-center">
                 <img src="../assets/aplicacions/rollup-1.png" alt="Roll up degradat taronja" style="max-width: 500px;">
               </figure>
-              <figcaption>Roll-up mut</figcaption>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-4 mt-xl-0">
-              <figure class="edge no-margin text-center">
-                <img src="../assets/aplicacions/rollup-2.png" alt="Roll up degradat taronja amb logos" style="max-width: 500px;">
-              </figure>
-              <figcaption>Roll-up per a col·lectius</figcaption>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-4 mt-xl-0">
-              <figure class="edge no-margin text-center">
-                <img src="../assets/aplicacions/rollup-3.png" alt="Roll up careta amb logos" style="max-width: 500px;">
-              </figure>
-              <figcaption>Roll-up alternatiu per a col·lectius</figcaption>
+              <figcaption>Roll-up mut decoratiu quan la marca de Compromís està present en altres elements (per exemple, una trasera, taula, un altre roll-up, etc.)</figcaption>
             </div>
           </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 mt-4 mt-lg-0">
           <dl>
             <dt>Format</dt>
             <dd>100 x 200 cm</dd>
