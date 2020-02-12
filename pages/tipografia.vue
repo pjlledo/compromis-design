@@ -6,7 +6,7 @@
       (excepte en casos excepcionals) i usar els dos pesos (Medium i Extra Bold) com s'explica a continuació.
     </p>
     <p>
-      <c-button variant="outline-primary" size="lg" href="https://manropefont.com/manrope.zip">
+      <c-button variant="outline-primary" size="lg" href="/assets/fonts/Manrope.zip">
         <fa :icon="['far', 'arrow-circle-down']" /> Descarrega Manrope
       </c-button>
     </p>
