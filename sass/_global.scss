@@ -34,15 +34,12 @@ code {
   background-color: $white;
 }
 
-
 .intro {
   font-size: 2rem;
   line-height: 1.4;
   color: rgba($gray-900, .6);
   max-width: 1300px;
-  a {
-    color: rgba($gray-900, .8);
-  }
+  line-height: 1.3 !important;
 }
 
 @include media-breakpoint-down(sm) {

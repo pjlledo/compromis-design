@@ -6,8 +6,10 @@
     </h2>
 
     <p class="intro">
-      A Compromís creiem en la política de baix cap a dalt. Per això, fem accesible tot el nostre material gràfic,
-      la <nuxt-link to="/logo">guia d'estil</nuxt-link> per a la seua correcta aplicació i ferramentes per facilitar la creació de material.
+      A Compromís creiem en la política de baix cap a dalt. Per això, fem accesible
+      la nostra <nuxt-link to="/logo">guia d'estil</nuxt-link>, amb tot el material gràfic,
+      instruccions per a la seua correcta aplicació i ferramentes per facilitar la
+      creació de material.
     </p>
 
     <logo-card :municipalities="municipalities" />
