@@ -1,8 +1,11 @@
 <template>
-  <div class="input-group">
+  <div class="input-group generator">
     <input
       id="localName"
-      v-model="name"
+      @input="updateName"
+      :value="name"
+      @keypress="preventTyping"
+      @keydown.delete="resetTyping"
       @keypress.enter="download('H')"
       type="text"
       class="form-control form-control-lg"
@@ -10,18 +13,23 @@
       list="municipalities"
     >
     <div class="input-group-append">
-      <b-dropdown size="lg" text="Descarrega logo local">
-        <b-dropdown-item @click="download('H')">
+      <b-dropdown size="lg" text="Descarrega">
+        <b-dropdown-item v-if="canType" disabled>
+          Has d'escriure un nom vàlid d'un <br>
+          col·lectiu local o comarcal de Compromís
+        </b-dropdown-item>
+        <b-dropdown-divider v-if="canType" />
+        <b-dropdown-item @click="download('H')" :disabled="canType">
           Horitzontal <span class="text-muted">(.svg)</span>
         </b-dropdown-item>
-        <b-dropdown-item @click="download('V')">
+        <b-dropdown-item @click="download('V')" :disabled="canType">
           Compromida <span class="text-muted">(.svg)</span>
         </b-dropdown-item>
       </b-dropdown>
     </div>
     <datalist id="municipalities">
       <option v-for="(municipality, i) in municipalities" :key="i">
-        {{ municipality.name }}
+        {{ municipality }}
       </option>
     </datalist>
   </div>
@@ -46,18 +54,58 @@ export default {
 
   data () {
     return {
-      name: ''
+      name: '',
+      canType: true
     }
   },
 
   watch: {
     name () {
-      this.$emit('name-change', this.name)
+      if (this.municipalities.includes(this.name)) {
+        this.$emit('name-change', this.name)
+      } else {
+        this.$emit('name-change', '')
+      }
     }
   },
 
   methods: {
+    updateName (e) {
+      const value = e.target.value
+
+      if (!this.canType) {
+        return
+      }
+
+      const coincidences = this.municipalities.filter((municipality) => {
+        return municipality.startsWith(value)
+      })
+
+      if (coincidences.length === 1) {
+        this.name = coincidences[0]
+        this.canType = false
+      } else {
+        this.name = value
+      }
+    },
+
+    preventTyping (e) {
+      if (!this.canType) { e.preventDefault() }
+    },
+
+    resetTyping (e) {
+      if (!this.canType) {
+        this.name = ''
+        this.canType = true
+      }
+    },
+
     download (version) {
+      if (!this.municipalities.includes(this.name)) {
+        alert(`Has d'escriure un nom vàlid d'un col·lectiu local o comarcal de Compromís`)
+        return
+      }
+
       let svgData
       const name = utf8.encode(this.name)
       const spaces = name.indexOf(' ')
@@ -77,6 +125,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 </style>

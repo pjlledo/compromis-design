@@ -20,7 +20,7 @@
         <nuxt-link to="/tipografia" class="btn btn-outline-primary btn-lg">
           <span>Guies d'ús</span>
         </nuxt-link>
-        <a href="https://manropefont.com/manrope.zip" class="btn btn-no-shadow btn-lg">
+        <a href="/assets/fonts/Manrope.zip" class="btn btn-no-shadow btn-lg">
           <fa :icon="['far', 'arrow-circle-down']" /> Manrope
         </a>
       </div>

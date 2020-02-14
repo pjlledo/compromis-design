@@ -13,9 +13,12 @@
         </figure>
       </div>
       <div class="col-md-4 d-flex align-items-end mt-4 mt-xl-0">
-        <c-button href="https://targes.compromis.net/#/social" variant="outline-primary" size="lg" target="_blank">
-          <fa :icon="['far', 'user-circle']" /> Crea una foto de perfil
-        </c-button>
+        <p class="mb-0">
+          <c-button href="https://compromis.net/espai/targes/?template=social" variant="outline-primary" size="lg" target="_blank">
+            <fa :icon="['far', 'user-circle']" /> Crea una foto de perfil
+          </c-button>
+          <small class="text-muted ml-2"><fa :icon="['far', 'lock-alt']" /></small>
+        </p>
       </div>
     </div>
 
@@ -90,9 +93,10 @@
       </div>
       <div class="col-md-4 d-flex align-items-end mt-4 mt-xl-0">
         <p>
-          <c-button href="https://targes.compromis.net" variant="outline-primary" size="lg" target="_blank">
+          <c-button href="https://compromis.net/espai/targes" variant="outline-primary" size="lg" target="_blank">
             <fa :icon="['far', 'send-backward']" /> Generador de targes
           </c-button>
+          <small class="text-muted ml-2"><fa :icon="['far', 'lock-alt']" /></small>
         </p>
       </div>
     </div>
@@ -108,10 +112,10 @@
       </div>
       <div class="col-md-4 d-flex align-items-end mt-4 mt-xl-0">
         <p>
-          <c-button href="https://targes.compromis.net" variant="outline-primary" size="lg" target="_blank" disabled>
+          <c-button href="https://compromis.net/espai/targes" variant="outline-primary" size="lg" target="_blank" disabled>
             <fa :icon="['far', 'book']" /> Manual de Xarxes
           </c-button>
-          <small class="text-muted">Properament</small>
+          <small class="text-muted ml-2"><fa :icon="['far', 'lock-alt']" /> Properament</small>
         </p>
       </div>
     </div>

@@ -34,19 +34,20 @@ code {
   background-color: $white;
 }
 
-
 .intro {
   font-size: 2rem;
   line-height: 1.4;
-  color: $gray-700;
+  color: rgba($gray-900, .6);
   max-width: 1300px;
-  a {
-    color: $gray-900;
-  }
+  line-height: 1.3 !important;
 }
 
 @include media-breakpoint-down(sm) {
   .container {
     padding: 0 1rem;
+  }
+
+  .intro {
+    font-size: 1.5rem;
   }
 }

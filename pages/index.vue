@@ -1,15 +1,15 @@
 <template>
   <div class="container home">
+    <!-- eslint-disable vue/singleline-html-element-content-newline -->
     <h2>
       Recursos<br>de marca
     </h2>
 
     <p class="intro">
-      Benvingut al portal de disseny de Compromís. Ací trobaràs
-      la nostra <nuxt-link to="/logo">
-        guia d'estil
-      </nuxt-link> per a saber
-      com utilitzar la marca del partit en distints àmbits.
+      A Compromís creiem en la política de baix cap a dalt. Per això, fem accesible
+      la nostra <nuxt-link to="/logo">guia d'estil</nuxt-link>, amb tot el material gràfic,
+      instruccions per a la seua correcta aplicació i ferramentes per facilitar la
+      creació de material.
     </p>
 
     <logo-card :municipalities="municipalities" />
@@ -25,6 +25,8 @@
     </div>
 
     <other-card />
+
+    <p class="mt-4 text-muted">No trobes el que busques? Busca al repositori de <a href="https://onedrive.live.com/?id=49217E5E07CD52BD%21185814&cid=49217E5E07CD52BD" target="_blank" rel="noopener noreferrer">material antic</a>.</p>
   </div>
 </template>
 

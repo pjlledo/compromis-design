@@ -1,6 +1,6 @@
-# compromis-design
+# Manual d'estil de Compromís
 
-> My slick Nuxt.js project
+> Manual d'estil i recursos de marca de Compromís
 
 ## Build Setup
 

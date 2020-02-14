@@ -2,12 +2,13 @@
   <div>
     <h3>
       Targes
+      <span class="lock"><fa :icon="['far', 'lock-alt']" /></span>
     </h3>
     <div class="template-selector">
       <div class="template-selector-templates">
         <ul>
           <li>
-            <a href="https://targes.compromis.net/#/headline" class="template-item" target="_blank" rel="noreferrer noopener">
+            <a href="https://compromis.net/espai/targes/?template=headline" class="template-item" target="_blank" rel="noreferrer noopener">
               <span class="template-item-icon">
                 <fa :icon="['far', 'newspaper']" fixed-width />
               </span>
@@ -15,7 +16,7 @@
             </a>
           </li>
           <li>
-            <a href="https://targes.compromis.net/#/quote" class="template-item" target="_blank" rel="noreferrer noopener">
+            <a href="https://compromis.net/espai/targes/?template=quote" class="template-item" target="_blank" rel="noreferrer noopener">
               <span class="template-item-icon">
                 <fa :icon="['far', 'quote-left']" fixed-width />
               </span>
@@ -23,7 +24,7 @@
             </a>
           </li>
           <li>
-            <a href="https://targes.compromis.net/#/text" class="template-item" target="_blank" rel="noreferrer noopener">
+            <a href="https://compromis.net/espai/targes/?template=text" class="template-item" target="_blank" rel="noreferrer noopener">
               <span class="template-item-icon">
                 <fa :icon="['far', 'align-left']" fixed-width />
               </span>
@@ -31,7 +32,7 @@
             </a>
           </li>
           <li>
-            <a href="https://targes.compromis.net/#/event" class="template-item" target="_blank" rel="noreferrer noopener">
+            <a href="https://compromis.net/espai/targes/?template=event" class="template-item" target="_blank" rel="noreferrer noopener">
               <span class="template-item-icon">
                 <fa :icon="['far', 'portrait']" fixed-width />
               </span>
@@ -40,7 +41,7 @@
           </li>
         </ul>
         <div class="template-selector-more">
-          <a href="https://targes.compromis.net" class="apple-link" target="_blank" rel="noreferrer noopener"><span>Totes les targes</span></a>
+          <a href="https://compromis.net/espai/targes" class="apple-link" target="_blank" rel="noreferrer noopener"><span>Totes les targes</span></a>
         </div>
       </div>
     </div>
@@ -82,6 +83,12 @@ export default {
     &::after {
       content: ' >';
     }
+  }
+
+  .lock {
+    font-size: 1.5rem;
+    position: relative;
+    top: -2px;
   }
 
   .template-selector {
