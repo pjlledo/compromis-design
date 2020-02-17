@@ -2,15 +2,36 @@
   <div :class="{'container': !inPage, 'in-page': inPage}">
     <footer>
       <p>Si tens qualsevol dubte o suggeriment, pots contactar-nos en <a href="mailto:disseny@compromis.net">disseny@compromis.net</a></p>
-      <p><strong>Manual d'Estil de Compromís</strong>. Darrera actualització: 11 de febrer de 2020.</p>
+      <p>
+        <strong>Manual d'Estil de Compromís</strong>.
+        Darrera actualització: <span v-if="lastUpdated">{{ lastUpdated.getDate() }} {{ months[lastUpdated.getMonth()] }} {{ lastUpdated.getFullYear() }}.</span>
+      </p>
     </footer>
   </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
   props: {
     inPage: Boolean
+  },
+
+  data () {
+    return {
+      months: ['gener', 'febrer', 'març', 'abril', 'maig', 'juny', 'juliol', 'agost', 'setembre', 'octubre', 'novembre', 'desembre']
+    }
+  },
+
+  computed: {
+    ...mapState([
+      'lastUpdated'
+    ])
+  },
+
+  mounted () {
+    this.$store.dispatch('getLastUpdated')
   }
 }
 </script>
@@ -29,6 +50,8 @@ footer {
   color: $gray-600;
   margin-bottom: 2rem;
   margin-top: 10rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
 
   p {
     margin-bottom: .5rem;
@@ -48,6 +71,8 @@ footer {
     margin-top: 4rem;
     padding-left: 0;
     padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
 
     p {
       font-size: 1rem;
@@ -61,6 +86,13 @@ footer {
       background: $gray-400;
       top: .5rem;
     }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  footer {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 </style>
