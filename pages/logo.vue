@@ -244,8 +244,7 @@
                 <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logo-horizontal-multilinia.zip">Versió horitzontal multilínia</a></li>
                 <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logo-comprimit.zip">Versió comprimida</a></li>
                 <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logo-compromit-multilinia.zip">Versió comprimida multilínia</a></li>
-                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="#">Logos comarcals</a></li>
-                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="#">Logos institucionals</a></li>
+                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logos-institucions.zip">Logos institucionals</a></li>
                 <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logo-quadrat.zip">Logo quadrat</a></li>
               </ul>
             </div>
