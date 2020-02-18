@@ -51,20 +51,19 @@
       overflow: hidden;
 
       &::before {
-        content: 'X';
-        font-size: 1rem;
-        line-height: 1.2;
-        font-weight: bold;
-        display: flex;
-        align-content: center;
-        justify-content: center;
         position: absolute;
-        left: 0;
-        top: 0;
-        color: $white;
-        padding: .4rem .75rem .4rem;
-        background-color: lighten($red, 5%);
-        border-bottom-right-radius: .35rem;
+        left: 1rem;
+        top: 1rem;
+        bottom: 1rem;
+        right: 1rem;
+        content: '';
+        background:
+         linear-gradient(to top left,
+             rgba(0,0,0,0) 0%,
+             rgba(0,0,0,0) calc(50% - 0.8px),
+              $red 50%,
+             rgba(0,0,0,0) calc(50% + 0.8px),
+             rgba(0,0,0,0) 100%),
       }
     }
 
@@ -185,16 +184,16 @@ dl {
     }
 
     .intro {
-      font-size: 1.25rem;
+      font-size: 1.5rem;
     }
 
     p {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
   }
 }
 
-@include media-breakpoint-down(lg) {
+@include media-breakpoint-down(md) {
   .assets {
     margin-top: 2rem;
 
