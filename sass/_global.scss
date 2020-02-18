@@ -50,6 +50,31 @@ code {
   html {
     font-size: 14px;
   }
+
+  .cardless-text {
+    background: rgba($body-bg, .75);
+    backdrop-filter: blur(4px);
+    padding: 2rem;
+    border-radius: $border-radius;
+    color: $gray-600;
+    margin-left: -2rem;
+    margin-right: -2rem;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .intro {
+    font-size: 1.75rem;
+  }
+
+  .cardless-text {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 @include media-breakpoint-down(sm) {
@@ -58,6 +83,6 @@ code {
   }
 
   .intro {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
