@@ -9,6 +9,7 @@
     color: $gray-900;
     font-size: 9rem;
     margin-top: 8rem;
+    margin-bottom: 1rem;
     line-height: .95;
     letter-spacing: -.4rem;
   }
@@ -133,7 +134,7 @@
   :root {
     --home-card-padding: 1.5rem;
   }
-  
+
   .home {
     h2 {
       font-size: 4rem;

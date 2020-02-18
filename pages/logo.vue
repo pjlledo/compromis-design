@@ -9,7 +9,7 @@
 
     <section>
       <div class="row">
-        <div class="col-xl-8">
+        <div class="col-lg-8">
           <h2 id="marca">
             La marca
           </h2>
@@ -19,7 +19,7 @@
           </p>
           <logo-grid :logo="logos.Logo" />
         </div>
-        <div class="col-xl-4 d-flex align-items-end mt-4 mt-xl-0">
+        <div class="col-lg-4 d-flex align-items-end mt-4 mt-xl-0">
           <c-button href="/assets/logo/logo.zip" variant="outline-primary" size="lg">
             <fa :icon="['far', 'arrow-circle-down']" /> Descarrega logo
           </c-button>
@@ -29,7 +29,7 @@
 
     <section>
       <div class="row">
-        <div class="col-xl-8">
+        <div class="col-lg-8">
           <h2 id="proporcions">
             Proporcions
           </h2>
@@ -46,7 +46,7 @@
         Àrea de respecte
       </h2>
       <div class="row">
-        <div class="col-xl-8">
+        <div class="col-lg-8">
           <p>
             Al voltant de la marca ha de mantenir-se sempre una zona lliure i buida, per a diferenciar la marca de la resta d’elements que composen el disseny. El marge serà equivalent a l’alçada del cos de les lletres.
           </p>
@@ -60,20 +60,20 @@
         Versions monocromàtiques
       </h2>
       <div class="row">
-        <div class="col-xl-8">
+        <div class="col-lg-8">
           <p>
             Existeixen diferents versions del logo per a adaptar-se al context. A banda de la versió en color, que és preferible usar, també existeixen les versions monocromàtiques en positiu i negatiu.
           </p>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-xl-4">
+        <div class="col-md-6 col-lg-4">
           <figure>
             <compromis-logo />
           </figure>
           <figcaption>Positiu</figcaption>
         </div>
-        <div class="col-md-6 col-xl-4">
+        <div class="col-md-6 col-lg-4">
           <figure>
             <compromis-logo mono />
           </figure>
@@ -81,13 +81,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-xl-4">
+        <div class="col-md-6 col-lg-4">
           <figure class="figure-dark">
             <compromis-logo inverted />
           </figure>
           <figcaption>Negatiu</figcaption>
         </div>
-        <div class="col-md-6 col-xl-4">
+        <div class="col-md-6 col-lg-4">
           <figure class="figure-dark">
             <compromis-logo mono style="color: white;" />
           </figure>
@@ -101,7 +101,7 @@
         Usos inadequats
       </h2>
       <div class="row">
-        <div class="col-xl-8">
+        <div class="col-lg-8">
           <p>
             És important tindre cura amb la marca, per a mantindre una imatge sòlida i constant. Un bon ús de la marca i el seu color ens aporta valors positius, i ens fa ser més reconeguts. Utilitzeu sempre el logo descarregat
             d'aquesta web. No s'ha de modificar el logo, usar versions antigues, o fer modificacions, com s'indica en els exemples a continuació:
@@ -109,13 +109,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-xl-4">
+        <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
             <img src="../assets/logo/antic.png" alt="Logo antic">
           </figure>
           <figcaption>No utitlitzeu versions antigues i/o no oficials</figcaption>
         </div>
-        <div class="col-md-6 col-xl-4">
+        <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
             <img src="../assets/logo/nom.png" alt="Logo antic">
           </figure>
@@ -123,13 +123,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-xl-4">
+        <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
             <img src="../assets/logo/disposicio.png" alt="Logo antic">
           </figure>
           <figcaption>No altereu la disposicó dels elements</figcaption>
         </div>
-        <div class="col-md-6 col-xl-4">
+        <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
             <img src="../assets/logo/tipografia.png" alt="Logo antic">
           </figure>
@@ -137,13 +137,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-xl-4">
+        <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
             <img src="../assets/logo/deformat.png" alt="Logo antic">
           </figure>
           <figcaption>No deformeu ni altereu la proporció</figcaption>
         </div>
-        <div class="col-md-6 col-xl-4">
+        <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
             <img src="../assets/logo/color.png" alt="Logo antic">
           </figure>
@@ -151,13 +151,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-xl-4">
+        <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
             <img src="../assets/logo/color-lletra.png" alt="Logo antic">
           </figure>
           <figcaption>No modifiqueu el color de les lletres</figcaption>
         </div>
-        <div class="col-md-6 col-xl-4">
+        <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
             <img src="../assets/logo/ulls.png" alt="Logo antic">
           </figure>
@@ -171,7 +171,7 @@
         Adaptacions de la marca
       </h2>
       <div class="row">
-        <div class="col-xl-8">
+        <div class="col-lg-8">
           <p>
             Per a particularitzar la marca, poden afegir-se extensions per a col·lectius local, departaments o entitats.
             Aquesta extensió acompanyarà la marca en proporció horitzontal o comprimida, segons quin s'adeqüe més al context.
@@ -232,7 +232,7 @@
             <img src="../assets/logo/ulls-i-boca.svg" alt="">
           </figure>
         </div>
-        <div class="col-xl-4 d-xl-flex align-items-stretch">
+        <div class="col-lg-4 d-lg-flex align-items-stretch">
           <div class="assets-list assets-sticky">
             <div class="assets-sticky-content">
               <label>Genera el logo del teu col·lectiu</label>
