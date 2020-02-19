@@ -14,15 +14,15 @@
     >
     <div class="input-group-append">
       <b-dropdown size="lg" text="Descarrega">
-        <b-dropdown-item v-if="canType" disabled>
+        <b-dropdown-item v-if="!canDownload" disabled>
           Has d'escriure un nom vàlid d'un <br>
           col·lectiu local o comarcal de Compromís
         </b-dropdown-item>
-        <b-dropdown-divider v-if="canType" />
-        <b-dropdown-item @click="download('H')" :disabled="canType">
+        <b-dropdown-divider v-if="!canDownload" />
+        <b-dropdown-item @click="download('H')" :disabled="!canDownload">
           Horitzontal <span class="text-muted">(.svg)</span>
         </b-dropdown-item>
-        <b-dropdown-item @click="download('V')" :disabled="canType">
+        <b-dropdown-item @click="download('V')" :disabled="!canDownload">
           Compromida <span class="text-muted">(.svg)</span>
         </b-dropdown-item>
       </b-dropdown>
@@ -56,6 +56,12 @@ export default {
     return {
       name: '',
       canType: true
+    }
+  },
+
+  computed: {
+    canDownload () {
+      return this.municipalities.includes(this.name)
     }
   },
 
