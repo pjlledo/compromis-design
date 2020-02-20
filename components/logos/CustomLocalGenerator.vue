@@ -19,11 +19,17 @@
           col·lectiu local o comarcal de Compromís
         </b-dropdown-item>
         <b-dropdown-divider v-if="!canDownload" />
-        <b-dropdown-item @click="download('H')" :disabled="!canDownload">
+        <b-dropdown-item @click="download('H', 'svg')" :disabled="!canDownload">
           Horitzontal <span class="text-muted">(.svg)</span>
         </b-dropdown-item>
-        <b-dropdown-item @click="download('V')" :disabled="!canDownload">
+        <b-dropdown-item @click="download('H', 'png')" :disabled="!canDownload">
+          Horitzontal <span class="text-muted">(.png)</span>
+        </b-dropdown-item>
+        <b-dropdown-item @click="download('V', 'svg')" :disabled="!canDownload">
           Compromida <span class="text-muted">(.svg)</span>
+        </b-dropdown-item>
+        <b-dropdown-item @click="download('V', 'png')" :disabled="!canDownload">
+          Compromida <span class="text-muted">(.png)</span>
         </b-dropdown-item>
       </b-dropdown>
     </div>
@@ -106,7 +112,7 @@ export default {
       }
     },
 
-    download (version) {
+    download (version, format) {
       if (!this.municipalities.includes(this.name)) {
         alert(`Has d'escriure un nom vàlid d'un col·lectiu local o comarcal de Compromís`)
         return
@@ -122,8 +128,35 @@ export default {
         svgData = name.length > 11 && spaces >= 0 ? localVerticalTwoLiner(name) : localVerticalOneLiner(name)
       }
 
+      if (format === 'png') {
+        return this.downloadPng(svgData)
+      }
+
+      return this.downloadSvg(svgData)
+    },
+
+    downloadPng (data) {
+      const canvas = document.createElement('canvas')
+      canvas.setAttribute('width', 2000)
+      canvas.setAttribute('height', 400)
+      const ctx = canvas.getContext('2d')
+      const img = new Image()
+      const svg = 'data:image/svg+xml;base64,' + window.btoa(data)
+
+      img.onload = () => {
+        ctx.drawImage(img, 0, 0)
+        const png = canvas.toDataURL('image/png')
+        const link = document.createElement('a')
+        link.href = png
+        link.download = 'compromis-local.png'
+        link.click()
+      }
+      img.src = svg
+    },
+
+    downloadSvg (data) {
       const link = document.createElement('a')
-      link.setAttribute('href', 'data:image/svg+xml;base64,' + window.btoa(svgData))
+      link.setAttribute('href', 'data:image/svg+xml;base64,' + window.btoa(data))
       link.setAttribute('download', 'compromis-local.svg')
       link.click()
     }
