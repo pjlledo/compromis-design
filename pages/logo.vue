@@ -208,8 +208,9 @@
 
           <h3>Convivència amb altres marques</h3>
           <p>
-            En els casos en què la marca principal siga la d’un partit concret, la imatge de Compromís haurà d’apareixer complementàriament a la dreta de l’altra i respectant els colors i format corporatiu. Aquests són els exemples:
+            En els casos en què la marca principal siga la d’un partit concret, la imatge de Compromís haurà d’apareixer complementàriament a la dreta de l’altra i respectant els colors i format corporatiu.
           </p>
+          <a href="/assets/logo/institucions.pdf"><fa :icon="['far', 'file']" /> Logos de totes les institucions</a>
 
           <logo-grid :logo="logos.Marca" />
 
