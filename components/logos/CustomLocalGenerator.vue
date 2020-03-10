@@ -90,7 +90,7 @@ export default {
       }
 
       const coincidences = this.municipalities.filter((municipality) => {
-        return municipality.startsWith(value)
+        return municipality.toLowerCase().startsWith(value.toLowerCase())
       })
 
       if (coincidences.length === 1) {
