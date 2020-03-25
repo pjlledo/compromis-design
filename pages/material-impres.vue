@@ -303,7 +303,7 @@
             <dd>Quatricromia</dd>
           </dl>
 
-          <c-button variant="outline-primary" href="/assets/material-impres/faristols.zip">
+          <c-button variant="outline-primary" href="/assets/aplicacions/faristols.zip">
             <fa :icon="['far', 'arrow-circle-down']" /> Faristols
           </c-button>
         </div>
@@ -349,6 +349,16 @@
           <figure class="no-margin text-center mb-4 mb-xl-0">
             <img src="../assets/aplicacions/rotulacio-seu.png" alt="Seu Interior">
           </figure>
+        </div>
+        <div class="col-xl-3">
+          <dl>
+            <dd>
+              Recomanem que per al disseny de formats grans com és la rotulació d'una seu, us poseu en contacte amb nosaltres a disseny@compromis.net
+            </dd>
+          </dl>
+          <c-button variant="outline-primary" href="mailto:disseny@coaliciocompromis.net">
+            <fa :icon="['far', 'envelope']" /> Contacta
+          </c-button>
         </div>
       </div>
     </section>
