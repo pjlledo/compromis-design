@@ -303,7 +303,7 @@
             <dd>Quatricromia</dd>
           </dl>
 
-          <c-button variant="outline-primary" href="/assets/aplicacions/faristols.zip">
+          <c-button variant="outline-primary" href="/assets/material-impres/faristols.zip">
             <fa :icon="['far', 'arrow-circle-down']" /> Faristols
           </c-button>
         </div>
