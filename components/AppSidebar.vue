@@ -98,6 +98,12 @@
           <b-nav-item v-scroll-to="'#roll-up'" href="#roll-up">
             Roll-up
           </b-nav-item>
+          <b-nav-item v-scroll-to="'#faristols'" href="#faristols">
+            Faristols
+          </b-nav-item>
+          <b-nav-item v-scroll-to="'#rotulacio-seu'" href="#rotulacio-seu">
+            Rotulació Seu
+          </b-nav-item>
           <b-nav-item v-scroll-to="'#nota-premsa'" href="#nota-premsa">
             Nota de premsa
           </b-nav-item>

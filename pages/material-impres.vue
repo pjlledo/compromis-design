@@ -43,7 +43,7 @@
             </dd>
 
             <dt>Tintes d’impressió</dt>
-            <dd>Quatricomia</dd>
+            <dd>Quatricromia</dd>
           </dl>
 
           <c-button variant="outline-primary" href="/assets/material-impres/carta.zip">
@@ -87,7 +87,7 @@
             </dd>
 
             <dt>Tintes d’impressió</dt>
-            <dd>Quatricomia</dd>
+            <dd>Quatricromia</dd>
           </dl>
 
           <c-button variant="outline-primary" href="/assets/material-impres/sobre.zip">
@@ -122,7 +122,7 @@
             </dd>
 
             <dt>Tintes d’impressió</dt>
-            <dd>Quatricomia</dd>
+            <dd>Quatricromia</dd>
           </dl>
 
           <c-button variant="outline-primary" href="/assets/material-impres/sobre.zip">
@@ -174,7 +174,7 @@
             </dd>
 
             <dt>Tintes d’impressió</dt>
-            <dd>Quatricomia</dd>
+            <dd>Quatricromia</dd>
           </dl>
 
           <c-button variant="outline-primary" href="/assets/material-impres/targetes-visita.zip">
@@ -216,7 +216,7 @@
             <dd>228 x 317 mm.</dd>
 
             <dt>Tintes d’impressió</dt>
-            <dd>Quatricomia</dd>
+            <dd>Quatricromia</dd>
           </dl>
           <c-button variant="outline-primary" href="/assets/material-impres/carpeta.zip">
             <fa :icon="['far', 'arrow-circle-down']" /> Plantilles de carpeta
@@ -261,11 +261,94 @@
             <dd>100 x 200 cm</dd>
 
             <dt>Tintes d’impressió</dt>
-            <dd>Quatricomia</dd>
+            <dd>Quatricromia</dd>
           </dl>
           <c-button variant="outline-primary" href="/assets/material-impres/roll-up.zip">
             <fa :icon="['far', 'arrow-circle-down']" /> Plantilles de roll-up
           </c-button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="faristols">
+        Faristol
+      </h2>
+      <p>
+        Exemples de faristols genèric per a actes i altres esdeveniments.
+      </p>
+      <div class="row mb-4">
+        <div class="col-xl-9">
+          <div class="row">
+            <div class="col-lg-6">
+              <figure class="no-margin text-center mb-4 mb-xl-0">
+                <img src="../assets/aplicacions/faristol-menut.png" alt="Faristol" style="max-width: 200px;">
+              </figure>
+            </div>
+            <div class="col-lg-6">
+              <figure class="no-margin text-center mb-4 mb-xl-0">
+                <img src="../assets/aplicacions/faristol-gran.png" alt="Faristol" style="max-width: 200px;">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <dl>
+            <dt>Suport</dt>
+            <dd>
+              Cartoploma o vinil<br>
+            </dd>
+
+            <dt>Tintes d’impressió</dt>
+            <dd>Quatricromia</dd>
+          </dl>
+
+          <c-button variant="outline-primary" href="/assets/material-impres/faristols.zip">
+            <fa :icon="['far', 'arrow-circle-down']" /> Faristols
+          </c-button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="rotulacio-seu">
+        Rotulació de seu
+      </h2>
+      <h3>Rotulació exterior</h3>
+      <p style="max-width: 1000px;">
+        Exemple orientatiu de rotulació de l'exterior d'una seu. Recordeu que si aneu a rotular una seu podeu escriure al servei de disseny perquè us la dissenyem.
+      </p>
+      <div class="row mb-4">
+        <div class="col-xl-9">
+          <div class="row">
+            <div class="col-lg-12">
+              <figure class="no-margin text-center mb-4 mb-xl-0">
+                <img src="../assets/aplicacions/seu.png" alt="Seu Exterior">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <dl>
+            <dd>
+              Recomanem que per al disseny de formats grans com és la rotulació d'una seu, us poseu en contacte amb nosaltres a disseny@compromis.net
+            </dd>
+          </dl>
+          <c-button variant="outline-primary" href="mailto:disseny@coaliciocompromis.net">
+            <fa :icon="['far', 'envelope']" /> Contacta
+          </c-button>
+        </div>
+      </div>
+
+      <h3>Rotulació interior (rodes de premsa)</h3>
+      <p style="max-width: 1000px;">
+        Exemple orientatiu de rotulació de l'interior d'una seu. Cal situar els logos a una altura que siga visible en els tirs de càmera, i que no quede tapada amb persones de peu o assegudes. Recomanem que ens consulteu abans de rotular perquè us ajudem.
+      </p>
+      <div class="row mb-4">
+        <div class="col-xl-9">
+          <figure class="no-margin text-center mb-4 mb-xl-0">
+            <img src="../assets/aplicacions/rotulacio-seu.png" alt="Seu Interior">
+          </figure>
         </div>
       </div>
     </section>
@@ -309,7 +392,7 @@
             </dd>
 
             <dt>Tintes d’impressió</dt>
-            <dd>Quatricomia</dd>
+            <dd>Quatricromia</dd>
           </dl>
 
           <c-button variant="outline-primary" href="/assets/material-impres/nota-premsa.zip">
