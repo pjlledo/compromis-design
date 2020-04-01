@@ -107,6 +107,9 @@
           <b-nav-item v-scroll-to="'#nota-premsa'" href="#nota-premsa">
             Nota de premsa
           </b-nav-item>
+          <b-nav-item v-scroll-to="'#segells'" href="#segells">
+            Segells
+          </b-nav-item>
         </b-nav>
       </li>
       <li>

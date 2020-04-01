@@ -361,6 +361,41 @@
           </c-button>
         </div>
       </div>
+      <h3>Rotulació i pintura interior (recepció, entrada, altres zones)</h3>
+      <div style="max-width: 1000px;">
+        <p>Exemple orientatiu de rotulació de l'interior d'una seu, en este cas de zones com l'entrada, rececepció, corredors, despatxos... </p>
+        <p>
+          Recomanem pintar la seu de blanc i utilitzar taronja per a elements com pilars, fragments de paret o per a delimitar zones. Procureu que sempre hi haja, visualment, més blanc que taronja, en una relació aproximada de 25% de taronja i 75% de blanc.
+        </p>
+        <p>
+          Es poden vinilar en les zones visibles el logo i/o lemes de campanyes actuals, ja siguen nacionals o del municipi.
+          En les zones taronja, podeu aprofitar per a decorar, per exemple, amb vinils de la 'careta' o il·lustracions de llocs emblemàtics de la localitat.
+        </p>
+      </div>
+      <div class="row mb-4">
+        <div class="col-xl-9">
+          <figure class="no-margin text-center mb-4 mb-xl-0">
+            <img src="../assets/aplicacions/rotulacio-seu-int-1.png" style="max-height: 600px; object-fit: contain;" alt="Pintura interior de la seu, exemple amb lema">
+          </figure>
+        </div>
+        <div class="col-xl-3">
+          <dl>
+            <dd>
+              Recomanem que per al disseny de formats grans com és la rotulació d'una seu, us poseu en contacte amb nosaltres a disseny@compromis.net
+            </dd>
+          </dl>
+          <c-button variant="outline-primary" href="mailto:disseny@coaliciocompromis.net">
+            <fa :icon="['far', 'envelope']" /> Contacta
+          </c-button>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-xl-9">
+          <figure class="no-margin text-center mb-4 mb-xl-0">
+            <img src="../assets/aplicacions/rotulacio-seu-int-2.png" style="max-height: 600px; object-fit: contain;" alt="Pintura interior de la seu, exemple amb logo">
+          </figure>
+        </div>
+      </div>
     </section>
 
     <section>
@@ -408,6 +443,31 @@
           <c-button variant="outline-primary" href="/assets/material-impres/nota-premsa.zip">
             <fa :icon="['far', 'arrow-circle-down']" /> Plantilla de nota de premsa
           </c-button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="segells">
+        Segells
+      </h2>
+      <p style="max-width: 1000px;">
+        Exemples de segells. Recomanem encomanar segells en recatangular per a que encaixe millor el logo, però de no ser possible hi ha també una versió circular.
+      </p>
+      <div class="row mb-4">
+        <div class="col-xl-9">
+          <div class="row">
+            <div class="col-lg-8">
+              <figure class="no-margin text-center mb-4 mb-xl-0">
+                <img src="../assets/aplicacions/segell-rectangular.png" alt="Segell Rectangular" style="max-height: 200px; object-fit: contain;">
+              </figure>
+            </div>
+            <div class="col-lg-4">
+              <figure class="no-margin text-center mb-4 mb-xl-0">
+                <img src="../assets/aplicacions/segell-circular.png" alt="Segell Circular" style="max-height: 200px; object-fit: contain;">
+              </figure>
+            </div>
+          </div>
         </div>
       </div>
     </section>
