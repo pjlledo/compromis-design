@@ -26,10 +26,10 @@
           Horitzontal <span class="text-muted">(.png)</span>
         </b-dropdown-item>
         <b-dropdown-item @click="download('V', 'svg')" :disabled="!canDownload">
-          Compromida <span class="text-muted">(.svg)</span>
+          Comprimida <span class="text-muted">(.svg)</span>
         </b-dropdown-item>
         <b-dropdown-item @click="download('V', 'png')" :disabled="!canDownload">
-          Compromida <span class="text-muted">(.png)</span>
+          Comprimida <span class="text-muted">(.png)</span>
         </b-dropdown-item>
       </b-dropdown>
     </div>
