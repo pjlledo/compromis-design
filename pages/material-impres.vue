@@ -452,19 +452,19 @@
         Segells
       </h2>
       <p style="max-width: 1000px;">
-        Exemples de segells. Recomanem encomanar segells en recatangular per a que encaixe millor el logo, però de no ser possible hi ha també una versió circular.
+        Exemples de segells. Utilitzeu, preferentment, el segell circular si necesiteu que s'ajuste millor a espais reduits, i el rectangular si voleu destacar més el logo i el departament o col·lectiu.
       </p>
       <div class="row mb-4">
         <div class="col-xl-9">
           <div class="row">
-            <div class="col-lg-8">
-              <figure class="no-margin text-center mb-4 mb-xl-0">
-                <img src="../assets/aplicacions/segell-rectangular.png" alt="Segell Rectangular" style="max-height: 200px; object-fit: contain;">
-              </figure>
-            </div>
-            <div class="col-lg-4">
+            <div class="col-lg-5">
               <figure class="no-margin text-center mb-4 mb-xl-0">
                 <img src="../assets/aplicacions/segell-circular.png" alt="Segell Circular" style="max-height: 200px; object-fit: contain;">
+              </figure>
+            </div>
+            <div class="col-lg-7">
+              <figure class="no-margin text-center mb-4 mb-xl-0">
+                <img src="../assets/aplicacions/segell-rectangular.png" alt="Segell Rectangular" style="max-height: 200px; object-fit: contain;">
               </figure>
             </div>
           </div>
