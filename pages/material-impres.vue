@@ -457,14 +457,14 @@
       <div class="row mb-4">
         <div class="col-xl-9">
           <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-6">
               <figure class="no-margin text-center mb-4 mb-xl-0">
-                <img src="../assets/aplicacions/segell-circular.png" alt="Segell Circular" style="max-height: 200px; object-fit: contain;">
+                <img src="../assets/aplicacions/segell-circular.png" alt="Segell Circular" style="height: 150px; object-fit: contain;">
               </figure>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-6">
               <figure class="no-margin text-center mb-4 mb-xl-0">
-                <img src="../assets/aplicacions/segell-rectangular.png" alt="Segell Rectangular" style="max-height: 200px; object-fit: contain;">
+                <img src="../assets/aplicacions/segell-rectangular.png" alt="Segell Rectangular" style="height: 150px; object-fit: contain;">
               </figure>
             </div>
           </div>
