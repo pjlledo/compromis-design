@@ -64,9 +64,7 @@ code {
   html {
     font-size: 14px;
   }
-}
 
-@include media-breakpoint-down(lg) {
   .intro {
     font-size: 1.75rem;
   }
@@ -84,5 +82,11 @@ code {
 
   .intro {
     font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1921px) {
+  html {
+    font-size: 14px;
   }
 }
