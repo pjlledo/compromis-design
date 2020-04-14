@@ -85,7 +85,7 @@ export default {
   align-items: center;
 
   .local-logo-preview {
-    font-size: 3rem;
+    font-size: 48px;
     color: $gray-600;
     letter-spacing: -.03em;
     margin-left: 20px;
