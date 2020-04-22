@@ -16,7 +16,7 @@
       </div>
       <div class="home-card-buttons">
         <div class="division">
-          <label>Logo de Compromís</label>
+          <label>Logo de Joves PV - Compromís</label>
           <div>
             <nuxt-link to="/logo" class="btn btn-outline-primary btn-lg">
               <span>Guies d'ús</span>

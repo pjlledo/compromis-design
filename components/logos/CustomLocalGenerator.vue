@@ -42,11 +42,11 @@
 </template>
 
 <script>
+import utf8 from 'utf8'
 import localHorizontalOneLiner from './custom-local/local-horizontal-oneliner'
 import localHorizontalTwoLiner from './custom-local/local-horizontal-twoliner'
 import localVerticalOneLiner from './custom-local/local-vertical-oneliner'
 import localVerticalTwoLiner from './custom-local/local-vertical-twoliner'
-import utf8 from 'utf8'
 
 export default {
   name: 'CustomLocalGenerator',

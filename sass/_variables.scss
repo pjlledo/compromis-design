@@ -2,7 +2,7 @@
 $font-family-sans-serif: 'Compromis', Helvetica, arial, sans-serif;
 
 // Colors
-$primary: #FF6720;
+$primary: #e85d0f;
 $gray-darkest: #353949;
 $gray-lightest: #f8faff;
 
@@ -35,8 +35,8 @@ $body-color: $gray-darkest;
 $text-muted: $gray-600;
 
 //Gradients
-$gradient-start: #d23517;
-$gradient-end: #f39128;
+$gradient-start: #e85d0f;
+$gradient-end: #e85d0f;
 $gradient: linear-gradient(var(--gradient-orientation, 45deg), $gradient-start, $gradient-end);
 $gradient-feminista: linear-gradient(var(--gradient-orientation, 45deg), #7D3A81, #C54687);
 $gradient-lgtb: linear-gradient(180deg,
@@ -52,7 +52,7 @@ $gradient-lgtb: linear-gradient(180deg,
   $blue 83%,
   $purple 83%,
   $purple 100%);
-$rotation: -5deg;
+$rotation: 0deg;
 
 //border-radius
 $border-radius: .75rem;
