@@ -19,7 +19,7 @@
             Versions del logo
           </b-nav-item>
           <b-nav-item v-scroll-to="'#inadequats'" href="#inadequats">
-            Usos inadequats
+            Usos incorrectes de la marca
           </b-nav-item>
           <b-nav-item v-scroll-to="'#adaptacions'" href="#adaptacions">
             Adaptacions de la marca
