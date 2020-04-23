@@ -1,60 +1,46 @@
 <template>
-  <div class="container home">
-    <!-- eslint-disable vue/singleline-html-element-content-newline -->
-    <h2>
-      Recursos<br>de marca
-    </h2>
+  <div>
+    <h1>Manual d'estil</h1>
 
     <p class="intro">
-      A Compromís creiem en la política de baix cap a dalt. Per això, fem accesible
-      la nostra <nuxt-link to="/logo">guia d'estil</nuxt-link>, amb tot el material gràfic,
-      instruccions per a la seua correcta aplicació i ferramentes per facilitar la
-      creació de material.
+      Aquesta web està destina a oferir als col·lectius els diferents recursos
+      visuals necessaris per a implementar la marca de Joves PV - Compromís
     </p>
-
-    <logo-card :municipalities="municipalities" />
-    <banners-card />
-
-    <div class="row">
-      <div class="col-lg-6">
-        <typography-card />
-      </div>
-      <div class="col-lg-6">
-        <colors-card />
-      </div>
-    </div>
-
-    <other-card />
-    
   </div>
 </template>
 
 <script>
-import LogoCard from '@/components/home/LogoCard.vue'
-import TypographyCard from '@/components/home/TypographyCard.vue'
-import ColorsCard from '@/components/home/ColorsCard.vue'
-import OtherCard from '@/components/home/OtherCard.vue'
-import BannersCard from '@/components/home/BannersCard'
+import Careta from '@/components/logos/proportions/Careta.vue'
 
 export default {
-  components: {
-    LogoCard,
-    TypographyCard,
-    ColorsCard,
-    OtherCard,
-    BannersCard
+  layout: 'page',
+
+  head () {
+    return {
+      title: `Manual d'estil de Joves PV - Compromís`
+    }
   },
 
-  async asyncData ({ $axios }) {
-    const municipalities = await $axios.$get('https://compromis.net/espai/targes/municipalities')
-    return { municipalities }
+  scrollToTop: true,
+  components: {
+  },
+
+  data () {
+    return {
+      logos: {
+        Careta
+      }
+    }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-@import "../sass/variables";
-.intro {
-  margin-top: 2rem;
+@import '../sass/variables';
+.figure-error {
+  img {
+    height: 100px;
+    width: auto;
+  }
 }
 </style>
