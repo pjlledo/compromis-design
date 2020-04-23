@@ -240,7 +240,7 @@
             <img
             src="../assets/logo/JovesPV-adaptacions-01.png"
             alt="Adaptacions comarcals"
-            style="height: 200px;
+            style="
             width: 100%;"
             />
           </figure>
