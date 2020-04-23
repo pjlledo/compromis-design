@@ -12,14 +12,11 @@
           <b-nav-item v-scroll-to="'#marca'" href="#marca">
             Marca
           </b-nav-item>
-          <b-nav-item v-scroll-to="'#proporcions'" href="#proporcions">
-            Proporcions
-          </b-nav-item>
           <b-nav-item v-scroll-to="'#respecte'" href="#respecte">
-            Àrea de respecte
+            Àrea de respecte i escales
           </b-nav-item>
           <b-nav-item v-scroll-to="'#monocromatiques'" href="#monocromatiques">
-            Versions monocromàtiques
+            Versions del logo
           </b-nav-item>
           <b-nav-item v-scroll-to="'#inadequats'" href="#inadequats">
             Usos inadequats
@@ -114,17 +111,7 @@
       </li>
       <li>
         <nuxt-link to="/fotografia" class="template-item template-item--xs">
-          <fa :icon="['far', 'camera']" fixed-width /> <span>Fotografia</span>
-        </nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="/video" class="template-item template-item--xs">
-          <fa :icon="['far', 'film']" fixed-width /> <span>Vídeo</span>
-        </nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="/campanyes" class="template-item template-item--xs">
-          <fa :icon="['far', 'megaphone']" fixed-width /> <span>Campanyes</span>
+          <fa :icon="['far', 'camera']" fixed-width /> <span>Fotografia i video</span>
         </nuxt-link>
       </li>
     </ul>

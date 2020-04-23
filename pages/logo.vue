@@ -3,121 +3,215 @@
     <h1>Logo</h1>
 
     <p class="intro">
-      En aquesta secció s'explica l'ús del que de manera comuna coneguem com a 'logo'. La marca Compromís té diverses disposicions i adaptacions segons el format,
-      a més d'estar preparada per a adaptar-se a sectorials i col·lectius.
+      En aquesta secció s'explica l'ús del que de manera comuna coneguem com a
+      'logo'. La marca Joves PV- Compromís té diverses disposicions i
+      adaptacions segons el format.
     </p>
 
     <section>
+      <h2 id="marca">La marca</h2>
+
       <div class="row">
         <div class="col-lg-8">
-          <h2 id="marca">
-            La marca
-          </h2>
           <p>
-            El conjunt format pel logotip i el símbol gràfic que l’acompanya, el denominem marca. El símbol (la 'careta'), en alguns casos, es pot utilitzar per separat,
-            però logotip ('compromís') sempre haurà d'anar acompanyat del símbol per a que se'ns identifique millor.
+            VERSIÓ PRINCIPAL: La versió horitzontal, serà la versió principal,
+            la que s’use en tots els casos possibles i la que tindrà totes les
+            versions de les aplicacions.
           </p>
-          <logo-grid :logo="logos.Logo" />
+          <figure>
+            <img
+              src="../assets/logo/JovesPV-Logo-Original.png"
+              alt="Versió horitzontal"
+            />
+          </figure>
+          <figcaption>Versió Horitzontal</figcaption>
         </div>
         <div class="col-lg-4 d-flex align-items-end mt-4 mt-xl-0">
-          <c-button href="/assets/logo/logo.zip" variant="outline-primary" size="lg">
-            <fa :icon="['far', 'arrow-circle-down']" /> Descarrega logo
+          <c-button
+            href="/assets/logo/Logo-horitzontal.zip"
+            variant="outline-primary"
+            size="lg"
+          >
+            <fa :icon="['far', 'arrow-circle-down']" />Descarrega logo
+            horitzontal
+          </c-button>
+        </div>
+        <div class="col-lg-8">
+          <p></p>
+          <p>
+            VERSIÓ SECUNDÀRIA: La versió vertical s’usarà en casos on la versió
+            principal no siga útil o quede molt reduïda. Esta versió és d’ús
+            secundari i sols serà utilitzada en ocasions específiques.
+          </p>
+          <figure>
+            <img
+              src="../assets/logo/JovesPV-Logo-Vertical.png"
+              alt="Versió vertical"
+              style="max-width: 200px;   
+              display: block;
+              margin-left: auto;
+              margin-right: auto;"
+            />
+          </figure>
+          <figcaption>Versió Horitzontal</figcaption>
+        </div>
+        <div class="col-lg-4 d-flex align-items-end mt-4 mt-xl-0">
+          <c-button
+            href="/assets/logo/Logo-vertical.zip"
+            variant="outline-primary"
+            size="lg"
+          >
+            <fa :icon="['far', 'arrow-circle-down']" />Descarrega logo vertical
           </c-button>
         </div>
       </div>
     </section>
 
     <section>
-      <div class="row">
-        <div class="col-lg-8">
-          <h2 id="proporcions">
-            Proporcions
-          </h2>
-          <p>
-            Relacions entre els diferents elements de la marca.
-          </p>
-          <logo-grid :logo="logos.Careta" />
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2 id="respecte">
-        Àrea de respecte
-      </h2>
+      <h2 id="respecte">Espais de respecte i escales</h2>
       <div class="row">
         <div class="col-lg-8">
           <p>
-            Al voltant de la marca ha de mantenir-se sempre una zona lliure i buida, per a diferenciar la marca de la resta d’elements que composen el disseny. El marge serà equivalent a l’alçada del cos de les lletres.
+            Al voltant de la marca ha de mantenir-se sempre una zona lliure i
+            buida, per a diferenciar la marca de la resta d’elements que
+            composen el disseny. L’àrea de respecte de la marca és de 10mm
+            (unitat mínima), des de la seua zona exterior més sobreeixida. Com a
+            referència es pren la grandària de la “O” de “joves”.
           </p>
-          <logo-grid :logo="logos.LogoRespecte" />
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2 id="monocromatiques">
-        Versions monocromàtiques
-      </h2>
-      <div class="row">
-        <div class="col-lg-8">
-          <p>
-            Existeixen diferents versions del logo per a adaptar-se al context. A banda de la versió en color, que és preferible usar, també existeixen les versions monocromàtiques en positiu i negatiu.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-4">
           <figure>
-            <compromis-logo />
+            <img
+              src="../assets/logo/espais-respecte.png"
+              alt="Espai de respecte"
+            />
           </figure>
-          <figcaption>Positiu</figcaption>
-        </div>
-        <div class="col-md-6 col-lg-4">
+          <figcaption>Espai de respecte</figcaption>
+          <p></p>
+          <p>
+            La reducció màxima del logo és de 3cm. En cas de ser més reduïda,
+            s’haurà de gastar el logotip de Joves PV en convivència amb el de
+            Compromís.
+          </p>
           <figure>
-            <compromis-logo mono />
+            <img
+              src="../assets/logo/Joves PV + Compromis Sin miniatura.png"
+              alt="Logo per a escales reduïdes"
+            />
           </figure>
-          <figcaption>Positiu B/N</figcaption>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <figure class="figure-dark">
-            <compromis-logo inverted />
-          </figure>
-          <figcaption>Negatiu</figcaption>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <figure class="figure-dark">
-            <compromis-logo mono style="color: white;" />
-          </figure>
-          <figcaption>Negatiu B/N</figcaption>
+          <figcaption>Logo per a escales reduïdes</figcaption>
         </div>
       </div>
     </section>
 
     <section>
-      <h2 id="inadequats">
-        Usos inadequats
-      </h2>
+      <h2 id="monocromatiques">Versions del logo</h2>
+      <p>
+        Existeixen diferents versions del logo per a adaptar-se al context.
+      </p>
+      <div class="row">
+        <div class="col-xl-9">
+          <h3>monocromatiques</h3>
+          <p>
+            Existeixen les versions monocromàtiques, emprades en casos on siga
+            necessari com ara fotocòpies, documents en blanc i negre etc.
+          </p>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+              <figure class="edge no-margin text-center">
+                <img
+                  src="../assets/logo/JovesPV-Logo-Original-02.png"
+                  alt="Logo original"
+                  
+                />
+              </figure>
+              <figcaption>Logo original</figcaption>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+              <figure class="edge no-margin text-center">
+                <img
+                  src="../assets/logo/JovesPV-Logo-Original-Blanco.png"
+                  alt="Logo blanc per a negatius"
+                />
+              </figure>
+              <figcaption>Logo blanc per a negatius</figcaption>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <figure class="edge no-margin text-center">
+                <img
+                  src="../assets/logo/JovesPV-Logo-fotocopia.png"
+                  alt="Logo gris"
+                />
+              </figure>
+              <figcaption>
+                Logo en escala de grisos
+              </figcaption>
+            </div>
+          </div>
+          <h3>Versions a color</h3>
+          <p>
+            Les versions del logo amb modificacions de color es redueixen als
+            colors corporatius.
+          </p>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+              <figure class="edge no-margin text-center">
+                <img
+                  src="../assets/logo/JovesPV-Logo-Original-02.png"
+                  alt="Logo taronja"
+                />
+              </figure>
+              <figcaption>Logo original</figcaption>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+              <figure class="edge no-margin text-center">
+                <img
+                  src="../assets/logo/JovesPV-Logo-Original-Naranja.png"
+                  alt="Logo monocromo taronja"
+                />
+              </figure>
+              <figcaption>Logo monocromo taronja</figcaption>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <figure class="edge no-margin text-center">
+                <img
+                  src="../assets/logo/JovesPV-Logo-Original-Gris.png"
+                  alt="Logo monocromo gris"
+                />
+              </figure>
+              <figcaption>
+                Logo monocromo gris
+              </figcaption>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="inadequats">Usos inadequats</h2>
       <div class="row">
         <div class="col-lg-8">
           <p>
-            És important tindre cura amb la marca, per a mantindre una imatge sòlida i constant. Un bon ús de la marca i el seu color ens aporta valors positius, i ens fa ser més reconeguts. Utilitzeu sempre el logo descarregat
-            d'aquesta web. No s'ha de modificar el logo, usar versions antigues, o fer modificacions, com s'indica en els exemples a continuació:
+            És important tindre cura amb la marca, per a mantindre una imatge
+            sòlida i constant. Un bon ús de la marca i el seu color ens aporta
+            valors positius, i ens fa ser més reconeguts. Utilitzeu sempre el
+            logo descarregat d'aquesta web. No s'ha de modificar el logo, usar
+            versions antigues, o fer modificacions, com s'indica en els exemples
+            a continuació:
           </p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
-            <img src="../assets/logo/antic.png" alt="Logo antic">
+            <img src="../assets/logo/antic.png" alt="Logo antic" />
           </figure>
-          <figcaption>No utitlitzeu versions antigues i/o no oficials</figcaption>
+          <figcaption>
+            No utitlitzeu versions antigues i/o no oficials
+          </figcaption>
         </div>
         <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
-            <img src="../assets/logo/nom.png" alt="Logo antic">
+            <img src="../assets/logo/nom.png" alt="Logo antic" />
           </figure>
           <figcaption>No altereu el nom del marca</figcaption>
         </div>
@@ -125,13 +219,13 @@
       <div class="row">
         <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
-            <img src="../assets/logo/disposicio.png" alt="Logo antic">
+            <img src="../assets/logo/disposicio.png" alt="Logo antic" />
           </figure>
           <figcaption>No altereu la disposicó dels elements</figcaption>
         </div>
         <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
-            <img src="../assets/logo/tipografia.png" alt="Logo antic">
+            <img src="../assets/logo/tipografia.png" alt="Logo antic" />
           </figure>
           <figcaption>No canvieu la tipografia</figcaption>
         </div>
@@ -139,13 +233,13 @@
       <div class="row">
         <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
-            <img src="../assets/logo/deformat.png" alt="Logo antic">
+            <img src="../assets/logo/deformat.png" alt="Logo antic" />
           </figure>
           <figcaption>No deformeu ni altereu la proporció</figcaption>
         </div>
         <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
-            <img src="../assets/logo/color.png" alt="Logo antic">
+            <img src="../assets/logo/color.png" alt="Logo antic" />
           </figure>
           <figcaption>No modifiqueu el color del símbol</figcaption>
         </div>
@@ -153,86 +247,104 @@
       <div class="row">
         <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
-            <img src="../assets/logo/color-lletra.png" alt="Logo antic">
+            <img src="../assets/logo/color-lletra.png" alt="Logo antic" />
           </figure>
           <figcaption>No modifiqueu el color de les lletres</figcaption>
         </div>
         <div class="col-md-6 col-lg-4">
           <figure class="figure-error">
-            <img src="../assets/logo/ulls.png" alt="Logo antic">
+            <img src="../assets/logo/ulls.png" alt="Logo antic" />
           </figure>
-          <figcaption>Els ulls i boca de la "careta" no estan buits, han d’omplir-se de blanc. Respecteu les versions oficials</figcaption>
+          <figcaption>
+            Els ulls i boca de la "careta" no estan buits, han d’omplir-se de
+            blanc. Respecteu les versions oficials
+          </figcaption>
         </div>
       </div>
     </section>
 
     <section>
-      <h2 id="adaptacions">
-        Adaptacions de la marca
-      </h2>
+      <h2 id="adaptacions">Adaptacions de la marca</h2>
       <div class="row">
         <div class="col-lg-8">
           <p>
-            Per a particularitzar la marca, poden afegir-se extensions per a col·lectius local, departaments o entitats.
-            Aquesta extensió acompanyarà la marca en proporció horitzontal o comprimida, segons quin s'adeqüe més al context.
-            Per a generar i descarregar el vostre logo local utilitzeu la ferramenta que tenim en aquesta mateixa web.
+            Per a particularitzar la marca, poden afegir-se extensions per a
+            col·lectius local, departaments o entitats. Aquesta extensió
+            acompanyarà la marca en proporció horitzontal o comprimida, segons
+            quin s'adeqüe més al context. Per a generar i descarregar el vostre
+            logo local utilitzeu la ferramenta que tenim en aquesta mateixa web.
           </p>
 
           <h3>Versió horitzontal</h3>
           <p>
-            La versió horitzontal és la preferible sempre a no ser que l’espai no permeta gastar-la.
-            S'ha de tindre en compte els colors, les proporcions i les àrees de respecte de les extensions.
+            La versió horitzontal és la preferible sempre a no ser que l’espai
+            no permeta gastar-la. S'ha de tindre en compte els colors, les
+            proporcions i les àrees de respecte de les extensions.
           </p>
           <logo-grid :logo="logos.Local" />
 
           <h3>Versió horitzontal multilínia</h3>
           <p>
-            En cas que l'espai siga més reduit, i/o el nom de l'afegit siga llarg i es puga dividir, també es pot utilitzar la següent versió horitzontal
-            que divideix el nom en diverses línies.
+            En cas que l'espai siga més reduit, i/o el nom de l'afegit siga
+            llarg i es puga dividir, també es pot utilitzar la següent versió
+            horitzontal que divideix el nom en diverses línies.
           </p>
           <logo-grid :logo="logos.LocalDosLinies" />
 
           <h3>Versió comprimida</h3>
           <p>
-            Aquesta versió s'utilitza únicament quan l'espai és limitat i no és possible utilitzar la versió horitzontal.
-            Esta versió no contempla la possibilitat d’incloure un altre logotip de forma paral·lela. Els textos afegits s’alinearan a la dreta.
+            Aquesta versió s'utilitza únicament quan l'espai és limitat i no és
+            possible utilitzar la versió horitzontal. Esta versió no contempla
+            la possibilitat d’incloure un altre logotip de forma paral·lela. Els
+            textos afegits s’alinearan a la dreta.
           </p>
           <logo-grid :logo="logos.LocalAlt" />
 
           <h3>Versió comprimida multilínia</h3>
           <p>
-            Aquesta versió s'utilitza únicament quan l'espai és limitat i no és possible utilitzar la versió horitzontal.
-            Esta versió no contempla la possibilitat d’incloure un altre logotip de forma paral·lela. Els textos afegits s’alinearan a la dreta.
+            Aquesta versió s'utilitza únicament quan l'espai és limitat i no és
+            possible utilitzar la versió horitzontal. Esta versió no contempla
+            la possibilitat d’incloure un altre logotip de forma paral·lela. Els
+            textos afegits s’alinearan a la dreta.
           </p>
           <logo-grid :logo="logos.LocalAltDosLinies" />
 
           <h3>Convivència amb altres marques</h3>
           <p>
-            En els casos en què la marca principal siga la d’un partit concret, la imatge de Compromís haurà d’apareixer complementàriament a la dreta de l’altra i respectant els colors i format corporatiu.
+            En els casos en què la marca principal siga la d’un partit concret,
+            la imatge de Compromís haurà d’apareixer complementàriament a la
+            dreta de l’altra i respectant els colors i format corporatiu.
           </p>
           <p>
-            <a href="/assets/logo/institucions.pdf"><fa :icon="['far', 'arrow-circle-down']" /> Logos de totes les institucions</a>
+            <a href="/assets/logo/institucions.pdf">
+              <fa :icon="['far', 'arrow-circle-down']" />Logos de totes les
+              institucions
+            </a>
           </p>
 
           <logo-grid :logo="logos.Marca" />
 
           <h3>Opció quadrada (excepcionalment)</h3>
           <p>
-            L’ús d’aquesta versió es forçarà de manera excepcional quan siga indispensable mostrar tant el símbol
-            com el logotip de la marca i el tamany i proporció no permeta que qualsevol de les altres dos opcions
-            anteriors siguen possibles. És el cas per exemple de l’espai reduït i quadrat per a la marca en una
-            papereta electoral. En cap cas es poden afegir extensions de col·lectiu local o departament a aquesta versió.
+            L’ús d’aquesta versió es forçarà de manera excepcional quan siga
+            indispensable mostrar tant el símbol com el logotip de la marca i el
+            tamany i proporció no permeta que qualsevol de les altres dos
+            opcions anteriors siguen possibles. És el cas per exemple de l’espai
+            reduït i quadrat per a la marca en una papereta electoral. En cap
+            cas es poden afegir extensions de col·lectiu local o departament a
+            aquesta versió.
           </p>
           <logo-grid :logo="logos.Quadrat" />
 
           <h3>Sobre fons degradat</h3>
           <p>
-            En els casos en que el logotip haja d'anar sobre un format especial amb fons de color (com un cartell A4, una pantalla) en el que haja
+            En els casos en que el logotip haja d'anar sobre un format especial
+            amb fons de color (com un cartell A4, una pantalla) en el que haja
             de destacar la "careta" sense text, es col·loca sobre fons degradat.
           </p>
 
           <figure class="figure-gradient text-center">
-            <img src="../assets/logo/ulls-i-boca.svg" alt="">
+            <img src="../assets/logo/ulls-i-boca.svg" alt />
           </figure>
         </div>
         <div class="col-lg-4 d-lg-flex align-items-stretch">
@@ -241,14 +353,46 @@
               <label>Genera el logo del teu col·lectiu</label>
               <custom-local-generator class="generator" />
 
-              <label>O descarrega les plantilles en <code>.ai</code> i <code>.svg</code></label>
+              <label>
+                O descarrega les plantilles en
+                <code>.ai</code> i
+                <code>.svg</code>
+              </label>
               <ul>
-                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logo-horizontal.zip">Versió horitzontal</a></li>
-                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logo-horizontal-multilinia.zip">Versió horitzontal multilínia</a></li>
-                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logo-comprimit.zip">Versió comprimida</a></li>
-                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logo-compromit-multilinia.zip">Versió comprimida multilínia</a></li>
-                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logos-institucions.zip">Logos institucionals</a></li>
-                <li><fa :icon="['far', 'arrow-circle-down']" /> <a href="/assets/logo/logo-quadrat.zip">Logo quadrat</a></li>
+                <li>
+                  <fa :icon="['far', 'arrow-circle-down']" />
+                  <a href="/assets/logo/logo-horizontal.zip"
+                    >Versió horitzontal</a
+                  >
+                </li>
+                <li>
+                  <fa :icon="['far', 'arrow-circle-down']" />
+                  <a href="/assets/logo/logo-horizontal-multilinia.zip"
+                    >Versió horitzontal multilínia</a
+                  >
+                </li>
+                <li>
+                  <fa :icon="['far', 'arrow-circle-down']" />
+                  <a href="/assets/logo/logo-comprimit.zip"
+                    >Versió comprimida</a
+                  >
+                </li>
+                <li>
+                  <fa :icon="['far', 'arrow-circle-down']" />
+                  <a href="/assets/logo/logo-compromit-multilinia.zip"
+                    >Versió comprimida multilínia</a
+                  >
+                </li>
+                <li>
+                  <fa :icon="['far', 'arrow-circle-down']" />
+                  <a href="/assets/logo/logos-institucions.zip"
+                    >Logos institucionals</a
+                  >
+                </li>
+                <li>
+                  <fa :icon="['far', 'arrow-circle-down']" />
+                  <a href="/assets/logo/logo-quadrat.zip">Logo quadrat</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -275,9 +419,9 @@ import CustomLocalGenerator from '@/components/logos/CustomLocalGenerator.vue'
 export default {
   layout: 'page',
 
-  head () {
+  head() {
     return {
-      title: `Logo - Manual d'estil - Compromís`
+      title: `Logo - Manual d'estil - Compromís`,
     }
   },
 
@@ -285,10 +429,10 @@ export default {
   components: {
     CompromisLogo,
     LogoGrid,
-    CustomLocalGenerator
+    CustomLocalGenerator,
   },
 
-  data () {
+  data() {
     return {
       logos: {
         Logo,
@@ -299,15 +443,15 @@ export default {
         LocalAltDosLinies,
         Local,
         LocalDosLinies,
-        Marca
-      }
+        Marca,
+      },
     }
-  }
+  },
 }
 </script>
 
 <style lang="scss" scoped>
-@import "../sass/variables";
+@import '../sass/variables';
 .figure-error {
   img {
     height: 100px;
