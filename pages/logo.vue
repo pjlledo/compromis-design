@@ -14,9 +14,9 @@
       <div class="row">
         <div class="col-lg-8">
           <p>
-            VERSIÓ PRINCIPAL: La versió horitzontal, serà la versió principal,
-            la que s’use en tots els casos possibles i la que tindrà totes les
-            versions de les aplicacions.
+              VERSIÓ PRINCIPAL: La versió horitzontal, serà la versió principal,
+              que s’use en tots els casos possibles i la que tindrà totes les
+              versions de les aplicacions.
           </p>
           <figure>
             <img
