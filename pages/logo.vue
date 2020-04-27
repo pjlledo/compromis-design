@@ -335,6 +335,10 @@
                     el Baix Vinalopó - el Baix Segura
                   </b-dropdown-item>
                 </b-dropdown>
+                <caption style="width: 300px; pading-left: 0.40rem;">
+                  Si vols obtindre el logotip d'un col·lectiu concret que no estè disponible envia un correu a
+                  <a href="mailto:info@jovespv.org?Subject=Petició de logo de Joves PV" target="_top">info@jovespv.org</a>
+                </caption>
               </div>
             </div>
           </div>
