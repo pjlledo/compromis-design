@@ -2,58 +2,67 @@
   <div>
     <h1>Tipografia</h1>
     <p class="intro">
-      La tipografia que emprem al material de Compromís és Manrope. És important no usar cap altra tipografia
-      (excepte en casos excepcionals) i usar els dos pesos (Medium i Extra Bold) com s'explica a continuació.
+      A aquest apartat es mostren les tres tipografies emprades a Joves PV - Compromís.
     </p>
-    <p>
-      <c-button variant="outline-primary" size="lg" href="/assets/fonts/Manrope.zip">
-        <fa :icon="['far', 'arrow-circle-down']" /> Descarrega Manrope
-      </c-button>
-    </p>
-    <div class="row mt-8">
-      <div class="col-xl-8">
-        <div class="typography-sample bold">
-          <span class="typography-sample-icon">Aa</span>
-          <span class="typography-sample-letters d-none d-md-block">
-            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
-            abcdefghijklmnopqrstuvwxyz<br>
-            0123456789
-          </span>
-        </div>
-      </div>
+
+    <div class="col-xl-8">
+      <h2>Títols</h2>
+      <p>
+        Està conformada per la família Manrope, per a tots els títols i aplicacions escrites breus.
+      </p>
+      <figure class="edge no-margin text-center">
+        <img
+          src="../assets/fonts/Font-Manrope.png"
+          alt="Títols"
+        >
+      </figure>
+      <figcaption>Títols</figcaption>
+      <p>
+        <c-button variant="outline-primary" size="lg" href="/assets/fonts/Manrope.zip">
+          <fa :icon="['far', 'arrow-circle-down']" /> Descarrega Manrope
+        </c-button>
+      </p>
     </div>
-    <div class="row">
-      <div class="col-xl-8">
-        <h3>
-          Manrope ExtraBold
-        </h3>
-        <p>
-          Utilitzada per a textos a tamany gran, títols, titulars, encapçalaments i per a destacar alguna cosa.
-          No s'ha d'utilitzar mai en textos llargs.
-        </p>
-      </div>
+
+    <div class="col-xl-8">
+      <h2>
+        Frases, eslògans i aplicacions gràfiques
+      </h2>
+      <p>
+        S’utilitzarà com a tipografia de suport la família Fixture, amb la seua ampla varietat que pot aportar moltes versions.
+      </p>
+      <figure class="edge no-margin text-center">
+        <img
+          src="../assets/fonts/Font-Fixture.png"
+          alt="Eslogans"
+        >
+      </figure>
+      <figcaption>Frases, eslògans i aplicacions gràfiques </figcaption>
+      <p>
+        <c-button variant="outline-primary" size="lg" href="/assets/fonts/Fixture.zip">
+          <fa :icon="['far', 'arrow-circle-down']" /> Descarrega Fixture
+        </c-button>
+      </p>
     </div>
-    <div class="row mt-8">
-      <div class="col-xl-8">
-        <div class="typography-sample">
-          <span class="typography-sample-icon">Aa</span>
-          <span class="typography-sample-letters d-none d-md-block">
-            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
-            abcdefghijklmnopqrstuvwxyz<br>
-            0123456789
-          </span>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xl-8">
-        <h3>
-          Manrope Medium
-        </h3>
-        <p>
-          Utilitzada per a cos de text, documents, i textos en general. S'ha d'evitar usar-la en tamanys de lletra grans.
-        </p>
-      </div>
+    <div class="col-xl-8">
+      <h2>
+        Paràgrafs
+      </h2>
+      <p>
+        Està conformada per la família Helvética neue. Ús per a textos llargs i de xicotet tamany.
+      </p>
+      <figure class="edge no-margin text-center">
+        <img
+          src="../assets/fonts/Font-Helvetica.png"
+          alt="Eslogans"
+        >
+      </figure>
+      <figcaption>Paràgrafs</figcaption>
+      <p>
+        <c-button variant="outline-primary" size="lg" href="/assets/fonts/HelveticaNeue.zip">
+          <fa :icon="['far', 'arrow-circle-down']" /> Descarrega Helvetica Neue
+        </c-button>
+      </p>
     </div>
   </div>
 </template>
