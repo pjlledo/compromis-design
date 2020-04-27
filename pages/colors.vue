@@ -2,8 +2,9 @@
   <div>
     <h1>Colors</h1>
     <p class="intro">
-      El color és l'element identificatiu d'un partit polític, per això és molt important usar-lo de manera adequada. El nostre color identificatiu és el taronja degradat i ha d'estar present
-      a tot material que es faça seguint les indicacions d'aquesta secció.
+      La paleta de colors corporatius de Joves PV està conformada pel taronja,
+      color principal de la marca, i per a les tipografies el gris blavenc i el
+      degradat com a opció per si funciona amb altres marques.
     </p>
 
     <h2 id="us-color">
@@ -11,11 +12,17 @@
     </h2>
     <div class="row">
       <div class="col-md-8">
+        <figure class="edge no-margin text-center">
+          <img
+            src="../assets/colors/colorsjovespv.png"
+            alt="Colors"
+          >
+        </figure>
+        <figcaption>Paleta de colors de Joves PV</figcaption>
         <p>
-          El taronja és el nostre color accent, però pot arribar a agobiar si s'utilitza en excés. Per això, el color predominant als dissenys ha de ser el blanc.
-          Per fer-se una idea, la porporció hauria de ser d'un quart de taronja
-          sobre el total del blanc. Per a textos cal utilitzar tonalitats de grisos. Excepcionalment, podeu usar text en taronja
-          o degradat per a destacar algunes paraules.
+          En este apartat trobarem els valors dels colors usats per a la marca.
+          Estan diferenciats en quatre parts: per a projectes impresos, per a
+          projectes digitals, expressats mitjançant codi, i Pantone.
         </p>
       </div>
     </div>
@@ -25,20 +32,22 @@
     </h2>
     <div class="colors">
       <color-swatch
-        :rgb="['210 53 23','243 145 40']"
-        :hex="['#d23517','#f39128']"
-        :cmyk="['12 93 100 3', '1 51 96 0']"
-        name="gradient"
-        title="Taronja degradat"
-        use-case="És la tonalitat identificativa de Compromís. S'utilitza en la careta, els 'blocs' i com a color accent."
-      />
-      <color-swatch
         name="orange"
         title="Taronja pla"
-        use-case="S'utilitza en aplicacions planes, o en text destacat menut on l'ús del degradat dificultaria la lectura"
-        rgb="255 103 32"
-        hex="#FF6720"
-        cmyk="0 68 96 0"
+        use-case="És la tonalitat identificativa de Joves PV - Compromís. S'utilitza als logos i la major part de apliacions."
+        rgb="232 93 15"
+        hex="#E85D0F"
+        cmyk="75 100 0 0"
+        pantone="166C"
+      />
+      <color-swatch
+        :rgb="['210 52 23', '243 145 40']"
+        :hex="['#D13416', '#F29128']"
+        :cmyk="['11 90 100 2', '0 51 89 0']"
+        :pantone="['485C','715C']"
+        name="gradient"
+        title="Taronja degradat"
+        use-case="És la tonalitat identificativa de Compromís. L'ús és secundari."
       />
       <color-swatch
         name="gray-dark"
@@ -47,23 +56,6 @@
         rgb="53 57 73"
         hex="#353949"
         cmyk="78 70 49 43"
-      />
-      <color-swatch
-        name="gray-med"
-        title="Gris"
-        use-case="S'utilitza per al text d'informació secundària."
-        rgb="151 154 164"
-        hex="#979AA4"
-        cmyk="0 68 96 0"
-      />
-      <color-swatch
-        name="gray-light"
-        title="Gris clar"
-        use-case="És pot utilitzar com a fons diferenciat del blanc."
-        rgb="238 240 246"
-        hex="#EEF0F6"
-        cmyk="5 3 1 0"
-        dark
       />
       <color-swatch
         name="white"

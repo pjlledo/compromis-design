@@ -28,6 +28,12 @@
           <div :style="{ backgroundColor: hexValues[i] }" v-if="cmykValues.length > 1" class="color-sample" /> {{ cmykValue }}
         </div>
       </div>
+      <div class="color-info-value">
+        <span>PANTONE</span>
+        <div v-for="(pantoneValue, i) in pantoneValues" :key="i">
+          <div :style="{ backgroundColor: hexValues[i] }" v-if="pantoneValues.length > 1" class="color-sample" /> {{ pantoneValue }}
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -54,6 +60,10 @@ export default {
       default: ''
     },
     cmyk: {
+      type: [String, Array],
+      default: ''
+    },
+    pantone: {
       type: [String, Array],
       default: ''
     },
@@ -89,6 +99,10 @@ export default {
     cmykValues () {
       if (typeof this.cmyk === 'string') { return [this.cmyk] }
       return this.cmyk
+    },
+    pantoneValues () {
+      if (typeof this.pantone === 'string') { return [this.pantone] }
+      return this.pantone
     }
   },
 
