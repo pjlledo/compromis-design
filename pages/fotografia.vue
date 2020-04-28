@@ -6,7 +6,7 @@
     </p>
 
     <h2>Repositori de fotos</h2>
-    <c-button variant="outline-primary" size="lg" href="https://jovespvcomunicacio.smugmug.com/" target="_blank">
+    <c-button variant="outline-primary" size="lg" href="https://jovespv.smugmug.com/" target="_blank">
       <fa :icon="['far', 'portrait']" /> Galeria de fotos
     </c-button>
   </div>
