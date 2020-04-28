@@ -1,9 +1,9 @@
 <template>
   <div :class="{'container': !inPage, 'in-page': inPage}">
     <footer class="cardless-text">
-      <p>Si tens qualsevol dubte o suggeriment, pots contactar-nos en <a href="mailto:disseny@compromis.net">disseny@compromis.net</a></p>
+      <p>Si tens qualsevol dubte o suggeriment, pots contactar-nos en <a href="mailto:info@jovespv.org">info@jovespv.org</a></p>
       <p>
-        <strong>Manual d'Estil de Compromís</strong>.
+        <strong>Manual d'Estil de Joves PV - Compromís</strong>.
         Darrera actualització: <span v-if="lastUpdated">{{ lastUpdated.getDate() }} {{ months[lastUpdated.getMonth()] }} {{ lastUpdated.getFullYear() }}.</span>
       </p>
     </footer>

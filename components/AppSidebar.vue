@@ -67,9 +67,6 @@
           <b-nav-item v-scroll-to="'#targes'" href="#targes">
             Targes
           </b-nav-item>
-          <b-nav-item v-scroll-to="'#manual-xarxes'" href="#manual-xarxes">
-            Manual de xarxes
-          </b-nav-item>
         </b-nav>
       </li>
       <li>
@@ -83,29 +80,11 @@
           <b-nav-item v-scroll-to="'#carta'" href="#carta">
             Carta
           </b-nav-item>
-          <b-nav-item v-scroll-to="'#sobre'" href="#sobre">
-            Sobre
-          </b-nav-item>
-          <b-nav-item v-scroll-to="'#targetes-visita'" href="#targetes-visita">
-            Targetes de visita
-          </b-nav-item>
           <b-nav-item v-scroll-to="'#carpeta'" href="#carpeta">
             Carpeta
           </b-nav-item>
           <b-nav-item v-scroll-to="'#roll-up'" href="#roll-up">
             Roll-up
-          </b-nav-item>
-          <b-nav-item v-scroll-to="'#faristols'" href="#faristols">
-            Faristols
-          </b-nav-item>
-          <b-nav-item v-scroll-to="'#rotulacio-seu'" href="#rotulacio-seu">
-            Rotulació Seu
-          </b-nav-item>
-          <b-nav-item v-scroll-to="'#nota-premsa'" href="#nota-premsa">
-            Nota de premsa
-          </b-nav-item>
-          <b-nav-item v-scroll-to="'#segells'" href="#segells">
-            Segells
           </b-nav-item>
         </b-nav>
       </li>
