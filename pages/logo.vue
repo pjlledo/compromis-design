@@ -215,8 +215,7 @@
             <img
               src="../assets/logo/JovePV-Wrong-01.png"
               alt="Usos incorrectes"
-              style="height: 200px;
-"
+              style="max-height: 200px;"
             >
           </figure>
           <figcaption>
