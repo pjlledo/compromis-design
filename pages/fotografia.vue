@@ -2,12 +2,12 @@
   <div>
     <h1>Fotografia</h1>
     <p class="intro">
-      A aquesta secció trobareu el repositori de fotos de Joves PV - Compromís.
+      En aquesta secció trobareu el repositori de gràfic de Joves PV - Compromís.
     </p>
 
-    <h2>Repositori de fotos</h2>
+    <h2>Repositori de fotos i video</h2>
     <c-button variant="outline-primary" size="lg" href="https://jovespv.smugmug.com/" target="_blank">
-      <fa :icon="['far', 'portrait']" /> Galeria de fotos
+      <fa :icon="['far', 'portrait']" /> Galeria de Fotografia i video
     </c-button>
   </div>
 </template>
@@ -18,7 +18,7 @@ export default {
 
   head () {
     return {
-      title: `Fotografia - Manual d'estil - Compromís`
+      title: `Fotografia i video - Manual d'Identidad Visual Corportavia - Joves PV - Compromís`
     }
   }
 }

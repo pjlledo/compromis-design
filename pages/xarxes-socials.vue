@@ -45,25 +45,26 @@
     </h2>
     <div class="row">
       <div class="col-md-8">
-        <p>Si creem una nova pàgina o perfil d'un col·lectiu local de Joves PV - Compromís, és important triar un nom d'usuari que seguisca el mateix patró que la resta de col·lectius.</p>
+        <p>Si creem una nova pàgina o perfil d'un col·lectiu de Joves PV és important triar un nom d'usuari que seguisca el mateix patró que la resta de col·lectius.</p>
         <ul>
           <li>
             <strong>En xarxes amb un límit de caràcters estrictre, recomanem:</strong>
             <ul>
-              <li>Nom d’usuari d’Instagram o Twitter: @jovespv+nom del col·lectiu (per exemple @jovespvtabernes )</li>
-              <li>Quan no cap el nom sencer del col·lectiu, per limitació de caràcters, es pot abreviar. Les abreviacions han d’anar en majúscula (per exemple: @JovesPVALC)</li>
+              <li>Nom d’usuari d’Instagram o Twitter: @jovespv+nom del col·lectiu (per exemple @jovespvxeraco).</li>
+              <li>Quan no cap el nom sencer del col·lectiu, per limitació de caràcters, es pot abreviar (per exemple: @jovespvalc).</li>
             </ul>
           </li>
           <li class="mt-2">
             <strong>En xarxes sense límit de caràcters (com Facebook o Instagram), recomanem:</strong>
             <ul>
-              <li>Per a noms de pàgina: "Joves PV - Compromís + Nom del col·lectiu". </li>
+              <li>Per a noms de pàgina: "Joves PV - Compromís + Nom del col·lectiu”.</li>
+              <li>Quan el nom del col·lectiu siga massa llarg: “Joves PV + Nom del col·lectiu”.</li>
             </ul>
           </li>
           <li class="mt-2">
             <strong>Usos incorrectes</strong>
             <ul class="incorrect-list">
-              <li><fa :icon="['far', 'times-circle']" /> No inclogueu la paraula "per" o "x" ni als noms d'usuari ni als noms llargs.</li>
+              <li><fa :icon="['far', 'times-circle']" /> No usar únicament la paraula Joves o Joves Compromís.</li>
               <li><fa :icon="['far', 'times-circle']" /> No posar ni Joves ni Compromís en majúscules: <em>*JOVES *COMPROMÍS.</em>.</li>
               <li><fa :icon="['far', 'times-circle']" /> No inclogueu simbols als noms d'usuari: guionets, punts o barres baixes, entre altres.</li>
             </ul>
@@ -109,7 +110,7 @@ export default {
 
   head () {
     return {
-      title: `Xarxes socials - Manual d'estil - Compromís`
+      title: `Xarxes socials - Manual d'Identidad Visual Corportavia - Joves PV - Compromís`
     }
   }
 }

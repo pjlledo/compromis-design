@@ -50,8 +50,9 @@ export default {
     top: 0;
     left: 0;
     right: 0;
-    background-color: $white !important;
-    padding: .75rem 0;
+    background-color: $white;
+    padding: .75rem 2rem;
+    height: $navbar-height;
     transition: .25s ease-in-out;
 
     & > .container-fluid {
@@ -59,7 +60,8 @@ export default {
     }
 
     .logo {
-      height: 28px;
+      color: $white;
+      height: 1.75rem;
 
       &-link {
         color: $white;
@@ -73,16 +75,16 @@ export default {
       letter-spacing: -.3px;
       line-height: 1;
       white-space: nowrap;
-      color: $gray-700;
     }
 
     .logo-label {
-      padding: .3rem .75rem;
+      margin-left: .70rem;
       color: $gray-700;
     }
 
     .app-label {
       margin-left: auto;
+      color: $gray-700;
     }
 
     &--dark {

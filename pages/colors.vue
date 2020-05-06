@@ -81,7 +81,7 @@ export default {
 
   head () {
     return {
-      title: `Colors - Manual d'estil - Compromís`
+      title: `Colors - Manual d'Identidad Visual Corportavia - Joves PV - Compromís`
     }
   }
 }

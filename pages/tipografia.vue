@@ -2,7 +2,7 @@
   <div>
     <h1>Tipografia</h1>
     <p class="intro">
-      A aquest apartat es mostren les tres tipografies emprades a Joves PV - Compromís.
+      En aquest apartat es mostren les tres tipografies emprades a Joves PV - Compromís.
     </p>
 
     <div class="col-xl-8">
@@ -74,7 +74,7 @@ export default {
 
   head () {
     return {
-      title: `Tipografia - Manual d'estil - Compromís`
+      title: `Tipografia - Manual d'Identidad Visual Corportavia - Joves PV - Compromís`
     }
   }
 }

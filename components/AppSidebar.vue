@@ -69,6 +69,7 @@
           </b-nav-item>
         </b-nav>
       </li>
+      <!--
       <li>
         <nuxt-link to="/material-impres" class="template-item template-item--xs">
           <fa :icon="['far', 'print']" fixed-width /> <span>Material imprés</span>
@@ -88,6 +89,7 @@
           </b-nav-item>
         </b-nav>
       </li>
+      -->
       <li>
         <nuxt-link to="/fotografia" class="template-item template-item--xs">
           <fa :icon="['far', 'camera']" fixed-width /> <span>Fotografia i video</span>

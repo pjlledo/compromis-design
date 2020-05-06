@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <app-nav dark nav-label="Manual d'estil" logo-label="Disseny" />
+    <app-nav dark nav-label="Manual d’Identitat Visual Corporativa" />
     <div :class="{ 'sidebar-open': sidebarOpen }" class="container-fluid">
       <div class="layout">
         <div class="sidebar-wrapper">

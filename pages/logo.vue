@@ -4,7 +4,7 @@
 
     <p class="intro">
       En aquesta secció s'explica l'ús del que de manera comuna coneguem com a
-      'logo'. La marca Joves PV- Compromís té diverses disposicions i
+      'logo'. La marca Joves PV - Compromís té diverses disposicions i
       adaptacions segons el format.
     </p>
 
@@ -16,9 +16,30 @@
       <div class="row">
         <div class="col-lg-8">
           <p>
-            VERSIÓ PRINCIPAL: La versió horitzontal, serà la versió principal,
-            que s’use en tots els casos possibles i la que tindrà totes les
-            versions de les aplicacions.
+            VERSIÓ PRINCIPAL: La versió horitzontal acompanyada del logo de Compromís, serà la versió principal,
+            que s’use en tots els casos possibles.
+          </p>
+          <figure>
+            <img
+              src="../assets/logo/Joves PV + Compromis Sin miniatura.png"
+              alt="Logo d'us principal"
+            >
+          </figure>
+          <figcaption>Logo d'us principal</figcaption>
+        </div>
+        <div class="col-lg-4 d-flex align-items-end mt-4 mt-xl-0">
+          <c-button
+            href="/assets/logo/Logos-JovesPV.zip"
+            variant="outline-primary"
+            size="lg"
+          >
+            <fa :icon="['far', 'arrow-circle-down']" />Descarregar logos de Joves PV - Compromís
+          </c-button>
+        </div>
+        <div class="col-lg-8" style="padding-top: 20px;">
+          <p>
+            VERSIÓ SECUNDÀRIA: La versió del logo sense el logo de Compromís haurà de contindre la miniatura de Compromís i es gastarà
+            en els casos que es considere oportú que no aparega el logo sencer.
           </p>
           <figure>
             <img
@@ -27,44 +48,6 @@
             >
           </figure>
           <figcaption>Versió Horitzontal</figcaption>
-        </div>
-        <div class="col-lg-4 d-flex align-items-end mt-4 mt-xl-0">
-          <c-button
-            href="/assets/logo/Logo-horitzontal.zip"
-            variant="outline-primary"
-            size="lg"
-          >
-            <fa :icon="['far', 'arrow-circle-down']" />Descarrega logo
-            horitzontal
-          </c-button>
-        </div>
-        <div class="col-lg-8">
-          <p />
-          <p>
-            VERSIÓ SECUNDÀRIA: La versió vertical s’usarà en casos on la versió
-            principal no siga útil o quede molt reduïda. Esta versió és d’ús
-            secundari i sols serà utilitzada en ocasions específiques.
-          </p>
-          <figure>
-            <img
-              src="../assets/logo/JovesPV-Logo-Vertical.png"
-              alt="Versió vertical"
-              style="max-width: 200px;
-              display: block;
-              margin-left: auto;
-              margin-right: auto;"
-            >
-          </figure>
-          <figcaption>Versió Horitzontal</figcaption>
-        </div>
-        <div class="col-lg-4 d-flex align-items-end mt-4 mt-xl-0">
-          <c-button
-            href="/assets/logo/Logo-vertical.zip"
-            variant="outline-primary"
-            size="lg"
-          >
-            <fa :icon="['far', 'arrow-circle-down']" />Descarrega logo vertical
-          </c-button>
         </div>
       </div>
     </section>
@@ -90,18 +73,6 @@
           </figure>
           <figcaption>Espai de respecte</figcaption>
           <p />
-          <p>
-            La reducció màxima del logo és de 3cm. En cas de ser més reduïda,
-            s’haurà de gastar el logotip de Joves PV en convivència amb el de
-            Compromís.
-          </p>
-          <figure>
-            <img
-              src="../assets/logo/Joves PV + Compromis Sin miniatura.png"
-              alt="Logo per a escales reduïdes"
-            >
-          </figure>
-          <figcaption>Logo per a escales reduïdes</figcaption>
         </div>
       </div>
     </section>
@@ -115,7 +86,7 @@
       </p>
       <div class="row">
         <div class="col-xl-9">
-          <h3>monocromatiques</h3>
+          <h3>Positiu i negatiu</h3>
           <p>
             Existeixen les versions monocromàtiques, emprades en casos on siga
             necessari com ara fotocòpies, documents en blanc i negre etc.
@@ -124,7 +95,7 @@
             <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
               <figure class="edge no-margin text-center">
                 <img
-                  src="../assets/logo/JovesPV-Logo-Original-02.png"
+                  src="../assets/logo/Joves PV + Compromis Sin miniatura.png"
                   alt="Logo original"
                 >
               </figure>
@@ -133,22 +104,11 @@
             <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
               <figure class="edge no-margin text-center">
                 <img
-                  src="../assets/logo/JovesPV-Logo-Original-Blanco.png"
+                  src="../assets/logo/Joves PV + Compromis Sin miniatura Blanco.png"
                   alt="Logo blanc per a negatius"
                 >
               </figure>
               <figcaption>Logo blanc per a negatius</figcaption>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <figure class="edge no-margin text-center">
-                <img
-                  src="../assets/logo/JovesPV-Logo-fotocopia.png"
-                  alt="Logo gris"
-                >
-              </figure>
-              <figcaption>
-                Logo en escala de grisos
-              </figcaption>
             </div>
           </div>
           <h3>Versions a color</h3>
@@ -160,7 +120,7 @@
             <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
               <figure class="edge no-margin text-center">
                 <img
-                  src="../assets/logo/JovesPV-Logo-Original-02.png"
+                  src="../assets/logo/Joves PV + Compromis Sin miniatura.png"
                   alt="Logo taronja"
                 >
               </figure>
@@ -169,7 +129,7 @@
             <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
               <figure class="edge no-margin text-center">
                 <img
-                  src="../assets/logo/JovesPV-Logo-Original-Naranja.png"
+                  src="../assets/logo/Joves PV + Compromis Sin miniatura Naranja.png"
                   alt="Logo monocromo taronja"
                 >
               </figure>
@@ -178,7 +138,7 @@
             <div class="col-lg-4 col-md-6">
               <figure class="edge no-margin text-center">
                 <img
-                  src="../assets/logo/JovesPV-Logo-Original-Gris.png"
+                  src="../assets/logo/Joves PV + Compromis Sin miniatura Gris.png"
                   alt="Logo monocromo gris"
                 >
               </figure>
@@ -267,13 +227,13 @@
         <div class="col-lg-4 d-lg-flex align-items-stretch">
           <div class="assets-list assets-sticky">
             <div class="assets-sticky-content" style="z-index: 10;">
-              <label>Descarrega el logo del teu col·lectiu</label>
+              <label>Descarrega el logo del teu col·lectiu comarcal</label>
               <div>
                 <b-dropdown id="dropdown-1" dropleft text="Selecciona col·lectiu" size="lg">
                   <template v-slot:button-content>
                     Selecciona el teu col·lectiu
                   </template>
-                  <b-dropdown-item href="/assets/logo/colectius/JovesPV-MaestratPorts.png" download="JovesPV-MaestratPorts.png">
+                  <b-dropdown-item href="/assets/logo/colectius/JovesPV-MaestratPorts.png" download>
                     el Maestrat - els Ports
                   </b-dropdown-item>
                   <b-dropdown-item href="/assets/logo/colectius/JovesPV-PlanaAltaAlcalaten.png" download>
@@ -294,7 +254,7 @@
                   <b-dropdown-item href="/assets/logo/colectius/JovesPV-HoraSud.png" download>
                     l’Horta Sud
                   </b-dropdown-item>
-                  <b-dropdown-item href="/static/assets/logo/colectius/JovesPV-Valencia.png" download>
+                  <b-dropdown-item href="/assets/logo/colectius/JovesPV-Valencia.png" download>
                     València
                   </b-dropdown-item>
                   <b-dropdown-item href="/assets/logo/colectius/JovesPV-BunyolUtielCofrentes.png" download>
@@ -318,6 +278,9 @@
                   <b-dropdown-item href="/assets/logo/colectius/JovesPV-AlcoiaComptat.png" download>
                     l’Alcoià - el Comtat - les Foies
                   </b-dropdown-item>
+                  <b-dropdown-item href="/assets/logo/colectius/JovesPV-lamarina.png" download>
+                    la Marina
+                  </b-dropdown-item>
                   <b-dropdown-item href="/assets/logo/colectius/JovesPV-MarinaAlta.png" download>
                     la Marina Alta
                   </b-dropdown-item>
@@ -334,8 +297,31 @@
                     el Baix Vinalopó - el Baix Segura
                   </b-dropdown-item>
                 </b-dropdown>
+                <div style="padding-top: 30px;">
+                  <label>Descarrega el logo del teu col·lectiu local</label>
+                  <b-dropdown id="dropdown-1" dropleft text="Selecciona col·lectiu" size="lg">
+                    <template v-slot:button-content>
+                      Selecciona el teu col·lectiu
+                    </template>
+                    <b-dropdown-item href="/assets/logo/colectius/JovesPV-tavernesdelavalldigna.png" download>
+                      Tavernes de la Valldigna
+                    </b-dropdown-item>
+                    <b-dropdown-item href="/assets/logo/colectius/JovesPV-xeraco.png" download>
+                      Xeraco
+                    </b-dropdown-item>
+                    <b-dropdown-item href="/assets/logo/colectius/JovesPV-gandia.png" download>
+                      Gandia
+                    </b-dropdown-item>
+                    <b-dropdown-item href="/assets/logo/colectius/JovesPV-algemesi.png" download>
+                      Algemesí
+                    </b-dropdown-item>
+                    <b-dropdown-item href="/assets/logo/colectius/JovesPV-castellodelaribera.png" download>
+                      Castelló de la Ribera
+                    </b-dropdown-item>
+                  </b-dropdown>
+                </div>
                 <caption style="width: 300px; pading-left: 0.40rem;">
-                  Si vols obtindre el logotip d'un col·lectiu concret que no estè disponible envia un correu a
+                  Si vols obtindre el logotip d'un col·lectiu concret que no estiga disponible envia un correu a
                   <a href="mailto:info@jovespv.org?Subject=Petició de logo de Joves PV" target="_top">info@jovespv.org</a>
                 </caption>
               </div>
@@ -373,7 +359,7 @@ export default {
 
   head () {
     return {
-      title: `Logo - Manual d'estil - Compromís`
+      title: `Logo - Manual d'Identidad Visual Corportavia - Joves PV - Compromís`
     }
   },
 

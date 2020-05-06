@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1>Manual d'estil</h1>
+    <h1>Manual d’Identitat Visual Corporativa</h1>
 
     <p class="intro">
-      Aquesta web està destina a oferir als col·lectius els diferents recursos
+      Aquesta web està destinada a oferir als col·lectius els diferents recursos
       visuals necessaris per a implementar la marca de Joves PV - Compromís
     </p>
   </div>
@@ -17,7 +17,7 @@ export default {
 
   head () {
     return {
-      title: `Manual d'estil de Joves PV - Compromís`
+      title: `Manual d’Identitat Visual Corporativa de Joves PV - Compromís`
     }
   },
 
