@@ -125,7 +125,7 @@
                 >
               </figure>
               <figcaption>Logo original</figcaption>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
                 <figure class="edge no-margin text-center">
                   <img
                     src="../assets/logo/Joves PV + Compromis Sin miniatura Gris.png"
