@@ -65,8 +65,8 @@
             <strong>Usos incorrectes</strong>
             <ul class="incorrect-list">
               <li><fa :icon="['far', 'times-circle']" /> No usar únicament la paraula Joves o Joves Compromís.</li>
-              <li><fa :icon="['far', 'times-circle']" /> No posar ni Joves ni Compromís en majúscules: <em>*JOVES *COMPROMÍS.</em>.</li>
-              <li><fa :icon="['far', 'times-circle']" /> No inclogueu simbols als noms d'usuari: guionets, punts o barres baixes, entre altres.</li>
+              <li><fa :icon="['far', 'times-circle']" /> No posar ni Joves ni Compromís en majúscules: <em>*JOVES *COMPROMÍS.</em></li>
+              <li><fa :icon="['far', 'times-circle']" /> No incloure símbols als noms d'usuari: guionets, punts o barres baixes, entre altres.</li>
             </ul>
           </li>
         </ul>

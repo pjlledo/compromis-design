@@ -5,9 +5,9 @@
       En aquesta secció trobareu el repositori de gràfic de Joves PV - Compromís.
     </p>
 
-    <h2>Repositori de fotos i video</h2>
+    <h2>Repositori de fotos i vídeo</h2>
     <c-button variant="outline-primary" size="lg" href="https://jovespv.smugmug.com/" target="_blank">
-      <fa :icon="['far', 'portrait']" /> Galeria de Fotografia i video
+      <fa :icon="['far', 'portrait']" /> Galeria de Fotografia i vídeo
     </c-button>
   </div>
 </template>
@@ -18,7 +18,7 @@ export default {
 
   head () {
     return {
-      title: `Fotografia i video - Manual d'Identidad Visual Corportavia - Joves PV - Compromís`
+      title: `Fotografia i vídeo - Manual d'Identidad Visual Corportavia - Joves PV - Compromís`
     }
   }
 }

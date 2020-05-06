@@ -16,7 +16,7 @@
       <div class="row">
         <div class="col-lg-8">
           <p>
-            VERSIÓ PRINCIPAL: La versió horitzontal acompanyada del logo de Compromís, serà la versió principal,
+            LOGO D'ÚS PRINCIPAL: La versió horitzontal acompanyada del logo de Compromís, serà la versió principal,
             que s’use en tots els casos possibles.
           </p>
           <figure>
@@ -38,7 +38,7 @@
         </div>
         <div class="col-lg-8" style="padding-top: 20px;">
           <p>
-            VERSIÓ SECUNDÀRIA: La versió del logo sense el logo de Compromís haurà de contindre la miniatura de Compromís i es gastarà
+            LOGO D'ÚS SECUNDÀRIA: La versió del logo sense el logo de Compromís haurà de contindre la miniatura de Compromís i es gastarà
             en els casos que es considere oportú que no aparega el logo sencer.
           </p>
           <figure>
@@ -125,26 +125,28 @@
                 >
               </figure>
               <figcaption>Logo original</figcaption>
+              <div class="col-lg-4 col-md-6">
+                <figure class="edge no-margin text-center">
+                  <img
+                    src="../assets/logo/Joves PV + Compromis Sin miniatura Gris.png"
+                    alt="Logo monocromo gris"
+                  >
+                </figure>
+                <figcaption>
+                  Logo monocromo gris
+                </figcaption>
+              </div>
             </div>
+          </div>
+          <div class="row">
             <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
               <figure class="edge no-margin text-center">
                 <img
-                  src="../assets/logo/Joves PV + Compromis Sin miniatura Naranja.png"
+                  src="../assets/logo/Joves PV - Logo Original Naranja.png"
                   alt="Logo monocromo taronja"
                 >
               </figure>
-              <figcaption>Logo monocromo taronja</figcaption>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <figure class="edge no-margin text-center">
-                <img
-                  src="../assets/logo/Joves PV + Compromis Sin miniatura Gris.png"
-                  alt="Logo monocromo gris"
-                >
-              </figure>
-              <figcaption>
-                Logo monocromo gris
-              </figcaption>
+              <figcaption>Logo monocromo taronja sense Logo de Compromís</figcaption>
             </div>
           </div>
         </div>
@@ -280,12 +282,6 @@
                   </b-dropdown-item>
                   <b-dropdown-item href="/assets/logo/colectius/JovesPV-lamarina.png" download>
                     la Marina
-                  </b-dropdown-item>
-                  <b-dropdown-item href="/assets/logo/colectius/JovesPV-MarinaAlta.png" download>
-                    la Marina Alta
-                  </b-dropdown-item>
-                  <b-dropdown-item href="/assets/logo/colectius/JovesPV-MarinaBaixa.png" download>
-                    la Marina Baixa
                   </b-dropdown-item>
                   <b-dropdown-item href="/assets/logo/colectius/JovesPV-Alacanti.png" download>
                     l’Alacantí

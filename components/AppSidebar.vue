@@ -92,7 +92,7 @@
       -->
       <li>
         <nuxt-link to="/fotografia" class="template-item template-item--xs">
-          <fa :icon="['far', 'camera']" fixed-width /> <span>Fotografia i video</span>
+          <fa :icon="['far', 'camera']" fixed-width /> <span>Fotografia i vídeo</span>
         </nuxt-link>
       </li>
     </ul>

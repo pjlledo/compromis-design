@@ -3,8 +3,8 @@
     <h1>Manual d’Identitat Visual Corporativa</h1>
 
     <p class="intro">
-      Aquesta web està destinada a oferir als col·lectius els diferents recursos
-      visuals necessaris per a implementar la marca de Joves PV - Compromís
+      Aquesta web està destinada a oferir als nostres col·lectius els diferents recursos
+      visuals necessaris per a implementar la marca de Joves PV - Compromís.
     </p>
   </div>
 </template>
