@@ -125,18 +125,20 @@
                 >
               </figure>
               <figcaption>Logo original</figcaption>
-              <div class="col-lg-4 col-md-6">
-                <figure class="edge no-margin text-center">
-                  <img
-                    src="../assets/logo/Joves PV + Compromis Sin miniatura Gris.png"
-                    alt="Logo monocromo gris"
-                  >
-                </figure>
-                <figcaption>
-                  Logo monocromo gris
-                </figcaption>
-              </div>
             </div>
+            <div class="col-lg-4 col-md-6">
+              <figure class="edge no-margin text-center">
+                <img
+                  src="../assets/logo/Joves PV + Compromis Sin miniatura Gris.png"
+                  alt="Logo monocromo gris"
+                >
+              </figure>
+              <figcaption>
+                Logo monocromo gris
+              </figcaption>
+            </div>
+          </div>
+          <div class="row">
             <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
               <figure class="edge no-margin text-center">
                 <img
