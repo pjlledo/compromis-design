@@ -15,7 +15,7 @@ export const actions = {
     }
 
     const commits = await fetch(
-      'https://api.github.com/repos/compromis/compromis-design/commits'
+      'https://api.github.com/repos/pjlledo/compromis-design/commits'
     ).then(res => res.json())
     commit('updateLastUpdated', commits[0].commit.committer.date)
   }
