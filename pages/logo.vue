@@ -38,7 +38,7 @@
         </div>
         <div class="col-lg-8" style="padding-top: 20px;">
           <p>
-            LOGO D'ÚS SECUNDÀRIA: La versió del logo sense el logo de Compromís haurà de contindre la miniatura de Compromís i es gastarà
+            LOGO D'ÚS SECUNDARIA: La versió del logo sense el logo de Compromís haurà de contindre la miniatura de Compromís i es gastarà
             en els casos que es considere oportú que no aparega el logo sencer.
           </p>
           <figure>

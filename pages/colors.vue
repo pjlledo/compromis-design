@@ -20,7 +20,7 @@
         </figure>
         <figcaption>Paleta de colors de Joves PV</figcaption>
         <p>
-          En este apartat trobarem els valors dels colors usats per a la marca.
+          En aquest apartat trobarem els valors dels colors usats per a la marca.
           Estan diferenciats en quatre parts: per a projectes impresos, per a
           projectes digitals, expressats mitjançant codi, i Pantone.
         </p>
@@ -34,7 +34,7 @@
       <color-swatch
         name="orange"
         title="Taronja pla"
-        use-case="És la tonalitat identificativa de Joves PV - Compromís. S'utilitza als logos i la major part de apliacions."
+        use-case="És la tonalitat identificativa de Joves PV - Compromís. S'utilitza als logos i la major part d'apliacions."
         rgb="232 93 15"
         hex="#E85D0F"
         cmyk="75 100 0 0"

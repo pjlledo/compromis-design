@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Manual d’Identitat Visual Corporativa</h1>
+    <h1>Manual d’identitat visual corporativa</h1>
 
     <p class="intro">
       Aquesta web està destinada a oferir als nostres col·lectius els diferents recursos
