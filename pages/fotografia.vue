@@ -7,7 +7,7 @@
 
     <h2>Repositori de fotos i vídeo</h2>
     <c-button variant="outline-primary" size="lg" href="https://jovespv.smugmug.com/" target="_blank">
-      <fa :icon="['far', 'portrait']" /> Galeria de Fotografia i vídeo
+      <fa :icon="['far', 'portrait']" /> Galeria de Fotografia i vídeos
     </c-button>
   </div>
 </template>
