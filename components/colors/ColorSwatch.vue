@@ -28,7 +28,7 @@
           <div :style="{ backgroundColor: hexValues[i] }" v-if="cmykValues.length > 1" class="color-sample" /> {{ cmykValue }}
         </div>
       </div>
-      <div v-if="PantoneValue" class="color-info-value">
+      <div v-if="PantoneValue != ''" class="color-info-value">
         <span>PANTONE</span>
         <div v-for="(pantoneValue, i) in pantoneValues" :key="i">
           <div :style="{ backgroundColor: hexValues[i] }" v-if="pantoneValues.length > 1" class="color-sample" /> {{ pantoneValue }}
