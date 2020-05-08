@@ -35,8 +35,13 @@
           <li> Twitter: Adaptació del logo per a que la foto de perfil de la xarxa quede emmarcat dins de les quatre gotes.</li>
         </ul>
         <figure class="edge">
-          <img src="../assets/xarxes/header.jpg" alt="">
+          <img src="../assets/xarxes/header.jpg" alt="capçalera de Facebook">
         </figure>
+        <figcaption>Capçalera de Facebook</figcaption>
+        <figure class="edge">
+          <img src="../assets/xarxes/twitter.jpeg" alt="capçalera de Twitter">
+        </figure>
+        <figcaption>Capçalera de Twitter</figcaption>
       </div>
       <div class="col-md-4 d-flex align-items-end mt-4 mt-xl-0">
         <p class="mb-0">

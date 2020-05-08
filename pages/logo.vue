@@ -25,7 +25,7 @@
               alt="Logo d'us principal"
             >
           </figure>
-          <figcaption>Logo d'us principal</figcaption>
+          <figcaption>Logo d'ús principal</figcaption>
         </div>
         <div class="col-lg-4 d-flex align-items-end mt-4 mt-xl-0">
           <c-button
