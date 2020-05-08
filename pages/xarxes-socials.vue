@@ -26,16 +26,23 @@
     </h2>
     <div class="row">
       <div class="col-md-8">
-        <p>Com a capçalera, és recomanable emprar una foto representativa del col·lectiu, filtre taronja i el logotip amb el nom del col·lectiu.</p>
+        <p>
+          Com a capçalera, és recomanable emprar una foto representativa del col·lectiu, filtre taronja i el logotip amb el nom del col·lectiu.
+          Disposem de dos tipus de capçaleres diferents, un per a Facebook i altre per a Twitter:
+        </p>
+        <ul>
+          <li> Facebook: Logo de Joves PV amb el nom del col·lectiu. </li>
+          <li> Twitter: Adaptació del logo per a que la foto de perfil de la xarxa quede emmarcat dins de les quatre gotes.</li>
+        </ul>
         <figure class="edge">
           <img src="../assets/xarxes/header.jpg" alt="">
         </figure>
       </div>
       <div class="col-md-4 d-flex align-items-end mt-4 mt-xl-0">
         <p class="mb-0">
-          <c-button href="#" variant="outline-primary" size="lg" target="_blank" disabled>
+          <c-button href="https://targes.jovespv.org/#/cover" variant="outline-primary" size="lg" target="_blank">
             <fa :icon="['far', 'user-circle']" /> Crea les capçaleres
-          </c-button><small class="text-muted ml-2"><fa :icon="['far', 'lock-alt']" /> Properament</small>
+          </c-button>
         </p>
       </div>
     </div>
