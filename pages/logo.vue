@@ -317,7 +317,7 @@
                     <b-dropdown-item href="/assets/logo/colectius/JovesPV-alginet.png" download>
                       Alginet
                     </b-dropdown-item>
-                    <b-dropdown-item href="/assets/logo/colectius/JovesPV-benicarlo.png" download>
+                    <b-dropdown-item href="/assets/logo/colectius/JovesPV-bernicarlo.png" download>
                       Benicarló
                     </b-dropdown-item>
                   </b-dropdown>
