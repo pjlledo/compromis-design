@@ -314,6 +314,12 @@
                     <b-dropdown-item href="/assets/logo/colectius/JovesPV-castellodelaribera.png" download>
                       Castelló de la Ribera
                     </b-dropdown-item>
+                    <b-dropdown-item href="/assets/logo/colectius/JovesPV-alginet.png" download>
+                      Alginet
+                    </b-dropdown-item>
+                    <b-dropdown-item href="/assets/logo/colectius/JovesPV-benicarlo.png" download>
+                      Benicarló
+                    </b-dropdown-item>
                   </b-dropdown>
                 </div>
                 <caption style="width: 300px; pading-left: 0.40rem;">
