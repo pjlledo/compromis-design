@@ -250,7 +250,7 @@
                   <b-dropdown-item href="/assets/logo/colectius/JovesPV-CampTuriaSerrans.png" download>
                     el Camp de Túria - els Serrans - el Racó d’Ademús
                   </b-dropdown-item>
-                  <b-dropdown-item href="/assets/logo/colectius/JovesPV-HortaNord.png" download>
+                  <b-dropdown-item href="/assets/logo/colectius/JovesPV-HortaNord.zip" download>
                     l’Horta Nord
                   </b-dropdown-item>
                   <b-dropdown-item href="/assets/logo/colectius/JovesPV-HoraSud.png" download>
