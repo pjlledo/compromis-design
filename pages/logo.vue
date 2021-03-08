@@ -274,7 +274,7 @@
                   <b-dropdown-item href="/assets/logo/colectius/JovesPV-SaforValldigna.png" download>
                     la Safor - Valldigna
                   </b-dropdown-item>
-                  <b-dropdown-item href="/assets/logo/colectius/JovesPV-VallAlbaida.png" download>
+                  <b-dropdown-item href="/assets/logo/colectius/JovesPV-valldalbaida.rar" download>
                     la Vall d’Albaida
                   </b-dropdown-item>
                   <b-dropdown-item href="/assets/logo/colectius/JovesPV-AlcoiaComptat.zip" download>
@@ -319,6 +319,9 @@
                     </b-dropdown-item>
                     <b-dropdown-item href="/assets/logo/colectius/JovesPV-bernicarlo.png" download>
                       Benicarló
+                    </b-dropdown-item>
+                    <b-dropdown-item href="/assets/logo/colectius/JovesPV-vallduixo.rar" download>
+                      La Vall d'Uixó
                     </b-dropdown-item>
                   </b-dropdown>
                 </div>
