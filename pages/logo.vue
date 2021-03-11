@@ -278,7 +278,7 @@
                     la Vall d’Albaida
                   </b-dropdown-item>
                   <b-dropdown-item href="/assets/logo/colectius/JovesPV-AlcoiaComptat.zip" download>
-                    l’Alcoià - el Comtat - les Foies
+                    l’Alcoià - el Comtat
                   </b-dropdown-item>
                   <b-dropdown-item href="/assets/logo/colectius/JovesPV-lamarina.png" download>
                     la Marina
