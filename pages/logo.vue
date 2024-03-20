@@ -101,64 +101,17 @@
               alt="Versions blanc i negre"
             >
           </figure>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-              <figure class="edge no-margin text-center">
-                <img
-                  src="../assets/logo/Joves PV + Compromis Sin miniatura.png"
-                  alt="Logo original"
-                >
-              </figure>
-              <figcaption>Logo original</figcaption>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-              <figure class="edge no-margin text-center">
-                <img
-                  src="../assets/logo/Joves PV + Compromis Sin miniatura Blanco.png"
-                  alt="Logo blanc per a negatius"
-                >
-              </figure>
-              <figcaption>Logo blanc per a negatius</figcaption>
-            </div>
-          </div>
+          
           <h3>Versions a color</h3>
           <p>
-            Les versions del logo amb modificacions de color es redueixen als
-            colors corporatius.
+            Les modificacions principals de color en el logotip estan limitades als colors corporatius.
           </p>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-              <figure class="edge no-margin text-center">
-                <img
-                  src="../assets/logo/Joves PV + Compromis Sin miniatura.png"
-                  alt="Logo taronja"
-                >
-              </figure>
-              <figcaption>Logo original</figcaption>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <figure class="edge no-margin text-center">
-                <img
-                  src="../assets/logo/Joves PV + Compromis Sin miniatura Gris.png"
-                  alt="Logo monocromo gris"
-                >
-              </figure>
-              <figcaption>
-                Logo monocromo gris
-              </figcaption>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-              <figure class="edge no-margin text-center">
-                <img
-                  src="../assets/logo/Joves PV - Logo Original Naranja.png"
-                  alt="Logo monocromo taronja"
-                >
-              </figure>
-              <figcaption>Logo monocromo taronja sense Logo de Compromís</figcaption>
-            </div>
-          </div>
+          <figure>
+            <img
+              src="../assets/logo/Joves PV - versions-color.png"
+              alt="Versions a color"
+            >
+          </figure>
         </div>
       </div>
     </section>
@@ -170,14 +123,12 @@
       <div class="row">
         <div class="col-lg-8">
           <p>
-            La modificació del logotip i el símbol està subjecta als exemples
-            exposats anteriorment. Per tant, estos usos marcats com incorrectes
-            i altres tipus de composicions que podem formar degraden la marca,
-            ja que no es percep correctament. Estos exemples són usos
-            incorrectes produïts modificant la composició de la marca original.
-            Tant estos com qualsevol modificació formal realitzada sobre la
-            marca que no es trobe entre les distintes versions es considera com
-            un ús incorrecte.
+            La modificació del logotip i el símbol està subjecta als exemples exposats anteriorment. 
+            Per tant, estos usos marcats com incorrectes i altres tipus de composicions que podem formar degraden la marca,
+             ja que no es percep correctament. &nbsp;
+            Estos exemples són usos incorrectes produïts modificant la composició de la marca original. 
+            Tant estos com qualsevol modificació formal realitzada sobre la marca que no es trobe entre les distintes versions 
+            es considera com un ús incorrecte.
           </p>
         </div>
       </div>
@@ -346,7 +297,13 @@
         <div class="col-lg-8">
           <h3>Icones per a dates simbóliques</h3>
           <p>
-            S’usaran com a fons els colors corporatius plans i el seu degradat. També podrem aplicar el logotip sobre banderes i altres símbols.
+            S’usaran com a fons els colors corporatius plans i el seu degradat. D’esta forma sobre color pla el logotip 
+            passa a ser tinta plana per tal que així siga completament llegible. &nbsp;
+            Podrem aplicar el logotip sobre banderes i altres símbols. En fotografia intentarem aplicar la marca a la imatge. 
+            Si tenim problemes que impedisquen que la marca s’entenga per falta d’un espai on existisca este contrast, 
+            passem al tractat de la imatge. Totes les imatges que pertanyen a la marca portaran un tractament similar, d'esta forma, 
+            si la marca no resulta visible en la versió en color, pot ser tractada mitjançant un virat de color corporatiu pla, 
+            que consistix en la imatge original en blanc i negre amb una capa superior en el color corporatiu en mode multiplicar.
           </p>
           <figure>
             <img
