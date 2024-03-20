@@ -46,7 +46,7 @@
           <figure>
             <img
               src="../assets/logo/Joves PV - Logo Vertical.png"
-              alt="Versió Vertical"
+              alt="Versió Vertical" 
             >
           </figure>
           <figcaption>Versió Vertical</figcaption>
@@ -64,7 +64,7 @@
             L’àrea de respecte de la marca és de 10 mm (unitat mínima), des de la seua zona exterior més sobreeixida. 
             Com a referència es pren la grandària de la “O” de “joves”. Els espais de respecte en diferents grandàries 
             van associats de forma equivalent a la grandària de la lletra, sent reduïble este espai fins al límit que permeta 
-            el logotip i no afecte a la seua visualització. </br>
+            el logotip i no afecte a la seua visualització. &nbsp;
             S’ha seguit una pauta semblant a la del logotip de Compromís per tal que, en la convivència, si els dos logotips són
              manipulats, tinguen finalment el mateix espai.
           </p>
@@ -90,9 +90,17 @@
         <div class="col-xl-9">
           <h3>Positiu i negatiu</h3>
           <p>
-            Existeixen les versions monocromàtiques, emprades en casos on siga
-            necessari com ara fotocòpies, documents en blanc i negre etc.
+            La representació en positiu i en negatiu s’empraran com a segona opció o en casos on siga necessari, 
+            deixant com a ús primari la versió en color. Estes seran les representacions de la marca usades en casos com fotocòpies,
+             documents en blanc i negre, o per a aplicacions gràfiques de la marca amb fons específics. A estes se’ls afig la versió
+              en escala de grisos que complementa una altra opció més de visualització vàlida de la marca.
           </p>
+          <figure>
+            <img
+              src="../assets/logo/Joves PV - versions.png"
+              alt="Versions blanc i negre"
+            >
+          </figure>
           <div class="row">
             <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
               <figure class="edge no-margin text-center">
