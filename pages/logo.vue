@@ -16,12 +16,12 @@
       <div class="row">
         <div class="col-lg-8">
           <p>
-            LOGO D'ÚS PRINCIPAL: La versió horitzontal acompanyada del logo de Compromís, serà la versió principal,
+            LOGO D'ÚS PRINCIPAL: La versió horitzontal serà la versió principal
             que s’use en tots els casos possibles.
           </p>
           <figure>
             <img
-              src="../assets/logo/Joves PV + Compromis Sin miniatura.png"
+              src="../assets/logo/Joves PV - Logo Original redux.png"
               alt="Logo d'us principal"
             >
           </figure>
@@ -38,16 +38,18 @@
         </div>
         <div class="col-lg-8" style="padding-top: 20px;">
           <p>
-            LOGO D'ÚS SECUNDARI: La versió del logo sense el logo de Compromís haurà de contindre la miniatura de Compromís i es gastarà
-            en els casos que es considere oportú que no aparega el logo sencer.
+            LOGO D'ÚS SECUNDARI: La versió vertical s’usarà en casos on la versió principal no siga útil o quede molt reduïda. 
+            La seua adaptació està feta respectant la versió del logotip vertical de Compromís 
+            per tal que continuen sent compatibles en els dos casos.
+            Esta versió és d’ús secundari i sols serà utilitzada en ocasions específiques.
           </p>
           <figure>
             <img
-              src="../assets/logo/JovesPV-Logo-Original.png"
-              alt="Versió horitzontal"
+              src="../assets/logo/Joves PV - Logo Vertical.png"
+              alt="Versió Vertical"
             >
           </figure>
-          <figcaption>Versió Horitzontal</figcaption>
+          <figcaption>Versió Vertical</figcaption>
         </div>
       </div>
     </section>
@@ -59,11 +61,12 @@
       <div class="row">
         <div class="col-lg-8">
           <p>
-            Al voltant de la marca ha de mantenir-se sempre una zona lliure i
-            buida, per a diferenciar la marca de la resta d’elements que
-            composen el disseny. L’àrea de respecte de la marca és de 10mm
-            (unitat mínima), des de la seua zona exterior més sobreeixida. Com a
-            referència es pren la grandària de la “O” de “joves”.
+            L’àrea de respecte de la marca és de 10 mm (unitat mínima), des de la seua zona exterior més sobreeixida. 
+            Com a referència es pren la grandària de la “O” de “joves”. Els espais de respecte en diferents grandàries 
+            van associats de forma equivalent a la grandària de la lletra, sent reduïble este espai fins al límit que permeta 
+            el logotip i no afecte a la seua visualització. </br>
+            S’ha seguit una pauta semblant a la del logotip de Compromís per tal que, en la convivència, si els dos logotips són
+             manipulats, tinguen finalment el mateix espai.
           </p>
           <figure>
             <img
@@ -72,7 +75,6 @@
             >
           </figure>
           <figcaption>Espai de respecte</figcaption>
-          <p />
         </div>
       </div>
     </section>
@@ -325,7 +327,7 @@
                     </b-dropdown-item>
                   </b-dropdown>
                 </div>
-                <caption style="width: 300px; pading-left: 0.40rem;">
+                <caption style="width: 300px; padding-left: 0.40rem;">
                   Si vols obtindre el logotip d'un col·lectiu concret que no estiga disponible envia un correu a
                   <a href="mailto:info@jovespv.org?Subject=Petició de logo de Joves PV" target="_top">info@jovespv.org</a>
                 </caption>
