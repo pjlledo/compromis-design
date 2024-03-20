@@ -284,6 +284,9 @@
                     <b-dropdown-item href="/assets/logo/colectius/JovesPV-vallduixo.rar" download>
                       La Vall d'Uixó
                     </b-dropdown-item>
+                    <b-dropdown-item href="/assets/logo/colectius/JovesPV-moncofa.zip" download>
+                      Moncofa
+                    </b-dropdown-item>
                   </b-dropdown>
                 </div>
                 <caption style="width: 300px; padding-left: 0.40rem;">
